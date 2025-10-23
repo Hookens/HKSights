@@ -1,0 +1,108 @@
+thousandth:t=“real”
+
+fontSizeMult:r=1.25
+lineSizeMult:r=1.25
+crosshairHorVertSize:p2= 0, 0
+crosshairDistHorSizeMain:p2=0.02, 0.04
+crosshairDistHorSizeAdditional:p2=0.005, 0.003
+
+distancePos:p2= 0.01, 0
+textPos:p2= 0.02, 0
+textShift:r= 0
+textAlign:i= 0
+
+drawCentralLineVert:b=yes
+drawCentralLineHorz:b=yes
+drawAdditionalLines:b=no
+
+drawDistanceCorrection:b=yes
+distanceCorrectionPos:p2 = -0.14, 0
+
+
+crosshairColor:c=0, 0, 0, 220
+crosshairLightColor:c=255, 0, 20, 220
+
+rangefinderVerticalOffset:r=0.015
+rangefinderHorizontalOffset:r=140
+rangefinderProgressBarColor1:c = 0,0,0,0
+rangefinderProgressBarColor2:c = 0,0,0,0
+rangefinderTextScale:r = 0.7
+rangefinderUseThousandth:b = no
+
+matchExpClass {
+  jp_hiro_sha:b = yes
+  jp_type_2_ho_i:b = yes
+  jp_type_2_ka_mi:b = yes
+  jp_type_4_ho_ro:b = yes
+  jp_type_89b_i_go_otsu:b = yes
+  jp_type_95_ha_go:b = yes
+  jp_type_95_ha_go_commander:b = yes
+  jp_type_95_heavy:b = yes
+  jp_type_97_chi_ha:b = yes
+  jp_type_97_chi_ha_12cm:b = yes
+  jp_type_98_ke_ni:b = yes
+
+  cn_type_97_chi_ha:b = yes
+}
+
+crosshair_distances{
+  distance{
+    textPos:p2= 0.01, 0.0
+    distance:p3 =  200,  2, 0
+  }
+  distance{
+    textPos:p2= 0.01, 0.0
+    distance:p3 =  400,  4, 0
+  }
+  distance{
+    textPos:p2= 0.01, 0.0
+    distance:p3 =  600,  6, 0
+  }
+  distance{
+    textPos:p2= 0.01, 0.0
+    distance:p3 =  800,  8, 0
+  }
+  distance{
+    textPos:p2= 0.01, 0.0
+    distance:p3 = 1000,  0, 0.02
+  }
+  distance{
+    textPos:p2= 0.01, 0.0
+    distance:p3 = 1200, 12, 0
+  }
+  distance{
+    textPos:p2= 0.01, 0.0
+    distance:p3 = 1400, 14, 0
+  }
+  distance{
+    textPos:p2= 0.01, 0.0
+    distance:p3 = 1600, 16, 0
+  }
+  distance{
+    textPos:p2= 0.01, 0.0
+    distance:p3 = 1800, 18, 0
+  }
+  distance{
+    textPos:p2= 0.01, 0.0
+    distance:p3 = 2000,  0, 0.02
+  }
+}
+
+crosshair_hor_ranges{
+}
+
+drawTexts{
+  text {
+    text:t = "0"
+    align:i = 0
+    pos:p2 = 0.04, 0
+    drawUpward:b=yes
+    move:b = yes
+    size:r = 0.75
+    highlight:b = yes
+  }
+}
+
+drawLines{
+  line { line:p4=-0.03, 0, 0.03, 0; thousandth:b = no; move:b=yes;}
+}

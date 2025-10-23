@@ -1,0 +1,163 @@
+- cn_universal_cw_laser_sight.blk
+- fr_universal_acra_sight.blk 
+- fr_universal_cw_80_sight.blk 
+- fr_universal_modern_10_laser_sight.blk 
+- fr_universal_modern_10_sight.blk 
+- fr_universal_modern_12_laser_sight.blk 
+- fr_universal_modern_12_sight.blk 
+- fr_universal_modern_gas_2_10.blk 
+- fr_universal_modern_gps_2_10.blk 
+- fr_universal_ww2_early_35_sight.blk @done
+- fr_universal_ww2_early_40_hybrid_sight.blk @done
+- fr_universal_ww2_early_40_sight.blk @done
+- fr_universal_ww2_late_35_sight.blk @done
+- fr_universal_ww2_late_40_sight.blk @done
+- fr_universal_ww2_late_55_sight.blk @done
+- fr_universal_ww2_late_60_sight.blk @done
+- fr_universal_ww2_late_62_sight.blk @done
+- fr_universal_ww2_late_75_sight.blk @done
+- fr_universal_ww2_late_79_sight.blk @done
+- fr_universal_ww2_late_80_sight.blk @done
+- germ_peri_z11_20.blk 
+- germ_peri_z11_80.blk 
+- germ_peri_z11_laser_20.blk 
+- germ_universal_modern_10_gas.blk 
+- germ_universal_modern_10_gps.blk 
+- germ_universal_modern_12_gas.blk 
+- germ_universal_modern_12_gps.blk 
+- germ_universal_modern_14_gas.blk 
+- germ_universal_modern_14_gps.blk 
+- germ_universal_modern_16_gas.blk 
+- germ_universal_modern_16_gps.blk 
+- germ_universal_modern_8_gas.blk 
+- germ_universal_modern_8_gps.blk 
+- germ_universal_modern_ac_20_gas.blk 
+- germ_universal_modern_ac_20_gps.blk 
+- germ_universal_modern_ac_gas_44.blk 
+- germ_universal_modern_ac_gps_44.blk 
+- germ_universal_ww2_spaa_sight.blk @done
+- germ_universal_ww2_spg_sight.blk @done
+- il_universal_cw_laser_sight.blk 
+- jp_universal_early_35.blk @done
+- jp_universal_late_35.blk @done
+- jp_universal_late_60.blk @done
+- jp_universal_mid_35.blk @done
+- jp_universal_mid_40.blk @done
+- jp_universal_modern_10_gas.blk 
+- jp_universal_modern_10_gps.blk 
+- nato_universal_atgm_sight.blk 
+- nato_universal_cw_ac_gps.blk 
+- nato_universal_cw_ac_gps.blk 
+- nato_universal_cw_ac_gps.blk 
+- nato_universal_cw_spaa_sight.blk 
+- nato_universal_tow_sight.blk 
+- sw_37_k36_aphe_ap.blk @done
+- sw_universal_cw_100_sight.blk 
+- sw_universal_cw_180_sight.blk 
+- sw_universal_cw_80_sight.blk 
+- sw_universal_modern_100_laser_sight.blk 
+- sw_universal_modern_100_sight.blk 
+- sw_universal_modern_120_laser_sight.blk 
+- sw_universal_modern_120_sight.blk 
+- sw_universal_modern_40_sight.blk 
+- sw_universal_modern_80_laser_sight.blk 
+- sw_universal_modern_80_sight.blk 
+- sw_universal_ww2_early_35_sight.blk @done
+- sw_universal_ww2_spg_100_sight.blk @done
+- sw_universal_ww2_spg_159_sight.blk @done
+- sw_universal_ww2_spg_35_sight.blk @done
+- tzf12_75_kwk42_apcbc_apcr.blk @done
+- tzf12d_75_kwk42_apcbc.blk @done
+- tzf38t_37_kwk38_pzgr.blk @done
+- tzf4_20_kwk30_hvap.blk @done
+- tzf5_37_kwk36_pzgr.blk @done
+- tzf5a_50_kwk38_pzgr.blk @done
+- tzf5b_75_kwk37_apcbc_heat.blk @done
+- tzf5e_50_kwk39_apc_apcr.blk @done
+- tzf5f_75_kwk40l43_apcbc_apcr.blk @done
+- tzf5f_75_kwk40l48_apcbc_apcr.blk @done
+- tzf9b_88_kwk36_pzgr.blk @done
+- tzf9b_88_kwk43_pzgr.blk @done
+- tzf9c_88_kwk36_pzgr.blk @done
+- tzf9d_105_kwk46_pzgr.blk @done
+- tzf9d_88_kwk43_pzgr.blk @done
+- uk_universal_cw_sight.blk 
+- uk_universal_modern_laser_sight.blk 
+- uk_universal_modern_sight.blk 
+- uk_universal_ww2_spg_sight.blk @done
+- uk_universal_ww2_tank_sight.blk @done
+- us_105_381_heat.blk @done
+- us_105_899_apcbc.blk @done
+- us_120_960_apcbc.blk @done
+- us_37_870_ap.blk @done
+- us_37_883_ap.blk @done
+- us_57_822_apcbc.blk @done
+- us_75_304_heat.blk @done
+- us_75_37_hybrid_scope.blk @done
+- us_75_609_apcbc.blk @done
+- us_75_618_apcbc.blk @done
+- us_76_792_apcbc.blk @done
+- us_90_853_apcbc.blk @done
+- us_90_975_apcbc.blk @done
+- us_an_vsg_2_10.blk 
+- us_an_vsg_2_12.blk 
+- us_an_vsg_2_8.blk 
+- us_m3_bradley.blk 
+- us_m3_gps_isu.blk @done
+- us_universal_cw_sight.blk 
+- us_universal_m1_sight.blk 
+- us_universal_m1a1_sight.blk 
+- us_universal_modern_ac_gas_13.blk 
+- us_universal_modern_ac_gas_13.blk 
+- us_universal_modern_ac_gas_3_10.blk 
+- us_universal_modern_ac_gas.blk 
+- us_universal_modern_ac_gas.blk 
+- us_universal_modern_ac_gas.blk 
+- us_universal_modern_ac_gps_13.blk 
+- us_universal_modern_ac_gps_3_10.blk 
+- us_universal_modern_ac_gps_8.blk 
+- us_universal_modern_ac_gps.blk 
+- us_universal_modern_ac_gps.blk 
+- us_universal_modern_ac_gps.blk 
+- us_universal_ww2_spaa_sight.blk @done
+- ussr_100_d10t_aphe_he_apcr.blk @done
+- ussr_100_d10t_aphe_he_apds.blk @done
+- ussr_100_d10t_aphe_he.blk @done
+- ussr_122_d25t_aphe_he.blk @done
+- ussr_1g42.blk 
+- ussr_1g46.blk 
+- ussr_1pn22_m1.blk @done
+- ussr_45_20k_aphe_ap.blk @done
+- ussr_45_20k_aphe_apcr.blk @done
+- ussr_57_zis4_aphe_he_apcr.blk @done
+- ussr_57_zis4_aphe_he_apcr.blk @done
+- ussr_76_45_hybrid_sight.blk @done
+- ussr_76_45_hybrid_sight.blk @done
+- ussr_76_f34early_aphe_he.blk @done
+- ussr_76_f34late_aphe_he_apcr.blk @done
+- ussr_76_kt28_aphe_he.blk @done
+- ussr_76_l10_aphe_he.blk @done
+- ussr_76_l11_aphe_he.blk @done
+- ussr_85_d5t_aphe_he.blk @done
+- ussr_85_zis53_aphe_he_apcr.blk @done
+- ussr_ares.blk @done
+- ussr_bpk2_42m.blk @done
+- ussr_bpk80.blk @done
+- ussr_sosna_d.blk @done
+- ussr_sosna_n.blk @done
+- ussr_tpdk1_4_12.blk @done
+- ussr_tpdk1_8.blk 
+- ussr_tsh_2b_42_70.blk 
+- ussr_tsh_2b_70.blk 
+- ussr_tsh_2b_80.blk 
+- ussr_universal_atgm_sight.blk 
+- ussr_universal_cw_sight.blk 
+- ussr_universal_cw_spaa_sight.blk 
+- ussr_universal_modern_ac_gps.blk 
+- ussr_universal_modern_ac_gps.blk 
+- ussr_universal_modern_ac_gps.blk 
+- ussr_universal_ww2_spaa_sight.blk @done
+- ussr_universal_ww2_spg_sight.blk @done
+- wzf_128_75_combined_sight.blk @done
+- wzf_128_dynamic_sight.blk @done
+- wzf_128TS_75_combined_sight.blk @done

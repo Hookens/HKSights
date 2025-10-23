@@ -1,0 +1,236 @@
+thousandth:t=“nato”
+
+fontSizeMult:r=0.8
+lineSizeMult:r=1
+crosshairHorVertSize:p2=3, 2
+crosshairDistHorSizeMain:p2=0.03, 0.02
+crosshairDistHorSizeAdditional:p2=0.005, 0.003
+
+drawCentralLineVert:b=no
+drawCentralLineHorz:b=no
+drawAdditionalLines:b=no
+
+drawDistanceCorrection:b=yes
+distanceCorrectionPos:p2 = -0.035, 0.155
+
+distancePos:p2=-0.085, 0
+textPos:p2=-0.01, 0.0
+textShift:r=0.3
+textAlign:i=0
+
+crosshairColor:c=255, 0, 20, 220
+crosshairLightColor:c=164, 255, 112, 220
+
+rangefinderHorizontalOffset:r = -20
+rangefinderVerticalOffset:r = -20
+rangefinderProgressBarColor1:c = 0,0,0,0
+rangefinderProgressBarColor2:c = 0,0,0,0
+rangefinderTextScale:r = 0.7
+rangefinderUseThousandth:b = yes
+
+matchExpClass {
+  germ_begleitpanzer_57:b = yes
+  germ_leopard_1a5:b = yes
+  germ_leopard_2a4_pzbtl_123:b=yes
+  germ_leopard_2a4m_can:b=yes
+  germ_leopard_2a4:b = yes
+  germ_leopard_2a5:b = yes
+  germ_leopard_2a5_pso:b = yes
+  germ_leopard_2a6:b = yes
+  germ_leopard_2a7v:b = yes
+  germ_leopard_2av:b = yes
+  germ_leopard_2pl:b = yes
+  germ_leopard_a1a1_120:b = yes
+  germ_leopard_c2_mexas:b = yes
+  germ_mkpz_super_m48:b = yes
+
+  jp_type_10:b = yes
+  jp_type_10_prototype:b = yes
+  jp_tkx_prot:b = yes
+
+  it_leopard_1a5:b = yes
+  it_leopard_2a4:b = yes
+  it_leopard_2a7_hungary:b = yes
+
+  sw_leopard_1a5no:b = yes
+  sw_leopard_2a4_fin:b = yes
+  sw_leopard_2a6nl:b = yes
+  sw_strv_121:b = yes
+  sw_strv121b_christian2:b = yes
+}
+
+crosshair_distances{
+}
+
+crosshair_hor_ranges{
+}
+
+drawLines{
+  //= = around -O-
+  line{
+    line:p4=2.5, 2, 7.5, 2
+    move:b=no
+	  thousandth:b = yes
+  }
+  line{
+    line:p4=2.5, -2, 7.5, -2
+    move:b=no
+	  thousandth:b = yes
+  }
+  line{
+    line:p4=-2.5, 2, -7.5, 2
+    move:b=no
+	  thousandth:b = yes
+  } 
+  line{
+    line:p4=-2.5, -2, -7.5, -2
+    move:b=no
+	  thousandth:b = yes
+  }
+
+  //- - around =-O-=
+  line{
+    line:p4=-2.5, 0, -5, 0
+    move:b=no
+	  thousandth:b = yes
+  }
+  line{
+    line:p4=2.5, 0, 5, 0
+    move:b=no
+	  thousandth:b = yes
+  }
+
+  //. . around -=-O-=-
+  line{
+    line:p4=-7.4, 0, -7.5, 0
+    move:b=no
+	  thousandth:b = yes
+  }
+  line{
+    line:p4=7.4, 0, 7.5, 0
+    move:b=no
+	  thousandth:b = yes
+  }
+
+  //- - around O
+  line{
+    line:p4=0.375, 0, 1, 0
+    move:b=no
+	  thousandth:b = yes
+  }
+  line{
+    line:p4=-0.375, 0, -1, 0
+    move:b=no
+	  thousandth:b = yes
+  }
+
+  //| over O
+  line{
+    line:p4=0, -0.375, 0, -1
+    move:b=no
+	  thousandth:b = yes
+  }
+  line{
+    line:p4=0, 0.375, 0, 1
+    move:b=no
+	  thousandth:b = yes
+  }
+
+  //| over |
+  line{
+    line:p4=0, -2, 0, -4
+    move:b=no
+	  thousandth:b = yes
+  }
+  line{
+    line:p4=0, 2, 0, 4
+    move:b=no
+	  thousandth:b = yes
+  }
+}
+
+drawCircles{
+   circle{
+    segment:p2 = 0.0, 360.0
+    pos:p2 = 0.0, 0.0
+    diameter:r = 0.75
+    size:r = 1.5
+    move:b = no
+    thousandth:b = yes
+  }
+	
+	circle{
+    segment:p2 = 0.0, 360.0
+    pos:p2 = 0.0, 0.0
+    diameter:r = 0.05
+    size:r = 1
+    move:b = no
+    thousandth:b = yes
+  }
+}
+
+drawQuads{
+  //TL
+  quad {
+      tl:p2 = -55.0, -30.6;
+      tr:p2 = -42.0, -30.6;
+      bl:p2 = -55.0, -30.2;
+      br:p2 = -42.0, -30.2;
+      thousandth:b = true;
+  }
+  quad {
+      tl:p2 = -55.0, -30.6;
+      tr:p2 = -54.6, -30.6;
+      bl:p2 = -55.0, -23.9;
+      br:p2 = -54.6, -23.9;
+      thousandth:b = true;
+  }
+
+  //TR
+  quad {
+      tl:p2 = 55.0, -30.6;
+      tr:p2 = 42.0, -30.6;
+      bl:p2 = 55.0, -30.2;
+      br:p2 = 42.0, -30.2;
+      thousandth:b = true;
+  }
+  quad {
+      tl:p2 = 55.0, -30.6;
+      tr:p2 = 54.6, -30.6;
+      bl:p2 = 55.0, -23.9;
+      br:p2 = 54.6, -23.9;
+      thousandth:b = true;
+  }
+
+  //BL
+  quad {
+      tl:p2 = -55.0, 30.6;
+      tr:p2 = -42.0, 30.6;
+      bl:p2 = -55.0, 30.2;
+      br:p2 = -42.0, 30.2;
+      thousandth:b = true;
+  }
+  quad {
+      tl:p2 = -55.0, 30.6;
+      tr:p2 = -54.6, 30.6;
+      bl:p2 = -55.0, 23.9;
+      br:p2 = -54.6, 23.9;
+      thousandth:b = true;
+  }
+
+  //BR
+  quad {
+      tl:p2 = 55.0, 30.6;
+      tr:p2 = 42.0, 30.6;
+      bl:p2 = 55.0, 30.2;
+      br:p2 = 42.0, 30.2;
+      thousandth:b = true;
+  }
+  quad {
+      tl:p2 = 55.0, 30.6;
+      tr:p2 = 54.6, 30.6;
+      bl:p2 = 55.0, 23.9;
+      br:p2 = 54.6, 23.9;
+      thousandth:b = true;
+  }
+}

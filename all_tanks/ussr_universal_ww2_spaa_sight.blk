@@ -1,0 +1,128 @@
+rangefinderProgressBarColor1:c=0, 255, 0, 64
+rangefinderProgressBarColor2:c=255, 255, 255, 64
+rangefinderUseThousandth:b=yes
+rangefinderTextScale:r=0.5
+rangefinderVerticalOffset:r=3
+rangefinderHorizontalOffset:r=10
+
+fontSizeMult:r=0.8
+lineSizeMult:r=2
+
+applyCorrectionToGun:b=yes
+drawDistanceCorrection:b=yes
+distanceCorrectionPos:p2 = -0.1, -0.01
+
+drawCentralLineVert:b=no
+drawCentralLineHorz:b=no
+drawAdditionalLines:b=no
+
+distancePos:p2=0.0025, 0
+textPos:p2=0.0, 0.0
+textShift:r=0
+textAlign:i=1
+
+crosshairHorVertSize:p2=3, 2
+crosshairDistHorSizeMain:p2= 0.01, 0.005
+crosshairDistHorSizeAdditional:p2= 0, 0
+
+thousandth:t=“ussr”
+
+matchExpClass {
+  ussr_gaz_4m:b = yes
+  ussr_gaz_dshk:b = yes
+  ussr_gaz_mm_72k:b = yes
+  ussr_zis_12_94KM_1945:b = yes
+  ussr_zis_43:b = yes
+  ussr_btr_152a:b = yes
+  ussr_btr_152d:b = yes
+  ussr_zsu_37:b = yes
+  ussr_zut_37:b = yes
+  ussr_btr_zd:b = yes
+  ussr_m53_59:b = yes
+  
+  uk_bosvark:b = yes
+
+  jp_type_94:b = yes
+  jp_type_95_so_ki:b = yes
+  jp_type_98_ta_se:b = yes
+  jp_sub_i_ii_20mm:b = yes
+
+  cn_zsd63_pg87:b = yes
+  cn_type_65_aa:b = yes
+}
+
+crosshair_distances{
+  distance{
+    textPos:p2=0.0, 0.0
+    distance:p3=200.0, 0.0, 0
+  }
+  distance{
+    textPos:p2=-0.005, 0.0
+    distance:p3=400.0, 4.0, 0.005
+  }
+  distance{
+    textPos:p2=0.0, 0.0
+    distance:p3=600.0, 0.0, 0
+  }
+  distance{
+    textPos:p2=-0.005, 0.0
+    distance:p3=800.0, 8.0, 0.005
+  }
+  distance{
+    textPos:p2=0.0, 0.0
+    distance:p3=1000.0, 0.0, 0
+  }
+  distance{
+    textPos:p2=-0.005, 0.0
+    distance:p3=1200.0, 12.0, 0.005
+  }
+}
+
+crosshair_hor_ranges{
+
+}
+
+drawCircles{
+	circle{
+    segment:p2 = 0.0, 360.0
+    pos:p2 = 0.0, 0.0
+    diameter:r = 120
+    size:r = 2
+    thousandth:b = yes;
+  }
+	circle{
+    segment:p2 = 0.0, 360.0
+    pos:p2 = 0.0, 0.0
+    diameter:r = 90
+    size:r = 2
+    thousandth:b = yes;
+  }
+	circle{
+    segment:p2 = 0.0, 360.0
+    pos:p2 = 0.0, 0.0
+    diameter:r = 60
+    size:r = 2
+    thousandth:b = yes;
+  }
+	circle{
+    segment:p2 = 0.0, 360.0
+    pos:p2 = 0.0, 0.0
+    diameter:r = 30
+    size:r = 2
+    thousandth:b = yes;
+  }
+	circle{
+    segment:p2 = 0.0, 360.0
+    pos:p2 = 0.0, 0.0
+    diameter:r = 2
+    size:r = 2
+    thousandth:b = yes;
+  }
+}
+
+drawLines{
+  line { line:p4=0, -1, 0, -60;thousandth:b = true; move:b=no ;}
+  line { line:p4=0, 1, 0, 60;thousandth:b = true; move:b=no ;}
+  line { line:p4=-1, 0, -60, 0;thousandth:b = true; move:b=no ;}
+  line { line:p4=1, 0, 60, 0;thousandth:b = true; move:b=no ;}
+}

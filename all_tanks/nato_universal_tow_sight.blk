@@ -1,0 +1,190 @@
+thousandth:t=“real”
+
+fontSizeMult:r=0.7
+lineSizeMult:r=1
+crosshairHorVertSize:p2=3, 2
+crosshairDistHorSizeMain:p2=0.01, 0.01
+crosshairDistHorSizeAdditional:p2=0.005, 0.003
+
+drawCentralLineVert:b=no
+drawCentralLineHorz:b=no
+drawAdditionalLines:b=no
+
+distanceCorrectionPos:p2 = -0.037, 0.11
+drawDistanceCorrection:b=no
+applyCorrectionToGun:b=no
+
+distancePos:p2=-0.115 , 0.0
+textPos:p2=-0.004, 0.0
+
+crosshairColor:c=0, 0, 0, 255
+crosshairLightColor:c=255, 0, 20, 220
+
+rangefinderHorizontalOffset:r = -15
+rangefinderVerticalOffset:r = -30
+rangefinderProgressBarColor1:c = 0, 0, 0, 0
+rangefinderProgressBarColor2:c = 0, 0, 0, 0
+rangefinderTextScale:r = 0.7
+rangefinderUseThousandth:b = yes
+
+matchExpClass {
+  germ_wiesel_1_tow:b = yes
+
+  cn_cm_25:b = yes
+  cn_m113a1_tow:b = yes
+
+  it_m113a1_tow:b = yes
+  
+  sw_pvrbv_551:b = yes
+  sw_udes_33:b = yes
+
+  il_m113a1_tow:b = yes
+}
+
+crosshair_distances{
+
+}
+
+crosshair_hor_ranges{
+
+}
+
+drawLines{
+  //Crosshair
+  line{ line:p4=2, 0, 15, 0; move:b=no; thousandth:b=yes; }
+  line{ line:p4=-2, 0, -15, 0; move:b=no; thousandth:b=yes; }
+  line{ line:p4=0, 15, 0, 2; move:b=no; thousandth:b=yes; }
+  line{ line:p4=0, -15, 0, -2; move:b=no; thousandth:b=yes; }
+
+  //Top right box
+  line{ line:p4=30, -30, 38, -30; move:b=no; thousandth:b=yes; }
+  line{ line:p4=30, -40, 38, -40; move:b=no; thousandth:b=yes; }
+  line{ line:p4=30, -30, 30, -40; move:b=no; thousandth:b=yes; }
+  line{ line:p4=38, -30, 38, -40; move:b=no; thousandth:b=yes; }
+
+  //Top left box
+  line{ line:p4=-30, -30, -38, -30; move:b=no; thousandth:b=yes; }
+  line{ line:p4=-30, -40, -38, -40; move:b=no; thousandth:b=yes; }
+  line{ line:p4=-30, -30, -30, -40; move:b=no; thousandth:b=yes; }
+  line{ line:p4=-38, -30, -38, -40; move:b=no; thousandth:b=yes; }
+
+  //Middle left box
+  line{ line:p4=-30, -15, -38, -15; move:b=no; thousandth:b=yes; }
+  line{ line:p4=-30, 15, -38, 15; move:b=no; thousandth:b=yes; }
+  line{ line:p4=-30, -15, -30, 15; move:b=no; thousandth:b=yes; }
+  line{ line:p4=-38, -15, -38, 15; move:b=no; thousandth:b=yes; }
+
+  //Box above middle left box
+  line{ line:p4=-38, -15, -38, -18, ; move:b=no; thousandth:b=yes; }
+  line{ line:p4=-30, -15, -30, -18, ; move:b=no; thousandth:b=yes; }
+  line{ line:p4=-30, -18, -38, -18, ; move:b=no; thousandth:b=yes; }
+  
+
+  //Middle leftmost box
+  line{ line:p4=-40, 1, -40, -1; move:b=no; thousandth:b=yes; }
+  line{ line:p4=-42.5, 1, -42.5, -1; move:b=no; thousandth:b=yes; }
+  line{ line:p4=-42.5, 1, -40, 1; move:b=no; thousandth:b=yes; }
+  line{ line:p4=-42.5, -1, -40, -1; move:b=no; thousandth:b=yes; }
+
+  //Triangle inset
+  line{ line:p4=-40.5, 1, -40.5, -1; move:b=no; thousandth:b=yes; }
+  line{ line:p4=-42, 1, -42, -1; move:b=no; thousandth:b=yes; }
+  line{ line:p4=-42, 0.8, -40.5, 0; move:b=no; thousandth:b=yes; }
+  line{ line:p4=-42, -0.8, -40.5, 0; move:b=no; thousandth:b=yes; }
+
+}
+
+drawQuads{
+
+  quad{  
+    tl:p2 = -42.5, -1;
+    tr:p2 = -42, -1;
+    bl:p2 = -42.5, 1;
+    br:p2 = -42, 1;
+    thousandth:b = true;
+  }
+  quad{  
+    tl:p2 = -40.5, -1;
+    tr:p2 = -40, -1;
+    bl:p2 = -40.5, 1;
+    br:p2 = -40, 1;
+    thousandth:b = true;
+  }
+
+  quad{  
+    tl:p2 = -42.5, -1;
+    tr:p2 = -40, -1;
+    bl:p2 = -42.5, -0.8;
+    br:p2 = -40, -0.8;
+    thousandth:b = true;
+  }
+  quad{  
+    tl:p2 = -42.5, 0.8;
+    tr:p2 = -40, 0.8;
+    bl:p2 = -42.5, 1;
+    br:p2 = -40, 1;
+    thousandth:b = true;
+  }
+
+  quad{  
+    tl:p2 = -42, -0.8;
+    tr:p2 = -40, -0.8;
+    bl:p2 = -40.5, 0;
+    br:p2 = -40.5, 0;
+    thousandth:b = true;
+  }
+  quad{  
+    tl:p2 = -40.5, 0;
+    tr:p2 = -40.5, 0;
+    bl:p2 = -42, 0.8;
+    br:p2 = -40.5, 0.8;
+    thousandth:b = true;
+  }
+
+  quad{  
+    tl:p2 = -30, -15;
+    tr:p2 = -30, -15;
+    bl:p2 = -38, 15;
+    br:p2 = -30, 15;
+    thousandth:b = true;
+  }
+}
+
+drawTexts{
+  text {
+    text:t = "DAY"
+    thousandth:b = yes
+    pos:p2 = 30.5, -38
+    align:i = -1
+    size:r = 1
+  }
+  text {
+    text:t = "WFOV"
+    thousandth:b = yes
+    pos:p2 = 30.5, -35
+    align:i = -1
+    size:r = 1
+  }
+  text {
+    text:t = "LAST"
+    thousandth:b = yes
+    pos:p2 = 30.5, -32
+    align:i = -1
+    size:r = 1
+  }
+  text {
+    text:t = "SURV"
+    thousandth:b = yes
+    pos:p2 = -37.5, -38
+    align:i = -1
+    size:r = 1
+  }
+  text {
+    text:t = "C-BRT"
+    thousandth:b = yes
+    pos:p2 = -37.5, -16.5
+    align:i = -1
+    size:r = 1
+    highlight:b = yes
+  }
+}

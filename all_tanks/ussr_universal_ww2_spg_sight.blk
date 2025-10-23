@@ -1,0 +1,207 @@
+crosshairHorVertSize:p2=3, 2
+rangefinderProgressBarColor1:c=0, 255, 0, 64
+rangefinderProgressBarColor2:c=255, 255, 255, 64
+rangefinderTextScale:r=0.5
+rangefinderVerticalOffset:r=-1
+rangefinderHorizontalOffset:r=35
+fontSizeMult:r=1
+lineSizeMult:r=1.2
+drawCentralLineVert:b=no
+drawCentralLineHorz:b=no
+crosshairDistHorSizeMain:p2=0.01, 0.01
+crosshairDistHorSizeAdditional:p2=0.005, 0.003
+distanceCorrectionPos:p2 = -0.105, -0.005
+drawDistanceCorrection:b=yes
+drawAdditionalLines:b=no
+distancePos:p2=-0.1, 0.0
+thousandth:t=“real”
+drawUpward:b=yes
+textAlign:i=2
+textPos:p2=0.03, 0.0
+textShift:r=0.0
+
+matchExpClass {
+  us_lvt_4_zis_2:b = yes
+
+  germ_kv_2_754r:b = yes
+
+  ussr_2s1:b = yes
+  ussr_2s3m:b = yes
+  ussr_asu_57:b = yes
+  ussr_asu_85:b = yes
+  ussr_is_7:b = yes
+  ussr_isu_122:b = yes
+  ussr_isu_122s:b = yes
+  ussr_isu_152:b = yes
+  ussr_isu_152:b = yes
+  ussr_kv_2_1939:b = yes
+  ussr_kv_2_1940:b = yes
+  ussr_kv_2_zis_6:b = yes
+  ussr_object_120:b = yes
+  ussr_object_268:b = yes
+  ussr_object_279:b = yes
+  ussr_object_906:b = yes
+  ussr_pt_76_57:b = yes
+  ussr_pt_76b:b = yes
+  ussr_su_100_1945:b = yes
+  ussr_su_100p:b = yes
+  ussr_su_100Y:b = yes
+  ussr_su_122_54:b = yes
+  ussr_su_122:b = yes
+  ussr_su_122P:b = yes
+  ussr_su_152:b = yes
+  ussr_su_5_1:b = yes
+  ussr_su_57:b = yes
+  ussr_su_57b:b = yes
+  ussr_su_57b:b = yes
+  ussr_su_76d:b = yes
+  ussr_su_76m_1943:b = yes
+  ussr_su_76m_5st_kav_corps:b = yes
+  ussr_su_85_1943:b = yes
+  ussr_su_85a:b = yes
+  ussr_su_85m:b = yes
+  ussr_t_10a:b = yes
+  ussr_t_10m:b = yes
+  ussr_type_62:b = yes
+  ussr_zis_30:b = yes
+  ussr_zsu_29k:b = yes
+  ussr_zsu_57_2:b = yes
+
+  cn_isu_122:b = yes
+  cn_isu_152:b = yes
+  cn_lvt_4_zis_2:b = yes
+  cn_object_211:b = yes
+  cn_pt_76:b = yes
+  cn_su_100_1945:b = yes
+  cn_su_76m_1943:b = yes
+  cn_type_62:b = yes
+  cn_type_63_I:b = yes
+  cn_type_86:b = yes
+  cn_wz_305:b = yes
+
+  it_2s1:b = yes
+  it_zsu_57_2:b = yes
+  
+  sw_bt_42:b = yes
+  sw_pt_76b:b = yes
+  sw_zsu_57_2:b = yes
+
+  il_zsu_57_2:b = yes
+}
+
+crosshair_distances{
+  distance:p3 = 200, 0, -0.004
+  distance:p3 = 400, 4, -0.008
+  distance:p3 = 600, 0, -0.004
+  distance:p3 = 800, 8, -0.008
+  distance:p3 = 1000, 0, -0.004
+  distance:p3 = 1200, 12, -0.008
+  distance:p3 = 1400, 0, -0.004
+  distance:p3 = 1600, 16, -0.008
+  distance:p3 = 1800, 0, -0.004
+  distance:p3 = 2000, 20, -0.008
+  distance:p3 = 2200, 0, -0.004
+  distance:p3 = 2400, 24, -0.008
+  distance:p3 = 2600, 0, -0.004
+  distance:p3 = 2800, 28, -0.008
+  distance:p3 = 3000, 0, -0.004
+  distance:p3 = 3200, 32, -0.008
+  distance:p3 = 3400, 0, -0.004
+  distance:p3 = 3600, 36, -0.008
+  distance:p3 = 3800, 0, -0.004
+  distance:p3 = 4000, 40, -0.008
+}
+
+crosshair_hor_ranges{
+}
+
+drawLines{
+	
+	line{
+    line:p4=0, 0.0, 7.5, 12.5
+	thousandth:b=yes; move:b=no; }
+	
+	line{
+    line:p4=0, 0.0, -7.5, 12.5
+	thousandth:b=yes; move:b=no; }
+	
+	line{
+    line:p4=0, 0.0, 0, 1000
+	thousandth:b=yes; move:b=no; }
+	
+	
+	/// /// ///
+	
+	
+	line{
+    line:p4=20, 0.0, 1000, 0
+	thousandth:b=yes; move:b=no; }
+	
+	line{
+    line:p4=-20, 0.0, -1000, 0
+	thousandth:b=yes; move:b=no; }
+	
+	line{
+    line:p4=0, -5.0, 0, -1000
+	thousandth:b=yes; move:b=no; }
+
+
+
+
+
+  line{
+      line:p4=8, 0.0, 7, 2
+  thousandth:b=yes; move:b=no; }
+  
+  line{
+      line:p4=8, 0.0, 9, 2
+  thousandth:b=yes; move:b=no; }
+  
+  line{
+      line:p4=16, 0.0, 17, 2
+  thousandth:b=yes; move:b=no; }
+  
+  line{
+      line:p4=16, 0.0, 15, 2
+  thousandth:b=yes; move:b=no; 
+  }
+  
+  
+  
+  
+  line{
+      line:p4=-8, 0.0, -7, 2
+  thousandth:b=yes; move:b=no; }
+  
+  line{
+      line:p4=-8, 0.0, -9, 2
+  thousandth:b=yes; move:b=no; }
+  
+  line{
+      line:p4=-16, 0.0, -17, 2
+  thousandth:b=yes; move:b=no; }
+  
+  line{
+      line:p4=-16, 0.0, -15, 2
+  thousandth:b=yes; move:b=no; }
+  
+  
+  
+  
+  line{
+      line:p4=-4, 0.0, -4, 1
+  thousandth:b=yes; move:b=no; }
+  
+  line{
+      line:p4=-12, 0.0, -12, 1
+  thousandth:b=yes; move:b=no; }
+  
+  line{
+      line:p4=4, 0.0, 4, 1
+  thousandth:b=yes; move:b=no; }
+  
+  line{
+      line:p4=12, 0.0, 12, 1
+  thousandth:b=yes; move:b=no; }
+   
+}

@@ -1,0 +1,181 @@
+crosshairHorVertSize:p2=3, 2
+rangefinderProgressBarColor1:c=0, 255, 0, 64
+rangefinderProgressBarColor2:c=255, 255, 255, 64
+rangefinderTextScale:r=1
+rangefinderUseThousandth:b=no
+rangefinderVerticalOffset:r=0.01
+rangefinderHorizontalOffset:r=20
+fontSizeMult:r=0.5
+lineSizeMult:r=1.5
+drawCentralLineVert:b=no
+drawCentralLineHorz:b=no
+crosshairDistHorSizeMain:p2=0.002, 0.002
+crosshairDistHorSizeAdditional:p2= 0, 0
+distanceCorrectionPos:p2=-0.1, 0.005
+drawDistanceCorrection:b=yes
+applyCorrectionToGun:b=yes
+thousandth:t = “ussr”
+crosshairColor:c=255, 0, 20, 220
+crosshairLightColor:c=20, 255, 20, 220
+distancePos:p2=0.002, 0
+textPos:p2=-0.005, 0.0
+textShift:r = 0
+
+matchExpClass {
+  ussr_2s38:b = yes
+
+  cn_object_122tm:b = yes
+  cn_mbt2000:b = yes
+  cn_plz_83:b = yes
+  cn_plz_83_130:b = yes
+  cn_ptl_02:b = yes
+  cn_ptz_89:b = yes
+  cn_type_59:b = yes
+  cn_type_59d:b = yes
+  cn_type_69:b = yes
+  cn_type_69_2a:b = yes
+  cn_type_69_2g:b = yes
+  cn_vt_4b:b = yes
+  cn_wma_301:b = yes
+  cn_wz_1001:b = yes
+  cn_ztl_11:b = yes
+  cn_zts_63_1980:b = yes
+  cn_ztz_59a:b = yes
+  cn_ztz_88a:b = yes
+  cn_ztz_88b:b = yes
+  cn_ztz_96:b = yes
+  cn_ztz_96a_prot:b = yes
+  cn_ztz_96a:b = yes
+  cn_ztz_99_w:b = yes
+  cn_ztz_99:b = yes
+  cn_ztz_99a:b = yes
+
+  il_tiran_4_sh:b = yes
+}
+
+crosshair_distances{
+  distance:p3 = 200, 0, 0.002
+  distance:p3 = 400, 0, 0.004
+  distance:p3 = 600, 0, 0.002
+  distance:p3 = 800, 8, 0.004
+  distance:p3 = 1000, 0, 0.002
+  distance:p3 = 1200, 0, 0.004
+  distance:p3 = 1400, 0, 0.002
+  distance:p3 = 1600, 16, 0.004
+  distance:p3 = 1800, 0, 0.002
+  distance:p3 = 2000, 0, 0.004
+  distance:p3 = 2200, 0, 0.002
+  distance:p3 = 2400, 24, 0.004
+  distance:p3 = 2600, 0, 0.002
+  distance:p3 = 2800, 0, 0.004
+  distance:p3 = 3000, 0, 0.002
+  distance:p3 = 3200, 32, 0.004
+  distance:p3 = 3400, 0, 0.002
+  distance:p3 = 3600, 0, 0.004
+  distance:p3 = 3800, 0, 0.002
+  distance:p3 = 4000, 40, 0.004
+}
+
+crosshair_hor_ranges{
+}
+  
+drawLines{
+  line { line:p4=0, 0, 0, 20;thousandth:b = true; move:b=no ;}
+  line { line:p4=-2, 0, 2, 0;thousandth:b = true; move:b=no ;}
+
+  line { line:p4=0, 0, 0.5, 1;thousandth:b = true; move:b=no ;}
+  line { line:p4=0, 0, -0.5, 1;thousandth:b = true; move:b=no ;}
+
+  
+  line { line:p4=4, 0, 4, 1.5;thousandth:b = true; move:b=no ;}
+  line { line:p4=12, 0, 12, 1.5;thousandth:b = true; move:b=no ;}
+  line { line:p4=20, 0, 20, 1.5;thousandth:b = true; move:b=no ;}
+  line { line:p4=28, 0, 28, 1.5;thousandth:b = true; move:b=no ;}
+  
+  line { line:p4=-4, 0, -4, 1.5;thousandth:b = true; move:b=no ;}
+  line { line:p4=-12, 0, -12, 1.5;thousandth:b = true; move:b=no ;}
+  line { line:p4=-20, 0, -20, 1.5;thousandth:b = true; move:b=no ;}
+  line { line:p4=-28, 0, -28, 1.5;thousandth:b = true; move:b=no ;}
+  
+  
+  
+  
+  line { line:p4=2, 0, 2, 0.7;thousandth:b = true; move:b=no ;}
+  line { line:p4=6, 0, 6, 0.7;thousandth:b = true; move:b=no ;}
+  line { line:p4=10, 0, 10, 0.7;thousandth:b = true; move:b=no ;}
+  line { line:p4=14, 0, 14, 0.7;thousandth:b = true; move:b=no ;}
+  line { line:p4=18, 0, 18, 0.7;thousandth:b = true; move:b=no ;}
+  line { line:p4=22, 0, 22, 0.7;thousandth:b = true; move:b=no ;}
+  line { line:p4=26, 0, 26, 0.7;thousandth:b = true; move:b=no ;}
+  line { line:p4=30, 0, 30, 0.7;thousandth:b = true; move:b=no ;}
+  
+  
+  line { line:p4=-2, 0, -2, 0.7;thousandth:b = true; move:b=no ;}
+  line { line:p4=-6, 0, -6, 0.7;thousandth:b = true; move:b=no ;}
+  line { line:p4=-10, 0, -10, 0.7;thousandth:b = true; move:b=no ;}
+  line { line:p4=-14, 0, -14, 0.7;thousandth:b = true; move:b=no ;}
+  line { line:p4=-18, 0, -18, 0.7;thousandth:b = true; move:b=no ;}
+  line { line:p4=-22, 0, -22, 0.7;thousandth:b = true; move:b=no ;}
+  line { line:p4=-26, 0, -26, 0.7;thousandth:b = true; move:b=no ;}
+  line { line:p4=-30, 0, -30, 0.7;thousandth:b = true; move:b=no ;}
+  
+  
+  
+  
+  line { line:p4=8, 0, 8.6, 2.0;thousandth:b = true; move:b=no ;}
+  line { line:p4=8, 0, 7.4, 2.0;thousandth:b = true; move:b=no ;}
+  line { line:p4=16, 0, 16.6, 2.0;thousandth:b = true; move:b=no ;}
+  line { line:p4=16, 0, 15.4, 2.0;thousandth:b = true; move:b=no ;}
+  line { line:p4=24, 0, 23.4, 2.0;thousandth:b = true; move:b=no ;}
+  line { line:p4=24, 0, 24.6, 2.0;thousandth:b = true; move:b=no ;}
+  line { line:p4=32, 0, 31.4, 2.0;thousandth:b = true; move:b=no ;}
+  line { line:p4=32, 0, 32.6, 2.0;thousandth:b = true; move:b=no ;}
+  
+  line { line:p4=-8, 0, -8.6, 2.0;thousandth:b = true; move:b=no ;}
+  line { line:p4=-8, 0, -7.4, 2.0;thousandth:b = true; move:b=no ;}
+  line { line:p4=-16, 0, -16.6, 2.0;thousandth:b = true; move:b=no ;}
+  line { line:p4=-16, 0, -15.4, 2.0;thousandth:b = true; move:b=no ;}
+  line { line:p4=-24, 0, -23.4, 2.0;thousandth:b = true; move:b=no ;}
+  line { line:p4=-24, 0, -24.6, 2.0;thousandth:b = true; move:b=no ;}
+  line { line:p4=-32, 0, -31.4, 2.0;thousandth:b = true; move:b=no ;}
+  line { line:p4=-32, 0, -32.6, 2.0;thousandth:b = true; move:b=no ;}
+  
+  
+  
+  
+  line { line:p4=1, 0, 1, 0.3;thousandth:b = true; move:b=no ;}
+  line { line:p4=3, 0, 3, 0.3;thousandth:b = true; move:b=no ;}
+  line { line:p4=5, 0, 5, 0.3;thousandth:b = true; move:b=no ;}
+  line { line:p4=7, 0, 7, 0.3;thousandth:b = true; move:b=no ;}
+  line { line:p4=9, 0, 9, 0.3;thousandth:b = true; move:b=no ;}
+  line { line:p4=11, 0, 11, 0.3;thousandth:b = true; move:b=no ;}
+  line { line:p4=13, 0, 13, 0.3;thousandth:b = true; move:b=no ;}
+  line { line:p4=15, 0, 15, 0.3;thousandth:b = true; move:b=no ;}
+  line { line:p4=17, 0, 17, 0.3;thousandth:b = true; move:b=no ;}
+  line { line:p4=19, 0, 19, 0.3;thousandth:b = true; move:b=no ;}
+  line { line:p4=21, 0, 21, 0.3;thousandth:b = true; move:b=no ;}
+  line { line:p4=23, 0, 23, 0.3;thousandth:b = true; move:b=no ;}
+  line { line:p4=25, 0, 25, 0.3;thousandth:b = true; move:b=no ;}
+  line { line:p4=27, 0, 27, 0.3;thousandth:b = true; move:b=no ;}
+  line { line:p4=29, 0, 29, 0.3;thousandth:b = true; move:b=no ;}
+  line { line:p4=31, 0, 31, 0.3;thousandth:b = true; move:b=no ;}
+  
+  line { line:p4=-1, 0, -1, 0.3;thousandth:b = true; move:b=no ;}
+  line { line:p4=-3, 0, -3, 0.3;thousandth:b = true; move:b=no ;}
+  line { line:p4=-5, 0, -5, 0.3;thousandth:b = true; move:b=no ;}
+  line { line:p4=-7, 0, -7, 0.3;thousandth:b = true; move:b=no ;}
+  line { line:p4=-9, 0, -9, 0.3;thousandth:b = true; move:b=no ;}
+  line { line:p4=-11, 0, -11, 0.3;thousandth:b = true; move:b=no ;}
+  line { line:p4=-13, 0, -13, 0.3;thousandth:b = true; move:b=no ;}
+  line { line:p4=-15, 0, -15, 0.3;thousandth:b = true; move:b=no ;}
+  line { line:p4=-17, 0, -17, 0.3;thousandth:b = true; move:b=no ;}
+  line { line:p4=-19, 0, -19, 0.3;thousandth:b = true; move:b=no ;}
+  line { line:p4=-21, 0, -21, 0.3;thousandth:b = true; move:b=no ;}
+  line { line:p4=-23, 0, -23, 0.3;thousandth:b = true; move:b=no ;}
+  line { line:p4=-25, 0, -25, 0.3;thousandth:b = true; move:b=no ;}
+  line { line:p4=-27, 0, -27, 0.3;thousandth:b = true; move:b=no ;}
+  line { line:p4=-29, 0, -29, 0.3;thousandth:b = true; move:b=no ;}
+  line { line:p4=-31, 0, -31, 0.3;thousandth:b = true; move:b=no ;}
+}
+
+

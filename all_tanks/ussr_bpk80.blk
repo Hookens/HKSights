@@ -1,0 +1,136 @@
+thousandth:t = “ussr”
+
+fontSizeMult:r=1.5
+lineSizeMult:r=2
+crosshairHorVertSize:p2=3, 2
+crosshairDistHorSizeMain:p2=0.015, 0.01
+crosshairDistHorSizeAdditional:p2=0.005, 0.003
+
+drawCentralLineVert:b=no
+drawCentralLineHorz:b=no
+drawAdditionalLines:b=no
+
+distanceCorrectionPos:p2 = -0.03, 0.14
+drawDistanceCorrection:b=yes
+
+distancePos:p2=-0.109 , 0.0
+textPos:p2=0.02, 0.0
+textAlign:i=-1
+
+crosshairLightColor:c=255, 0, 20, 220
+crosshairColor:c=20, 255, 20, 220
+
+rangefinderHorizontalOffset:r = -18
+rangefinderVerticalOffset:r = -40
+rangefinderProgressBarColor1:c = 0,0,0,0
+rangefinderProgressBarColor2:c = 0,0,0,0
+rangefinderTextScale:r = 0.7
+rangefinderUseThousandth:b = yes
+
+matchExpClass {
+    ussr_btr_80a:b = yes
+    
+    it_btr_80a_hungary:b = yes
+}
+
+crosshair_distances{
+  distance:p3 = 200, 0, 0.002
+  distance:p3 = 400, 4, 0.004
+  distance:p3 = 600, 0, 0.002
+  distance:p3 = 800, 8, 0.004
+  distance:p3 = 1000, 0, 0.002
+  distance:p3 = 1200, 12, 0.004
+  distance:p3 = 1400, 0, 0.002
+  distance:p3 = 1600, 16, 0.004
+  distance:p3 = 1800, 0, 0.002
+  distance:p3 = 2000, 20, 0.004
+}
+
+crosshair_hor_ranges{
+}
+
+drawLines{
+  line { line:p4= 29.4, 0,  35.4, 0;thousandth:b = true; move:b=no ;}
+
+  line { line:p4= 0, -4,  0.0, -1;thousandth:b = true; move:b=no ;}
+  line { line:p4= 0,  4,  0.0,  1;thousandth:b = true; move:b=no ;}
+  line { line:p4=-4,  0, -1,  0.0;thousandth:b = true; move:b=no ;}
+  line { line:p4= 4,  0,  1,  0.0;thousandth:b = true; move:b=no ;}
+
+  line { line:p4= 0,  -15,  1.5,  -13.0;thousandth:b = true; move:b=no ;}
+  line { line:p4= 0,  -15, -1.5,  -13.0;thousandth:b = true; move:b=no ;}
+
+  line { line:p4= -2,  -15,  -2,  -14;thousandth:b = true; move:b=no ;}
+  line { line:p4= -4,  -15,  -4,  -13;thousandth:b = true; move:b=no ;}
+  line { line:p4= -6,  -15,  -6,  -14;thousandth:b = true; move:b=no ;}
+  line { line:p4= -8,  -15,  -8,  -13;thousandth:b = true; move:b=no ;}
+  line { line:p4=-10,  -15, -10,  -14;thousandth:b = true; move:b=no ;}
+
+  line { line:p4= 2,  -15,  2,  -14;thousandth:b = true; move:b=no ;}
+  line { line:p4= 4,  -15,  4,  -13;thousandth:b = true; move:b=no ;}
+  line { line:p4= 6,  -15,  6,  -14;thousandth:b = true; move:b=no ;}
+  line { line:p4= 8,  -15,  8,  -13;thousandth:b = true; move:b=no ;}
+  line { line:p4=10,  -15, 10,  -14;thousandth:b = true; move:b=no ;}
+}
+
+drawQuads{
+  quad {
+      tl:p2 = -40, -40;
+      tr:p2 = -30, -40;
+      bl:p2 = -40, -39.5;
+      br:p2 = -30, -39.5;
+      thousandth:b = true;
+  }
+  quad {
+      tl:p2 = -40, -40;
+      tr:p2 = -39.5, -40;
+      bl:p2 = -40, -30;
+      br:p2 = -39.5, -30;
+      thousandth:b = true;
+  }
+
+  quad {
+      tl:p2 = 40, -40;
+      tr:p2 = 30, -40;
+      bl:p2 = 40, -39.5;
+      br:p2 = 30, -39.5;
+      thousandth:b = true;
+  }
+  quad {
+      tl:p2 = 40, -40;
+      tr:p2 = 39.5, -40;
+      bl:p2 = 40, -30;
+      br:p2 = 39.5, -30;
+      thousandth:b = true;
+  }
+
+  quad {
+      tl:p2 = -40, 40;
+      tr:p2 = -30, 40;
+      bl:p2 = -40, 39.5;
+      br:p2 = -30, 39.5;
+      thousandth:b = true;
+  }
+  quad {
+      tl:p2 = -40, 40;
+      tr:p2 = -39.5, 40;
+      bl:p2 = -40, 30;
+      br:p2 = -39.5, 30;
+      thousandth:b = true;
+  }
+
+  quad {
+      tl:p2 = 40, 40;
+      tr:p2 = 30, 40;
+      bl:p2 = 40, 39.5;
+      br:p2 = 30, 39.5;
+      thousandth:b = true;
+  }
+  quad {
+      tl:p2 = 40, 40;
+      tr:p2 = 39.5, 40;
+      bl:p2 = 40, 30;
+      br:p2 = 39.5, 30;
+      thousandth:b = true;
+  }
+}

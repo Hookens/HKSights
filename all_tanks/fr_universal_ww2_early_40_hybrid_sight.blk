@@ -1,0 +1,254 @@
+thousandth:t=“real”
+
+crosshairHorVertSize:p2=3, 2
+crosshairDistHorSizeMain:p2=0.01, 0.01
+crosshairDistHorSizeAdditional:p2=0.005, 0.003
+
+fontSizeMult:r=1.57
+lineSizeMult:r=2
+
+drawCentralLineVert:b=no
+drawCentralLineHorz:b=no
+drawAdditionalLines:b=no
+
+rangefinderProgressBarColor1:c=0, 255, 0, 64
+rangefinderProgressBarColor2:c=255, 255, 255, 64
+rangefinderTextScale:r=0.5
+rangefinderVerticalOffset:r=-50
+rangefinderHorizontalOffset:r=-38
+rangefinderUseThousandth:b=yes
+
+matchExpClass {
+  fr_b1_bis:b = yes
+  fr_b1_ter:b = yes
+}
+
+crosshair_distances{
+}
+
+crosshair_hor_ranges{
+}
+
+ballistics{
+  //47mm
+  bullet{
+    bulletType:t="apc_solid_medium_caliber_tank"
+    speed:r=660.0
+
+    drawAdditionalLines:b=no
+
+    drawDistanceCorrection:b=yes
+    distanceCorrectionPos:p2 = -0.093, 0.006
+
+    distancePos:p2=0.123, 0.0
+    textPos:p2=-0.01, 0.0
+    textShift:r=0.4
+    textAlign:i=1
+
+    drawUpward:b=no
+    move:b=yes
+
+    crosshairDistHorSizeMain:p2=0.01, 0.01
+    crosshairDistHorSizeAdditional:p2=0.005, 0.003
+		
+		crosshair_distances{
+      distance:p3 = 200, 0, 0.001
+      distance:p3 = 400, 4, -0.002
+      distance:p3 = 600, 0, 0.001
+      distance:p3 = 800, 8, -0.002
+      distance:p3 = 1000, 0, 0.001
+      distance:p3 = 1200, 12, -0.002
+      distance:p3 = 1400, 0, 0.001
+      distance:p3 = 1600, 16, -0.002
+      distance:p3 = 1800, 0, 0.001
+      distance:p3 = 2000, 20, -0.002
+      distance:p3 = 2200, 0, 0.001
+      distance:p3 = 2400, 24, -0.002
+      distance:p3 = 2600, 0, 0.001
+      distance:p3 = 2800, 28, -0.002
+      distance:p3 = 3000, 0, 0.001
+      distance:p3 = 3200, 32, -0.002
+      distance:p3 = 3400, 0, 0.001
+      distance:p3 = 3600, 36, -0.002
+      distance:p3 = 3800, 0, 0.001
+      distance:p3 = 4000, 40, -0.002
+    }
+  }
+
+  //75mm
+  bullet{
+    bulletType:t="aphe_tank"
+    speed:r=470.0
+
+    drawAdditionalLines:b=no
+
+    drawDistanceCorrection:b=yes
+    distanceCorrectionPos:p2 = 0.026, 0.006
+
+    distancePos:p2=-0.115, 0.0
+    textPos:p2=0.025, 0.0
+    textShift:r=0.4
+    textAlign:i=-1
+
+    drawUpward:b=no
+    move:b=yes
+
+    crosshairDistHorSizeMain:p2=0.01, 0.01
+    crosshairDistHorSizeAdditional:p2=0.005, 0.003
+		
+		crosshair_distances{
+      distance:p3 = 200, 0, 0.001
+      distance:p3 = 400, 4, -0.002
+      distance:p3 = 600, 0, 0.001
+      distance:p3 = 800, 8, -0.002
+      distance:p3 = 1000, 0, 0.001
+      distance:p3 = 1200, 12, -0.002
+      distance:p3 = 1400, 0, 0.001
+      distance:p3 = 1600, 16, -0.002
+      distance:p3 = 1800, 0, 0.001
+      distance:p3 = 2000, 20, -0.002
+      distance:p3 = 2200, 0, 0.001
+      distance:p3 = 2400, 24, -0.002
+      distance:p3 = 2600, 0, 0.001
+      distance:p3 = 2800, 28, -0.002
+    }
+  }
+}
+
+drawTexts{
+  text {
+    text:t = "47 mm"
+    align:i = 1
+    pos:p2 = -15, 10
+    move:b = no
+    thousandth:b = yes
+    size:r = 0.8
+  }
+  text {
+    text:t = "75 mm"
+    align:i = -1
+    pos:p2 = 15, 10
+    move:b = no
+    thousandth:b = yes
+    size:r = 0.8
+  }
+}
+
+drawCircles{
+  //Zero dot
+  circle{
+    segment:p2 = 0.0, 360.0
+    pos:p2 = 0.0, 0.0
+    diameter:r = 0.1
+    size:r = 5.0
+    move:b = yes
+    thousandth:b = yes
+  }
+}
+
+drawLines{
+  //V shape
+  line{
+    line:p4=0, 0, -1, -1
+    move:b=no
+  }
+  line{
+    line:p4=0, 0, 1, -1
+    move:b=no
+  }
+
+  line{
+    line:p4=4, 0, 28, 0
+    move:b=yes
+    thousandth:b = yes
+  }
+  line{
+    line:p4=-4, 0, -28, 0
+    move:b=yes
+    thousandth:b = yes
+  }
+  line{
+    line:p4=32, 0, 40, 0
+    move:b=no
+    thousandth:b = yes
+  }
+  line{
+    line:p4=-32, 0, -40, 0
+    move:b=no
+    thousandth:b = yes
+  }
+
+  //Horizontal mils left
+  line{
+    line:p4=-4, 2, -4, 4
+    move:b=no
+    thousandth:b = yes
+  }
+  line{
+    line:p4=-8, 1, -8, 5
+    move:b=no
+    thousandth:b = yes
+  }
+  line{
+    line:p4=-12, 2, -12, 4
+    move:b=no
+    thousandth:b = yes
+  }
+  line{
+    line:p4=-16, 1, -16, 5
+    move:b=no
+    thousandth:b = yes
+  }
+  line{
+    line:p4=-20, 2, -20, 4
+    move:b=no
+    thousandth:b = yes
+  }
+  line{
+    line:p4=-24, 1, -24, 5
+    move:b=no
+    thousandth:b = yes
+  }
+  line{
+    line:p4=-28, 2, -28, 4
+    move:b=no
+    thousandth:b = yes
+  }
+
+  //Horizontal mils right
+  line{
+    line:p4=4, 2, 4, 4
+    move:b=no
+    thousandth:b = yes
+  }
+  line{
+    line:p4=8, 1, 8, 5
+    move:b=no
+    thousandth:b = yes
+  }
+  line{
+    line:p4=12, 2, 12, 4
+    move:b=no
+    thousandth:b = yes
+  }
+  line{
+    line:p4=16, 1, 16, 5
+    move:b=no
+    thousandth:b = yes
+  }
+  line{
+    line:p4=20, 2, 20, 4
+    move:b=no
+    thousandth:b = yes
+  }
+  line{
+    line:p4=24, 1, 24, 5
+    move:b=no
+    thousandth:b = yes
+  }
+  line{
+    line:p4=28, 2, 28, 4
+    move:b=no
+    thousandth:b = yes
+  }
+}

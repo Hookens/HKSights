@@ -1,0 +1,263 @@
+thousandth:t=“nato”
+
+fontSizeMult:r=1.2
+lineSizeMult:r=1
+crosshairHorVertSize:p2=3, 2
+crosshairDistHorSizeMain:p2=0.006, 0.006
+crosshairDistHorSizeAdditional:p2=0.005, 0.003
+
+drawCentralLineVert:b=no
+drawCentralLineHorz:b=no
+drawAdditionalLines:b=no
+
+drawDistanceCorrection:b=yes
+distanceCorrectionPos:p2 = -0.035, 0.16
+
+distancePos:p2=0.16, -0.0343
+textPos:p2=-0.01, 0.0
+textShift:r=0.3
+textAlign:i=1
+
+crosshairColor:c=0, 0, 0, 220
+crosshairLightColor:c=255, 0, 20, 220
+
+rangefinderHorizontalOffset:r = -20
+rangefinderVerticalOffset:r = -12
+rangefinderProgressBarColor1:c = 255, 0, 20, 100
+rangefinderProgressBarColor2:c = 0,0,0,0
+rangefinderTextScale:r = 0.7
+rangefinderUseThousandth:b = yes
+
+matchExpClass {
+  germ_le_kpz_m41:b = yes
+  germ_leopard_I:b = yes
+  germ_leopard_I_a1:b = yes
+  germ_leopard_2k:b = yes
+  germ_vt_1_2:b = yes
+  germ_leopard_2_pt14:b = yes
+  germ_th_800_bismark:b = yes
+  germ_radpanzer_90:b = yes
+}
+
+crosshair_distances{
+  distance{
+    textPos:p2=0, 0
+    distance:p3=200.0, 0.0, 0.0
+  }  
+  distance{
+    textPos:p2=-0.007, 0
+    distance:p3=400.0, 4.0, 0.004
+  }  
+  distance{
+    textPos:p2=0, 0
+    distance:p3=600.0, 0.0, 0.0
+  }  
+  distance{
+    textPos:p2=0.007, 0
+    distance:p3=800.0, 8.0, 0.004
+  }
+  distance{
+    textPos:p2=0, 0
+    distance:p3=1000.0, 0.0, 0.0
+  }  
+  distance{
+    textPos:p2=-0.007, 0
+    distance:p3=1200.0, 12.0, 0.004
+  }
+  distance{
+    textPos:p2=0, 0
+    distance:p3=1400.0, 0.0, 0.0
+  }  
+  distance{
+    textPos:p2=0.007, 0
+    distance:p3=1600.0, 16.0, 0.004
+  }
+  distance{
+    textPos:p2=0, 0
+    distance:p3=1800.0, 0.0, 0.0
+  }  
+  distance{
+    textPos:p2=-0.007, 0
+    distance:p3=2000.0, 20.0, 0.004
+  } 
+  distance{
+    textPos:p2=0, 0
+    distance:p3=2200.0, 0.0, 0.0
+  } 
+  distance{
+    textPos:p2=0.007, 0
+    distance:p3=2400.0, 24.0, 0.004
+  } 
+  distance{
+    textPos:p2=0, 0
+    distance:p3=2600.0, 0.0, 0.0
+  } 
+  distance{
+    textPos:p2=-0.007, 0
+    distance:p3=2800.0, 28.0, 0.004
+  } 
+  distance{
+    textPos:p2=0, 0
+    distance:p3=3000.0, 0.0, 0.0
+  } 
+  distance{
+    textPos:p2=0.007, 0
+    distance:p3=3200.0, 32.0, 0.004
+  } 
+  distance{
+    textPos:p2=0, 0
+    distance:p3=3400.0, 0.0, 0.0
+  } 
+  distance{
+    textPos:p2=-0.007, 0
+    distance:p3=3600.0, 36.0, 0.004
+  }
+}
+
+crosshair_hor_ranges{
+}
+
+drawLines{
+  //= = around -O-
+  line{
+    line:p4=2.5, 2, 7.5, 2
+    move:b=no
+	  thousandth:b = yes
+  }
+  line{
+    line:p4=2.5, -2, 7.5, -2
+    move:b=no
+	  thousandth:b = yes
+  }
+  line{
+    line:p4=-2.5, 2, -7.5, 2
+    move:b=no
+	  thousandth:b = yes
+  } 
+  line{
+    line:p4=-2.5, -2, -7.5, -2
+    move:b=no
+	  thousandth:b = yes
+  }
+
+  //- - around =-O-=
+  line{
+    line:p4=-2.5, 0, -5, 0
+    move:b=no
+	  thousandth:b = yes
+  }
+  line{
+    line:p4=2.5, 0, 5, 0
+    move:b=no
+	  thousandth:b = yes
+  }
+
+  //. . around -=-O-=-
+  line{
+    line:p4=-7.4, 0, -7.5, 0
+    move:b=no
+	  thousandth:b = yes
+  }
+  line{
+    line:p4=7.4, 0, 7.5, 0
+    move:b=no
+	  thousandth:b = yes
+  }
+
+  //- - around .-=-O-=-.
+  line{
+    line:p4=-12.5, 0, -10, 0
+    move:b=no
+	  thousandth:b = yes
+  }
+  line{
+    line:p4=12.5, 0, 10, 0
+    move:b=no
+	  thousandth:b = yes
+  }
+
+  //- - around O
+  line{
+    line:p4=0.25, 0, 1, 0
+    move:b=no
+	  thousandth:b = yes
+  }
+  line{
+    line:p4=-0.25, 0, -1, 0
+    move:b=no
+	  thousandth:b = yes
+  }
+
+  //| over O
+  line{
+    line:p4=0, -0.25, 0, -1
+    move:b=no
+	  thousandth:b = yes
+  }
+  line{
+    line:p4=0, 0.25, 0, 1
+    move:b=no
+	  thousandth:b = yes
+  }
+
+  //| over |
+  line{
+    line:p4=0, -2, 0, -4
+    move:b=no
+	  thousandth:b = yes
+  }
+  line{
+    line:p4=0, 2, 0, 4
+    move:b=no
+	  thousandth:b = yes
+  }
+
+  //| over ||
+  line{
+    line:p4=0, -6, 0, -8
+    move:b=no
+	  thousandth:b = yes
+  }
+  line{
+    line:p4=0, 6, 0, 8
+    move:b=no
+	  thousandth:b = yes
+  }
+
+
+  //zero line
+  line{
+    line:p4=-18, -3.6, -16.7, -3.6
+    move:b=yes
+	  thousandth:b = yes
+  }
+
+  //zero arrow
+  line{
+    line:p4=-16.5, -3.6, -16, -3.85
+    move:b=no
+	  thousandth:b = yes
+  }
+  line{
+    line:p4=-16.5, -3.6, -16, -3.35
+    move:b=no
+	  thousandth:b = yes
+  }
+  line{
+    line:p4=-16, -3.85, -16, -3.35
+    move:b=no
+	  thousandth:b = yes
+  }
+}
+
+drawTexts{
+  text {
+    text:t = "0" 
+    align:i = 1
+    pos:p2 = -18.25, -3.6
+    move:b = yes 
+    thousandth:b = yes 
+    size:r = 0.6
+    highlight:b = yes
+  }
+}

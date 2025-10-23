@@ -1,0 +1,148 @@
+thousandth:t=“real”
+
+crosshairHorVertSize:p2=3, 2
+crosshairDistHorSizeMain:p2=0.005, 0.0025
+crosshairDistHorSizeAdditional:p2=0.005, 0.003
+
+fontSizeMult:r=1
+lineSizeMult:r=1.5
+
+drawCentralLineVert:b=no
+drawCentralLineHorz:b=no
+drawAdditionalLines:b=no
+
+distancePos:p2=0.0, 0.0
+textPos:p2=0.015, 0.0
+textShift:r=0.4
+textAlign:i=-1
+
+drawDistanceCorrection:b=yes
+distanceCorrectionPos:p2 = -0.12, -0.02
+
+rangefinderProgressBarColor1:c = 0,0,0,0
+rangefinderProgressBarColor2:c = 0,0,0,0
+rangefinderTextScale:r = 0.7
+rangefinderVerticalOffset:r=0.8
+rangefinderHorizontalOffset:r=75
+rangefinderUseThousandth:b=yes
+
+crosshairColor:c= 20, 255, 20, 220
+crosshairLightColor:c=255, 20, 20, 220
+
+matchExpClass {
+  sw_cv_9030_fin:b = yes
+  sw_cv_9035_dk:b = yes
+  sw_lvkv_90c:b = yes
+  sw_strf_9056:b = yes
+  sw_strf_90b:b = yes
+  sw_strf_90c:b = yes
+}
+
+crosshair_distances{
+  distance:p3 =  200,  0, 0.002
+  distance:p3 =  400,  4, -0.004
+  distance:p3 =  600,  0, 0.002
+  distance:p3 =  800,  8, -0.004
+  distance:p3 = 1000,  0, 0.002
+  distance:p3 = 1200, 12, -0.004
+  distance:p3 = 1400,  0, 0.002
+  distance:p3 = 1600, 16, -0.004
+  distance:p3 = 1800,  0, 0.002
+  distance:p3 = 2000, 20, -0.004
+  distance:p3 = 2200,  0, 0.002
+  distance:p3 = 2400, 24, -0.004
+  distance:p3 = 2600,  0, 0.002
+  distance:p3 = 2800, 28, -0.004
+  distance:p3 = 3000,  0, 0.002
+  distance:p3 = 3200, 32, -0.004
+  distance:p3 = 3400,  0, 0.002
+  distance:p3 = 3600, 36, -0.004
+  distance:p3 = 3800,  0, 0.002
+  distance:p3 = 4000, 40, -0.004
+}
+
+crosshair_hor_ranges{
+}
+
+drawTexts{
+  text {text:t =      "WIDE FOV"; align:i = -1; pos:p2 = -60, -35; move:b = no; thousandth:b = yes; size:r = 1; highlight:b = yes}
+  text {text:t =   "WHITE = HOT"; align:i = -1; pos:p2 = -60, -33; move:b = no; thousandth:b = yes; size:r = 1; highlight:b = yes}
+
+  text {text:t =       "CHILLED"; align:i =  0; pos:p2 =   0, -35; move:b = no; thousandth:b = yes; size:r = 1; highlight:b = yes}
+
+  text {text:t =   "LASER READY"; align:i = -1; pos:p2 = -60,  31; move:b = no; thousandth:b = yes; size:r = 1; highlight:b = yes}
+  text {text:t = "MOVING TARGET"; align:i = -1; pos:p2 = -60,  33; move:b = no; thousandth:b = yes; size:r = 1; highlight:b = yes}
+
+  text {text:t =         "READY"; align:i = -1; pos:p2 = -30,  35; move:b = no; thousandth:b = yes; size:r = 1; highlight:b = yes}
+  text {text:t =    "CALC READY"; align:i = -1; pos:p2 =  40,  35; move:b = no; thousandth:b = yes; size:r = 1; highlight:b = yes}
+
+  //Mils
+  text {text:t = "20"; align:i =  0; pos:p2 = -20, -1.5; move:b = no; thousandth:b = yes; size:r = 1; highlight:b = yes}
+  text {text:t = "40"; align:i =  0; pos:p2 = -40, -1.5; move:b = no; thousandth:b = yes; size:r = 1; highlight:b = yes}
+  text {text:t = "20"; align:i =  0; pos:p2 =  20, -1.5; move:b = no; thousandth:b = yes; size:r = 1; highlight:b = yes}
+  text {text:t = "40"; align:i =  0; pos:p2 =  40, -1.5; move:b = no; thousandth:b = yes; size:r = 1; highlight:b = yes}
+
+  text {text:t = "20"; align:i =  1; pos:p2 = -1, -20; move:b = no; thousandth:b = yes; size:r = 1; highlight:b = yes}
+}
+
+drawQuads{
+  quad{  
+    bl:p2 =  -0.25, 0.25; // left bottom
+    tl:p2 =  -0.25, -0.25; // left top
+    br:p2 =  0.25, 0.25; // right bottom
+    tr:p2 =  0.25, -0.25; // right top
+    move:b = yes;
+    thousandth:b = true;
+  }
+}
+
+drawLines{
+  ////Main crosshair
+  line {line:p4 =  -0.5, -0.5,  0.5, -0.5; move:b = no; thousandth:b = yes}
+  line {line:p4 =  -0.5, -0.5, -0.5,  0.5; move:b = no; thousandth:b = yes}
+  line {line:p4 =   0.5, -0.5,  0.5,  0.5; move:b = no; thousandth:b = yes}
+  line {line:p4 =  -0.5,  0.5,  0.5,  0.5; move:b = no; thousandth:b = yes}
+
+  line {line:p4 =  -20, -12,  -20, -11; move:b = no; thousandth:b = yes}
+  line {line:p4 =  -20, -12,  -19, -12; move:b = no; thousandth:b = yes}
+  line {line:p4 =   20, -12,   20, -11; move:b = no; thousandth:b = yes}
+  line {line:p4 =   20, -12,   19, -12; move:b = no; thousandth:b = yes}
+
+  line {line:p4 =  -20,  12,  -20,  11; move:b = no; thousandth:b = yes}
+  line {line:p4 =  -20,  12,  -19,  12; move:b = no; thousandth:b = yes}
+  line {line:p4 =   20,  12,   20,  11; move:b = no; thousandth:b = yes}
+  line {line:p4 =   20,  12,   19,  12; move:b = no; thousandth:b = yes}
+
+  //Horizontal mils
+  line {line:p4 =  -5, -0.25,  -5, 0.25; move:b = no; thousandth:b = yes}
+  line {line:p4 = -10, -0.50, -10, 0.50; move:b = no; thousandth:b = yes}
+  line {line:p4 = -15, -0.25, -15, 0.25; move:b = no; thousandth:b = yes}
+  line {line:p4 = -20, -0.50, -20, 0.50; move:b = no; thousandth:b = yes}
+  line {line:p4 = -25, -0.25, -25, 0.25; move:b = no; thousandth:b = yes}
+  line {line:p4 = -30, -0.50, -30, 0.50; move:b = no; thousandth:b = yes}
+  line {line:p4 = -35, -0.25, -35, 0.25; move:b = no; thousandth:b = yes}
+  line {line:p4 = -40, -0.50, -40, 0.50; move:b = no; thousandth:b = yes}
+  line {line:p4 = -45, -0.25, -45, 0.25; move:b = no; thousandth:b = yes}
+  line {line:p4 = -50, -0.50, -50, 0.50; move:b = no; thousandth:b = yes}
+  line {line:p4 = -55, -0.25, -55, 0.25; move:b = no; thousandth:b = yes}
+  
+  line {line:p4 =   5, -0.25,   5, 0.25; move:b = no; thousandth:b = yes}
+  line {line:p4 =  10, -0.50,  10, 0.50; move:b = no; thousandth:b = yes}
+  line {line:p4 =  15, -0.25,  15, 0.25; move:b = no; thousandth:b = yes}
+  line {line:p4 =  20, -0.50,  20, 0.50; move:b = no; thousandth:b = yes}
+  line {line:p4 =  25, -0.25,  25, 0.25; move:b = no; thousandth:b = yes}
+  line {line:p4 =  30, -0.50,  30, 0.50; move:b = no; thousandth:b = yes}
+  line {line:p4 =  35, -0.25,  35, 0.25; move:b = no; thousandth:b = yes}
+  line {line:p4 =  40, -0.50,  40, 0.50; move:b = no; thousandth:b = yes}
+  line {line:p4 =  45, -0.25,  45, 0.25; move:b = no; thousandth:b = yes}
+  line {line:p4 =  50, -0.50,  50, 0.50; move:b = no; thousandth:b = yes}
+  line {line:p4 =  55, -0.25,  55, 0.25; move:b = no; thousandth:b = yes}
+
+  //Vertical mils
+  line {line:p4 = -0.25,  -5,  0.25,  -5; move:b = no; thousandth:b = yes}
+  line {line:p4 = -0.50, -10,  0.50, -10; move:b = no; thousandth:b = yes}
+  line {line:p4 = -0.25, -15,  0.25, -15; move:b = no; thousandth:b = yes}
+  line {line:p4 = -0.50, -20,  0.50, -20; move:b = no; thousandth:b = yes}
+  line {line:p4 = -0.25, -25,  0.25, -25; move:b = no; thousandth:b = yes}
+  line {line:p4 = -0.50, -30,  0.50, -30; move:b = no; thousandth:b = yes}
+}

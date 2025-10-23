@@ -1,0 +1,131 @@
+rangefinderProgressBarColor1:c=0, 255, 0, 64
+rangefinderProgressBarColor2:c=255, 255, 255, 64
+rangefinderUseThousandth:b=yes
+rangefinderTextScale:r=0.5
+rangefinderVerticalOffset:r=3
+rangefinderHorizontalOffset:r=10
+
+fontSizeMult:r=0.8
+lineSizeMult:r=2
+
+applyCorrectionToGun:b=yes
+drawDistanceCorrection:b=yes
+distanceCorrectionPos:p2 = -0.1, -0.01
+
+drawCentralLineVert:b=no
+drawCentralLineHorz:b=no
+drawAdditionalLines:b=no
+
+distancePos:p2=0.0025, 0
+textPos:p2=0.0, 0.0
+textShift:r=0
+textAlign:i=1
+
+crosshairHorVertSize:p2=3, 2
+crosshairDistHorSizeMain:p2= 0.01, 0.005
+crosshairDistHorSizeAdditional:p2= 0, 0
+
+thousandth:t=“nato”
+
+matchExpClass {
+  germ_flakpanzer_38t_Gepard:b = yes
+  germ_flakpanzer_I_ausf_A:b = yes
+  germ_flakpanzer_IV_Kugelblitz:b = yes
+  germ_flakpanzer_IV_Ostwind_2:b = yes
+  germ_flakpanzer_IV_Ostwind:b = yes
+  germ_flakpanzer_IV_Wirbelwind:b = yes
+  germ_flakpanzer_V_Coelian:b = yes
+  germ_flakpanzer_zerstorer_45:b = yes
+  germ_pzkpfw_38t_Aufklarungspanzer:b = yes
+  germ_sdkfz_222:b = yes
+  germ_sdkfz_234_1:b = yes
+  germ_sdkfz_251_21:b = yes
+  germ_sdkfz_6_2_flak36:b = yes
+
+  cn_sdkfz_222_early:b = yes
+
+  it_as_42_metropolitana:b = yes
+  it_m15_42_contraereo:b = yes
+}
+
+crosshair_distances{
+  distance{
+    textPos:p2=0.0, 0.0
+    distance:p3=200.0, 0.0, 0
+  }
+  distance{
+    textPos:p2=-0.005, 0.0
+    distance:p3=400.0, 4.0, 0.005
+  }
+  distance{
+    textPos:p2=0.0, 0.0
+    distance:p3=600.0, 0.0, 0
+  }
+  distance{
+    textPos:p2=-0.005, 0.0
+    distance:p3=800.0, 8.0, 0.005
+  }
+  distance{
+    textPos:p2=0.0, 0.0
+    distance:p3=1000.0, 0.0, 0
+  }
+  distance{
+    textPos:p2=-0.005, 0.0
+    distance:p3=1200.0, 12.0, 0.005
+  }
+}
+
+crosshair_hor_ranges{
+
+}
+
+drawLines{
+  //+
+  line { line:p4=0, -2.5, 0, -75;thousandth:b = true; move:b=no ;}
+  line { line:p4=0, 2.5, 0, 75;thousandth:b = true; move:b=no ;}
+  
+  //X
+  line { line:p4=17.6776695297, 17.6776695297, 26.516504295, 26.516504295;thousandth:b = true; move:b=no ;}
+  line { line:p4=-17.6776695297, -17.6776695297, -26.516504295, -26.516504295;thousandth:b = true; move:b=no ;}
+  line { line:p4=-17.6776695297, 17.6776695297, -26.516504295, 26.516504295;thousandth:b = true; move:b=no ;}
+  line { line:p4=17.6776695297, -17.6776695297, 26.516504295, -26.516504295;thousandth:b = true; move:b=no ;}
+}
+
+drawCircles{
+  circle{
+    segment:p2 = 0.0, 360.0
+    pos:p2 = 0.0, 0.0
+    diameter:r = 150
+    size:r = 3
+    thousandth:b = yes;
+  }
+  circle{
+    segment:p2 = 0.0, 360.0
+    pos:p2 = 0.0, 0.0
+    diameter:r = 75
+    size:r = 2
+    thousandth:b = yes;
+  }
+  circle{
+    segment:p2 = 0.0, 360.0
+    pos:p2 = 0.0, 0.0
+    diameter:r = 50
+    size:r = 2
+    thousandth:b = yes;
+  }
+  circle{
+    segment:p2 = 0.0, 360.0
+    pos:p2 = 0.0, 0.0
+    diameter:r = 5
+    size:r = 2
+    thousandth:b = yes;
+  }
+
+  circle{
+    segment:p2 = 0.0, 360.0
+    pos:p2 = 0.0, 0.0
+    diameter:r = 0.1
+    size:r = 3
+    thousandth:b = yes;
+  }
+}

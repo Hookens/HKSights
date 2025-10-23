@@ -1,0 +1,75 @@
+crosshair:t="us_an_vsg_2_8"
+crosshairColor:c=255, 36, 0, 255
+crosshairLightColor:c=255, 36, 0, 255
+crosshairNvColor:c=130, 255, 0, 255
+crosshairThermalColor:c=130, 255, 0, 255
+shotDistScaleOffset:i=0
+
+rangefinder{
+  visible:b=yes
+  textColor:c=255, 36, 0, 255
+  bgColor:c=0, 0, 0, 0
+  nightVisionTextColor:c=130, 255, 0, 255
+  nightVisionBgColor:c=0, 0, 0, 0
+  lightTextColor:c=255, 36, 0, 255
+  lightBgColor:c=0, 0, 0, 0
+  thermalTextColor:c=130, 255, 0, 255
+  thermalBgColor:c=0, 0, 0, 0
+  position:p2=910.5, 725.25
+  textSize:i=40
+  font:t="usa_ils"
+  progressColor:c=130, 255, 0, 255
+  progressBackgroundColor:c=0, 0, 0, 255
+}
+
+turret{
+  visible:b=yes
+  color:c=255, 36, 0, 255
+  lightColor:c=255, 36, 0, 255
+  nvColor:c=130, 255, 0, 255
+  thermalColor:c=130, 255, 0, 255
+  position:p2=489.75, 853.5
+}
+
+fov{
+  visible:b=yes
+  color:c=255, 36, 0, 255
+  lightColor:c=255, 36, 0, 255
+  nvColor:c=130, 255, 0, 255
+  thermalColor:c=130, 255, 0, 255
+}
+
+gunReady{
+  visible:b=yes
+  color:c=255, 36, 0, 255
+  lightColor:c=255, 36, 0, 255
+  nvColor:c=130, 255, 0, 255
+  thermalColor:c=130, 255, 0, 255
+  textSize:i=40
+  font:t=""
+  position:p2=1381.5, 522.75
+  gunReadyMarkVisible:b=yes
+  gunReadyReloadCountdownVisible:b=yes
+}
+
+bulletType{
+  visible:b=yes
+  isShortName:b=no
+  textColor:c=255, 36, 0, 255
+  bgColor:c=0, 0, 0, 0
+  nightVisionTextColor:c=130, 255, 0, 255
+  nightVisionBgColor:c=0, 0, 0, 0
+  lightTextColor:c=255, 36, 0, 255
+  lightBgColor:c=0, 0, 0, 0
+  thermalTextColor:c=130, 255, 0, 255
+  thermalBgColor:c=0, 0, 0, 0
+  position:p2=1291.5, 516.75
+  textSize:i=30
+  font:t=""
+}
+
+reticle{
+  overridden:b=yes
+  lineWidth:r=1.5
+  fontSize:r=1
+}

@@ -1,0 +1,40 @@
+crosshair:t="ussr_sosna_d"
+crosshairColor:c=255, 36, 0, 255
+crosshairLightColor:c=255, 36, 0, 255
+crosshairNvColor:c=255, 36, 0, 255
+crosshairThermalColor:c=255, 36, 0, 255
+
+rangefinder{
+  visible:b=yes
+  textColor:c=255, 36, 0, 255
+  bgColor:c=0, 0, 0, 0
+  nightVisionTextColor:c=255, 36, 0, 255
+  nightVisionBgColor:c=0, 0, 0, 0
+  lightTextColor:c=255, 36, 0, 255
+  lightBgColor:c=0, 0, 0, 0
+  thermalTextColor:c=255, 36, 0, 255
+  thermalBgColor:c=0, 0, 0, 0
+  position:p2=917.25, 830.25
+  textSize:i=40
+  font:t="ussr_ils"
+}
+
+turret{
+  visible:b=yes
+  color:c=255, 36, 0, 255
+  lightColor:c=255, 36, 0, 255
+  nvColor:c=255, 36, 0, 255
+  thermalColor:c=255, 36, 0, 255
+  position:p2=570, 810
+}
+
+gunReady{
+  visible:b=yes
+  color:c=255, 36, 0, 255
+  lightColor:c=255, 36, 0, 255
+  nvColor:c=255, 36, 0, 255
+  thermalColor:c=255, 36, 0, 255
+  textSize:i=40
+  font:t="ussr_ils"
+  position:p2=1301.25, 833.25
+}

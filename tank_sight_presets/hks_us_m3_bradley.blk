@@ -1,0 +1,48 @@
+crosshair:t="us_m3_gps_isu"
+crosshairColor:c=255, 36, 0, 255
+crosshairLightColor:c=255, 36, 0, 255
+crosshairNvColor:c=255, 255, 0, 255
+crosshairThermalColor:c=255, 255, 0, 255
+
+rangefinder{
+  visible:b=yes
+  textColor:c=255, 36, 0, 255
+  bgColor:c=0, 0, 0, 255
+  nightVisionTextColor:c=255, 255, 0, 255
+  nightVisionBgColor:c=0, 0, 0, 255
+  lightTextColor:c=255, 36, 0, 255
+  lightBgColor:c=0, 0, 0, 255
+  thermalTextColor:c=255, 255, 0, 255
+  thermalBgColor:c=0, 0, 0, 255
+  position:p2=911.25, 812.25
+  textSize:i=40
+  font:t="usa_ils"
+}
+
+turret{
+  visible:b=yes
+  color:c=255, 36, 0, 255
+  lightColor:c=255, 36, 0, 255
+  nvColor:c=255, 255, 0, 255
+  thermalColor:c=255, 255, 0, 255
+  position:p2=569.25, 790.5
+}
+
+fov{
+  visible:b=no
+  color:c=255, 36, 0, 255
+  lightColor:c=255, 36, 0, 255
+  nvColor:c=255, 255, 0, 255
+  thermalColor:c=255, 255, 0, 255
+}
+
+gunReady{
+  visible:b=yes
+  color:c=255, 36, 0, 255
+  lightColor:c=255, 36, 0, 255
+  nvColor:c=255, 255, 0, 255
+  thermalColor:c=255, 255, 0, 255
+  textSize:i=40
+  font:t="usa_ils"
+  position:p2=1098.75, 810.75
+}

@@ -1,0 +1,225 @@
+thousandth:t = “ussr”
+
+fontSizeMult:r=0.5
+lineSizeMult:r=1
+crosshairHorVertSize:p2=3, 2
+crosshairDistHorSizeMain:p2=0.01, 0.01
+crosshairDistHorSizeAdditional:p2=0.005, 0.003
+
+drawCentralLineVert:b=no
+drawCentralLineHorz:b=no
+drawAdditionalLines:b=no
+
+distanceCorrectionPos:p2 = -0.2, 0.19
+drawDistanceCorrection:b=yes
+
+distancePos:p2=-0.115 , 0.0
+textPos:p2=-0.004, 0.0
+
+crosshairLightColor:c=255, 0, 20, 220
+crosshairColor:c=20, 255, 20, 220
+
+rangefinderHorizontalOffset:r = 5
+rangefinderVerticalOffset:r = -20
+rangefinderProgressBarColor1:c = 0,0,0,0
+rangefinderProgressBarColor2:c = 0,0,0,0
+rangefinderTextScale:r = 0.7
+rangefinderUseThousandth:b = yes
+
+matchExpClass {
+  cn_al_khalid_1:b = yes
+  cn_object_122tm:b = yes
+  cn_mbt2000:b = yes
+  cn_ptl_02:b = yes
+  cn_ptz_89:b = yes
+  cn_type_59d:b = yes
+  cn_type_69:b = yes
+  cn_type_69_2a:b = yes
+  cn_type_69_2g:b = yes
+  cn_vt_4b:b = yes
+  cn_wma_301:b = yes
+  cn_wz_1001:b = yes
+  cn_ztl_11:b = yes
+  cn_zts_63_1980:b = yes
+  cn_ztz_59a:b = yes
+  cn_ztz_88a:b = yes
+  cn_ztz_88b:b = yes
+  cn_ztz_96:b = yes
+  cn_ztz_96a_prot:b = yes
+  cn_ztz_96a:b = yes
+  cn_ztz_99_w:b = yes
+  cn_ztz_99:b = yes
+  cn_ztz_99a:b = yes
+}
+
+crosshair_distances{
+}
+
+crosshair_hor_ranges{
+}
+
+  
+drawLines{
+  line { line:p4=0, 0, 0, 0.75;thousandth:b = true; move:b=yes ;}
+  line { line:p4=0, 1.5, 0, 1.55;thousandth:b = true; move:b=yes ;}
+  line { line:p4=0, 2.3, 0, 3.05;thousandth:b = true; move:b=yes ;}
+  line { line:p4=0, 3.8, 0, 3.85;thousandth:b = true; move:b=yes ;}
+  line { line:p4=0, 4.6, 0, 5.35;thousandth:b = true; move:b=yes ;}
+
+  
+  line { line:p4=0, 0, 1.5, 2.5;thousandth:b = true; move:b=no ;}
+  
+  line { line:p4=0, 0, -1.5, 2.5;thousandth:b = true; move:b=no ;}
+
+  
+  
+  
+  
+  
+  line { line:p4=2, 0, 2, 0.75;thousandth:b = true; move:b=no ;}
+  line { line:p4=6, 0, 6, 0.75;thousandth:b = true; move:b=no ;}
+  line { line:p4=10, 0, 10, 0.75;thousandth:b = true; move:b=no ;}
+  line { line:p4=14, 0, 14, 0.75;thousandth:b = true; move:b=no ;}
+  
+  line { line:p4=-2, 0, -2, 0.75;thousandth:b = true; move:b=no ;}
+  line { line:p4=-6, 0, -6, 0.75;thousandth:b = true; move:b=no ;}
+  line { line:p4=-10, 0, -10, 0.75;thousandth:b = true; move:b=no ;}
+  line { line:p4=-14, 0, -14, 0.75;thousandth:b = true; move:b=no ;}
+  
+  
+  
+  
+  line { line:p4=1, 0, 1, 0.35;thousandth:b = true; move:b=no ;}
+  line { line:p4=3, 0, 3, 0.35;thousandth:b = true; move:b=no ;}
+  line { line:p4=5, 0, 5, 0.35;thousandth:b = true; move:b=no ;}
+  line { line:p4=7, 0, 7, 0.35;thousandth:b = true; move:b=no ;}
+  line { line:p4=9, 0, 9, 0.35;thousandth:b = true; move:b=no ;}
+  line { line:p4=11, 0, 11, 0.35;thousandth:b = true; move:b=no ;}
+  line { line:p4=13, 0, 13, 0.35;thousandth:b = true; move:b=no ;}
+  line { line:p4=15, 0, 15, 0.35;thousandth:b = true; move:b=no ;}
+  
+  
+  line { line:p4=-1, 0, -1, 0.35;thousandth:b = true; move:b=no ;}
+  line { line:p4=-3, 0, -3, 0.35;thousandth:b = true; move:b=no ;}
+  line { line:p4=-5, 0, -5, 0.35;thousandth:b = true; move:b=no ;}
+  line { line:p4=-7, 0, -7, 0.35;thousandth:b = true; move:b=no ;}
+  line { line:p4=-9, 0, -9, 0.35;thousandth:b = true; move:b=no ;}
+  line { line:p4=-11, 0, -11, 0.35;thousandth:b = true; move:b=no ;}
+  line { line:p4=-13, 0, -13, 0.35;thousandth:b = true; move:b=no ;}
+  line { line:p4=-15, 0, -15, 0.35;thousandth:b = true; move:b=no ;}
+  
+  
+  
+  
+  line { line:p4=4, 0, 4.3, 1;thousandth:b = true; move:b=no ;}
+  line { line:p4=4, 0, 3.7, 1;thousandth:b = true; move:b=no ;}
+  line { line:p4=8, 0, 8.3, 1;thousandth:b = true; move:b=no ;}
+  line { line:p4=8, 0, 7.7, 1;thousandth:b = true; move:b=no ;}
+  line { line:p4=12, 0, 11.7, 1;thousandth:b = true; move:b=no ;}
+  line { line:p4=12, 0, 12.3, 1;thousandth:b = true; move:b=no ;}
+  line { line:p4=16, 0, 15.7, 1;thousandth:b = true; move:b=no ;}
+  line { line:p4=16, 0, 16.3, 1;thousandth:b = true; move:b=no ;}
+  
+  line { line:p4=-4, 0, -4.3, 1;thousandth:b = true; move:b=no ;}
+  line { line:p4=-4, 0, -3.7, 1;thousandth:b = true; move:b=no ;}
+  line { line:p4=-8, 0, -8.3, 1;thousandth:b = true; move:b=no ;}
+  line { line:p4=-8, 0, -7.7, 1;thousandth:b = true; move:b=no ;}
+  line { line:p4=-12, 0, -11.7, 1;thousandth:b = true; move:b=no ;}
+  line { line:p4=-12, 0, -12.3, 1;thousandth:b = true; move:b=no ;}
+  line { line:p4=-16, 0, -15.7, 1;thousandth:b = true; move:b=no ;}
+  line { line:p4=-16, 0, -16.3, 1;thousandth:b = true; move:b=no ;}
+  
+  
+  
+  
+  line { line:p4=0.5, 0, 0.5, 0.3;thousandth:b = true; move:b=no ;}
+  line { line:p4=1.5, 0, 1.5, 0.3;thousandth:b = true; move:b=no ;}
+  line { line:p4=2.5, 0, 2.5, 0.3;thousandth:b = true; move:b=no ;}
+  line { line:p4=3.5, 0, 3.5, 0.3;thousandth:b = true; move:b=no ;}
+  line { line:p4=4.5, 0, 4.5, 0.3;thousandth:b = true; move:b=no ;}
+  line { line:p4=5.5, 0, 5.5, 0.3;thousandth:b = true; move:b=no ;}
+  line { line:p4=6.5, 0, 6.5, 0.3;thousandth:b = true; move:b=no ;}
+  line { line:p4=7.5, 0, 7.5, 0.3;thousandth:b = true; move:b=no ;}
+  line { line:p4=8.5, 0, 8.5, 0.3;thousandth:b = true; move:b=no ;}
+  line { line:p4=9.5, 0, 9.5, 0.3;thousandth:b = true; move:b=no ;}
+  line { line:p4=10.5, 0, 10.5, 0.3;thousandth:b = true; move:b=no ;}
+  line { line:p4=11.5, 0, 11.5, 0.3;thousandth:b = true; move:b=no ;}
+  line { line:p4=12.5, 0, 12.5, 0.3;thousandth:b = true; move:b=no ;}
+  line { line:p4=13.5, 0, 13.5, 0.3;thousandth:b = true; move:b=no ;}
+  line { line:p4=14.5, 0, 14.5, 0.3;thousandth:b = true; move:b=no ;}
+  line { line:p4=15.5, 0, 15.5, 0.3;thousandth:b = true; move:b=no ;}
+  
+  line { line:p4=-0.5, 0, -0.5, 0.3;thousandth:b = true; move:b=no ;}
+  line { line:p4=-1.5, 0, -1.5, 0.3;thousandth:b = true; move:b=no ;}
+  line { line:p4=-2.5, 0, -2.5, 0.3;thousandth:b = true; move:b=no ;}
+  line { line:p4=-3.5, 0, -3.5, 0.3;thousandth:b = true; move:b=no ;}
+  line { line:p4=-4.5, 0, -4.5, 0.3;thousandth:b = true; move:b=no ;}
+  line { line:p4=-5.5, 0, -5.5, 0.3;thousandth:b = true; move:b=no ;}
+  line { line:p4=-6.5, 0, -6.5, 0.3;thousandth:b = true; move:b=no ;}
+  line { line:p4=-7.5, 0, -7.5, 0.3;thousandth:b = true; move:b=no ;}
+  line { line:p4=-8.5, 0, -8.5, 0.3;thousandth:b = true; move:b=no ;}
+  line { line:p4=-9.5, 0, -9.5, 0.3;thousandth:b = true; move:b=no ;}
+  line { line:p4=-10.5, 0, -10.5, 0.3;thousandth:b = true; move:b=no ;}
+  line { line:p4=-11.5, 0, -11.5, 0.3;thousandth:b = true; move:b=no ;}
+  line { line:p4=-12.5, 0, -12.5, 0.3;thousandth:b = true; move:b=no ;}
+  line { line:p4=-13.5, 0, -13.5, 0.3;thousandth:b = true; move:b=no ;}
+  line { line:p4=-14.5, 0, -14.5, 0.3;thousandth:b = true; move:b=no ;}
+  line { line:p4=-15.5, 0, -15.5, 0.3;thousandth:b = true; move:b=no ;}
+  
+  
+  
+  line { line:p4 = -30, 16, -30, 13; thousandth:b = true; move:b = no; }
+  line { line:p4 = -30, -16, -30, -13; thousandth:b = true; move:b = no; }
+  line { line:p4 = -30.1, 16, -30.1, 13; thousandth:b = true; move:b = no; }
+  line { line:p4 = -30.1, -16, -30.1, -13; thousandth:b = true; move:b = no; }
+  line { line:p4 = -30.05, 16, -30.05, 13; thousandth:b = true; move:b = no; }
+  line { line:p4 = -30.05, -16, -30.05, -13; thousandth:b = true; move:b = no; }
+
+  line { line:p4 = 30, 16, 30, 13; thousandth:b = true; move:b = no; }
+  line { line:p4 = 30, -16, 30, -13; thousandth:b = true; move:b = no; }
+  line { line:p4 = 30.1, 16, 30.1, 13; thousandth:b = true; move:b = no; }
+  line { line:p4 = 30.1, -16, 30.1, -13; thousandth:b = true; move:b = no; }
+  line { line:p4 = 30.05, 16, 30.05, 13; thousandth:b = true; move:b = no; }
+  line { line:p4 = 30.05, -16, 30.05, -13; thousandth:b = true; move:b = no; }
+  
+
+  line { line:p4 = -30, 16, -24, 16; thousandth:b = true; move:b = no; }
+  line { line:p4 = -30, -16, -24, -16; thousandth:b = true; move:b = no; }
+  line { line:p4 = -30, 16.1, -24, 16.1; thousandth:b = true; move:b = no; }
+  line { line:p4 = -30, -16.1, -24, -16.1; thousandth:b = true; move:b = no; }
+  line { line:p4 = -30, 16.05, -24, 16.05; thousandth:b = true; move:b = no; }
+  line { line:p4 = -30, -16.05, -24, -16.05; thousandth:b = true; move:b = no; }
+
+  line { line:p4 = 30, 16, 24, 16; thousandth:b = true; move:b = no; }
+  line { line:p4 = 30, -16, 24, -16; thousandth:b = true; move:b = no; }
+  line { line:p4 = 30, 16.1, 24, 16.1; thousandth:b = true; move:b = no; }
+  line { line:p4 = 30, -16.1, 24, -16.1; thousandth:b = true; move:b = no; }
+  line { line:p4 = 30, 16.05, 24, 16.05; thousandth:b = true; move:b = no; }
+  line { line:p4 = 30, -16.05, 24, -16.05; thousandth:b = true; move:b = no; }
+
+
+  line { line:p4 = 10, 16, -10, 16; thousandth:b = true; move:b = no; }
+  line { line:p4 = 10, 16.1, -10, 16.1; thousandth:b = true; move:b = no; }
+  line { line:p4 = 10, 16.05, -10, 16.05; thousandth:b = true; move:b = no; }
+}
+
+  
+drawTexts{
+  text {
+    text:t = "準備好"
+    thousandth:b = yes
+    pos:p2 = 0, 15
+    align:i = 0
+    size:r = 1
+    highlight:b = yes
+  }
+
+  text {
+    text:t = "距離"
+    thousandth:b = yes
+    pos:p2 = -2, 17
+    align:i = 0
+    size:r = 1
+  }
+}
+

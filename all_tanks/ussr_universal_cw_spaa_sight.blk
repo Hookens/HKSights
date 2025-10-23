@@ -1,0 +1,132 @@
+rangefinderProgressBarColor1:c=0, 255, 0, 64
+rangefinderProgressBarColor2:c=255, 255, 255, 64
+rangefinderUseThousandth:b=no
+rangefinderTextScale:r=0.6
+rangefinderVerticalOffset:r=0
+rangefinderHorizontalOffset:r=130
+
+fontSizeMult:r=0.6
+lineSizeMult:r=1.5
+
+applyCorrectionToGun:b=yes
+drawDistanceCorrection:b=yes
+distanceCorrectionPos:p2 = -0.154, 0.013
+
+drawCentralLineVert:b=no
+drawCentralLineHorz:b=no
+drawAdditionalLines:b=no
+
+distancePos:p2=0.0025, 0
+textPos:p2=0.0, 0.0
+textShift:r=0
+textAlign:i=1
+
+crosshairHorVertSize:p2=3, 2
+crosshairDistHorSizeMain:p2= 0.01, 0.005
+crosshairDistHorSizeAdditional:p2= 0, 0
+
+crosshairColor:c=255, 0, 20, 220
+crosshairLightColor:c=20, 255, 20, 220
+
+thousandth:t=“ussr”
+
+matchExpClass {
+  ussr_zsu_23_4:b = yes
+  ussr_zsu_23_4m2:b = yes
+  ussr_zsu_23_4m4:b = yes
+  ussr_zsu_37_2:b = yes
+  ussr_zprk_2s6:b = yes
+  ussr_it_1:b = yes
+  ussr_9p149:b = yes
+  ussr_9p157:b = yes
+  ussr_9a35_m2:b = yes
+  ussr_pantsyr_s1:b = yes
+
+  cn_antelope_tc_1l_ads:b = yes
+  cn_pgz_04a:b = yes
+  cn_tor_m1:b = yes
+  cn_zsl_92:b = yes
+
+  it_zsu_23_4:b = yes
+  
+  il_zsu_23_4:b = yes
+}
+
+crosshair_distances{
+  distance{
+    textPos:p2=0.0, 0.0
+    distance:p3=200.0, 0.0, 0
+  }
+  distance{
+    textPos:p2=-0.005, 0.0
+    distance:p3=400.0, 4.0, 0.005
+  }
+  distance{
+    textPos:p2=0.0, 0.0
+    distance:p3=600.0, 0.0, 0
+  }
+  distance{
+    textPos:p2=-0.005, 0.0
+    distance:p3=800.0, 8.0, 0.005
+  }
+  distance{
+    textPos:p2=0.0, 0.0
+    distance:p3=1000.0, 0.0, 0
+  }
+  distance{
+    textPos:p2=-0.005, 0.0
+    distance:p3=1200.0, 12.0, 0.005
+  }
+}
+
+crosshair_hor_ranges{
+}
+
+drawCircles{
+	circle{
+    segment:p2 = 0.0, 360.0
+    pos:p2 = 0.0, 0.0
+    diameter:r = 2
+    size:r = 3
+    thousandth:b = yes;
+  }
+	circle{
+    segment:p2 = 0.0, 360.0
+    pos:p2 = 0.0, 0.0
+    diameter:r = 40
+    size:r = 3
+    thousandth:b = yes;
+  }
+	circle{
+    segment:p2 = 0.0, 360.0
+    pos:p2 = 0.0, 0.0
+    diameter:r = 80
+    size:r = 3
+    thousandth:b = yes;
+  }
+}
+
+  
+drawLines{
+  line { line:p4=0, -0.1, 0, 0.1;thousandth:b = true; move:b=no ;}
+  line { line:p4=-0.1, 0, 0.1, 0;thousandth:b = true; move:b=no ;}
+
+
+  line { line:p4=0, 3, 0, 11;thousandth:b = true; move:b=no ;}
+  line { line:p4=0, -2.9, 0, -3.1;thousandth:b = true; move:b=no ;}
+  line { line:p4=0, -5, 0, -9;thousandth:b = true; move:b=no ;}
+
+  line { line:p4=4  , 0, 6, 0;thousandth:b = true; move:b=yes ;}
+  line { line:p4=-4, 0, -6, 0;thousandth:b = true; move:b=yes ;}
+  line { line:p4=6, 0, 13, 0;thousandth:b = true; move:b=no ;}
+  line { line:p4=-6, 0, -13, 0;thousandth:b = true; move:b=no ;}
+
+
+  line { line:p4=2, 1, 3, 0;thousandth:b = true; move:b=no ;}
+  line { line:p4=2, -1, 3, 0;thousandth:b = true; move:b=no ;}
+
+  line { line:p4=-2, 1, -3, 0;thousandth:b = true; move:b=no ;}
+  line { line:p4=-2, -1, -3, 0;thousandth:b = true; move:b=no ;}
+}
+
+

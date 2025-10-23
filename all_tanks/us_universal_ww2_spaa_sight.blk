@@ -1,0 +1,156 @@
+rangefinderProgressBarColor1:c=0, 255, 0, 64
+rangefinderProgressBarColor2:c=255, 255, 255, 64
+rangefinderUseThousandth:b=yes
+rangefinderTextScale:r=0.5
+rangefinderVerticalOffset:r=3
+rangefinderHorizontalOffset:r=10
+
+fontSizeMult:r=0.8
+lineSizeMult:r=2
+
+applyCorrectionToGun:b=yes
+drawDistanceCorrection:b=yes
+distanceCorrectionPos:p2 = -0.1, -0.01
+
+drawCentralLineVert:b=no
+drawCentralLineHorz:b=no
+drawAdditionalLines:b=no
+
+distancePos:p2=0.0025, 0
+textPos:p2=0.0, 0.0
+textShift:r=0
+textAlign:i=1
+
+crosshairHorVertSize:p2=3, 2
+crosshairDistHorSizeMain:p2= 0.01, 0.005
+crosshairDistHorSizeAdditional:p2= 0, 0
+
+thousandth:t=“nato”
+
+
+matchExpClass {
+  us_halftrack_m13:b = yes
+  us_halftrack_m15:b = yes
+  us_halftrack_m16:b = yes
+  us_m2a2:b = yes
+  us_m19:b = yes
+  us_m42_duster:b = yes
+  
+  uk_armored_car_mk_2_aa:b = yes
+  uk_crusader_aa_mk_1:b = yes
+  uk_crusader_aa_mk_2:b = yes
+  uk_falcon:b = yes
+  uk_skink_aa:b = yes
+  uk_t17e2:b = yes
+  uk_vickers_mk_6_aa_mk_1:b = yes
+  uk_ystervark_spaa:b = yes
+
+  jp_halftrack_m16:b = yes
+  jp_m19:b = yes
+  jp_m42_duster:b = yes
+
+  cn_gmc_cckw_353_m45_quad:b = yes
+  cn_m42_duster:b = yes
+
+  it_fiat_cm52:b = yes
+  it_leopard_bofors:b = yes
+
+  fr_amx_13_dca_40:b = yes
+  fr_amx_vtt_dca:b = yes
+  fr_cckw_353_bofors:b = yes
+  fr_citroen_kegresse_p4t:b = yes
+  fr_tpk_641_vpc:b = yes
+
+  sw_l_62_anti_II:b = yes
+  sw_lvkv_42:b = yes
+  sw_pbv_301:b = yes
+  sw_pvlvv_fm42:b = yes
+  sw_tgdgb_m40_lv:b = yes
+  sw_landsverk_ush_204_gk:b = yes
+  
+  il_tcm_20:b = yes
+}
+
+crosshair_distances{
+  distance{
+    textPos:p2=0.0, 0.0
+    distance:p3=200.0, 0.0, 0
+  }
+  distance{
+    textPos:p2=-0.005, 0.0
+    distance:p3=400.0, 4.0, 0.005
+  }
+  distance{
+    textPos:p2=0.0, 0.0
+    distance:p3=600.0, 0.0, 0
+  }
+  distance{
+    textPos:p2=-0.005, 0.0
+    distance:p3=800.0, 8.0, 0.005
+  }
+  distance{
+    textPos:p2=0.0, 0.0
+    distance:p3=1000.0, 0.0, 0
+  }
+  distance{
+    textPos:p2=-0.005, 0.0
+    distance:p3=1200.0, 12.0, 0.005
+  }
+}
+
+crosshair_hor_ranges{
+
+}
+
+drawLines{
+  //+
+  line { line:p4=-2.5, 0, -75, 0;thousandth:b = true; move:b=no ;}
+  line { line:p4=2.5, 0, 75, 0;thousandth:b = true; move:b=no ;}
+  line { line:p4=0, -2.5, 0, -75;thousandth:b = true; move:b=no ;}
+  line { line:p4=0, 2.5, 0, 75;thousandth:b = true; move:b=no ;}
+  
+  //X
+  line { line:p4=17.6776695297, 17.6776695297, 53.033008589, 53.033008589;thousandth:b = true; move:b=no ;}
+  line { line:p4=-17.6776695297, -17.6776695297, -53.033008589, -53.033008589;thousandth:b = true; move:b=no ;}
+  line { line:p4=-17.6776695297, 17.6776695297, -53.033008589, 53.033008589;thousandth:b = true; move:b=no ;}
+  line { line:p4=17.6776695297, -17.6776695297, 53.033008589, -53.033008589;thousandth:b = true; move:b=no ;}
+}
+
+drawCircles{
+  circle{
+    segment:p2 = 0.0, 360.0
+    pos:p2 = 0.0, 0.0
+    diameter:r = 150
+    size:r = 2
+    thousandth:b = yes;
+  }
+  circle{
+    segment:p2 = 0.0, 360.0
+    pos:p2 = 0.0, 0.0
+    diameter:r = 100
+    size:r = 2
+    thousandth:b = yes;
+  }
+  circle{
+    segment:p2 = 0.0, 360.0
+    pos:p2 = 0.0, 0.0
+    diameter:r = 50
+    size:r = 2
+    thousandth:b = yes;
+  }
+  circle{
+    segment:p2 = 0.0, 360.0
+    pos:p2 = 0.0, 0.0
+    diameter:r = 5
+    size:r = 2
+    thousandth:b = yes;
+  }
+
+  circle{
+    segment:p2 = 0.0, 360.0
+    pos:p2 = 0.0, 0.0
+    diameter:r = 0.1
+    size:r = 3
+    thousandth:b = yes;
+  }
+}

@@ -1,0 +1,249 @@
+crosshairHorVertSize:p2=3, 2
+rangefinderProgressBarColor1:c=0, 255, 0, 64
+rangefinderProgressBarColor2:c=255, 255, 255, 64
+rangefinderTextScale:r=0.5
+rangefinderVerticalOffset:r=1
+rangefinderHorizontalOffset:r=35
+fontSizeMult:r=1
+lineSizeMult:r=1.2
+drawCentralLineVert:b=no
+drawCentralLineHorz:b=no
+crosshairDistHorSizeMain:p2=0.01, 0.01
+crosshairDistHorSizeAdditional:p2=0.005, 0.003
+distanceCorrectionPos:p2 = -0.105, -0.02
+drawDistanceCorrection:b=yes
+drawAdditionalLines:b=no
+textPos:p2=-0.004, 0.0
+distancePos:p2=-0.1745, 0.0
+thousandth:t=“real”
+crosshairColor:c=255, 0, 20, 220
+crosshairLightColor:c=20, 255, 20, 220
+
+
+matchExpClass {
+  us_m103:b = yes
+  us_m1a1_hc_usmc:b = yes
+  us_m1a2_sep2_abrams:b = yes
+  us_m41_walker_bulldog:b = yes
+  us_m46_patton_73_armor_bat:b = yes
+  us_m46_patton:b = yes
+  us_m47_patton_II:b = yes
+  us_m48a1_patton_III:b = yes
+  us_m50_ontos:b = yes
+  us_m551:b = yes
+  us_m551_76:b = yes
+  us_m60:b = yes
+  us_m60a1_rise_passive_era:b = yes
+  us_m60a1:b = yes
+  us_m60a2:b = yes
+  us_magach_3:b = yes
+  us_t114:b = yes
+  us_t30:b = yes
+  us_t54e1:b = yes
+  us_t54e2:b = yes
+  us_t92:b = yes
+  us_t95e1:b = yes
+  
+  us_m1128_mgs:b = yes
+  us_m1128_wolfpack:b = yes
+  us_m1_abrams:b = yes
+  us_m1_ip_abrams:b = yes
+  us_m1a1_abrams:b = yes
+  us_m1a1_aim_abrams:b = yes
+  us_m1a1_hc_abrams:b = yes
+  us_m1a2_abrams:b = yes
+  us_m1a2_sep_abrams:b = yes
+  us_xm1_chrysler:b = yes
+  us_xm1_gm:b = yes
+  us_xm_803:b = yes
+  us_m60a3_tts:b = yes
+  us_m60a3_slep:b = yes
+  us_ags_teledyne:b = yes
+  us_ccvl:b = yes
+  us_xm_8:b = yes
+  us_hstv_l:b = yes
+  us_m56_scorpion:b = yes
+
+  germ_le_kpz_m41:b = yes
+  germ_mkpz_m48a2c:b = yes
+  germ_mkpz_m48a2ga2:b = yes
+
+  jp_m41_walker_bulldog:b = yes
+  jp_m47_patton_II:b = yes
+  jp_st_a1:b = yes
+  jp_st_a2:b = yes
+  jp_st_a3:b = yes
+  jp_st_b1:b = yes
+  jp_type_16:b = yes
+  jp_type_16_mod:b = yes
+  jp_type_16_mcv_prot:b = yes
+  jp_type_60_sprg:b = yes
+  jp_type_61:b = yes
+  jp_type_74_c:b = yes
+  jp_type_74_f:b = yes
+  jp_type_74_mod_g_kai:b = yes
+  jp_type_74:b = yes
+
+  cn_m41_a3_walker_bulldog:b = yes
+  cn_m48a1_patton_III:b = yes
+  cn_m_41d:b = yes
+  cn_m60a3_tts:b = yes
+  cn_cm11:b = yes
+
+  it_m47_105:b = yes
+  it_m60a1_ariete:b = yes
+
+  il_m_51:b = yes
+  il_m_51_w:b = yes
+  il_m48a1_patton_III:b = yes
+  il_magach_2:b = yes
+  il_magach_3_idf:b = yes
+  il_magach_3:b = yes
+  il_magach_5:b = yes
+  il_magach_6:b = yes
+  il_magach_6b:b = yes
+  il_magach_6b_gal:b = yes
+  il_magach_6b_gal_batash:b = yes
+  il_magach_6c:b = yes
+  il_magach_6m:b = yes
+  il_magach_6r:b = yes
+  il_magach_6r_rocket:b = yes
+  il_magach_7c:b = yes
+
+  us_m109a1:b = yes
+  germ_m109g:b = yes
+  uk_m109a1:b = yes
+  jp_type_75:b = yes
+  it_m109g:b = yes
+  il_m109:b = yes
+  il_m109a1:b = yes
+}
+
+crosshair_distances{
+  distance:p3 = 200, 0, 0.001
+  distance:p3 = 400, 4, 0.001
+  distance:p3 = 600, 0, 0.001
+  distance:p3 = 800, 8, 0.001
+  distance:p3 = 1000, 0, 0.001
+  distance:p3 = 1200, 12, 0.001
+  distance:p3 = 1400, 0, 0.001
+  distance:p3 = 1600, 16, 0.001
+  distance:p3 = 1800, 0, 0.001
+  distance:p3 = 2000, 20, 0.001
+  distance:p3 = 2200, 0, 0.001
+  distance:p3 = 2400, 24, 0.001
+  distance:p3 = 2600, 0, 0.001
+  distance:p3 = 2800, 28, 0.001
+  distance:p3 = 3000, 0, 0.001
+  distance:p3 = 3200, 32, 0.001
+  distance:p3 = 3400, 0, 0.001
+  distance:p3 = 3600, 36, 0.001
+  distance:p3 = 3800, 0, 0.001
+  distance:p3 = 4000, 40, 0.001
+}
+
+crosshair_hor_ranges{
+}
+
+drawLines{
+  line{
+    line:p4=1, 0, -1, 0
+    move:b=no
+	thousandth:b = yes
+  }  
+  
+  line{
+    line:p4=0, 1, 0, -1
+    move:b=no
+	thousandth:b = yes
+  }  
+
+  line{
+    line:p4=5, 0, 10, 0
+    move:b=no
+	thousandth:b = yes
+  }  
+  
+  line{
+    line:p4=-5, 0, -10, 0
+    move:b=no
+	thousandth:b = yes
+  }  
+  
+  line{
+    line:p4=15, 0, 35, 0
+    move:b=no
+	thousandth:b = yes
+  }  
+  
+  line{
+    line:p4=-15, 0, -35, 0
+    move:b=no
+	thousandth:b = yes
+  } 
+  
+  line{
+    line:p4=-2.5, 2.5, -7.5, 2.5
+    move:b=no
+	thousandth:b = yes
+  }  
+  
+  line{
+    line:p4=-2.5, -2.5, -7.5, -2.5
+    move:b=no
+	thousandth:b = yes
+  }
+  
+  line{
+    line:p4=2.5, 2.5, 7.5, 2.5
+    move:b=no
+	thousandth:b = yes
+  }  
+  
+  line{
+    line:p4=2.5, -2.5, 7.5, -2.5
+    move:b=no
+	thousandth:b = yes
+  }
+  
+  line{
+    line:p4=0, -2.5, 0, -5
+    move:b=no
+	thousandth:b = yes
+  }
+  
+  line{
+    line:p4=0, -7.5, 0, -10
+    move:b=no
+	thousandth:b = yes
+  }
+  
+  line{
+    line:p4=0, -12.5, 0, -15
+    move:b=no
+	thousandth:b = yes
+  }
+  
+  line{
+    line:p4=0, 2.5, 0, 5
+    move:b=no
+	thousandth:b = yes
+  }
+  
+  line{
+    line:p4=0, 7.5, 0, 10
+    move:b=no
+	thousandth:b = yes
+  }
+  
+  line{
+    line:p4=0, 12.5, 0, 15
+    move:b=no
+	thousandth:b = yes
+  }
+  
+  
+}
+
+drawCircles {
+  }

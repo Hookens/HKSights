@@ -1,0 +1,128 @@
+rangefinderHorizontalOffset:r = 7
+rangefinderVerticalOffset:r = -20
+rangefinderProgressBarColor1:c = 0,0,0,0
+rangefinderProgressBarColor2:c = 0,0,0,0
+rangefinderTextScale:r = 0.7
+rangefinderUseThousandth:b = yes
+
+fontSizeMult:r=0.85
+lineSizeMult:r=2
+
+applyCorrectionToGun:b=yes
+drawDistanceCorrection:b=yes
+distancePos:p2=-0.19, 0
+textPos:p2=0.042, 0.0
+textShift:r=0.0
+textAlign:i=2
+drawSightMask:b = yes
+
+drawCentralLineVert:b=no
+drawCentralLineHorz:b=no
+
+thousandth:t=“nato”
+crosshairDistHorSizeMain:p2=0.031, 0.031
+crosshairDistHorSizeAdditional:p2=0.00, 0.0
+
+
+matchExpClass {
+  fr_amx_10m_acra:b = yes
+  fr_amx_30_acra:b = yes
+}
+
+crosshair_distances{
+  distance:p3= 100.0, 0.0, 0
+  distance:p3= 200.0, 2.0, -0.008
+  distance:p3= 300.0, 0.0, 0
+  distance:p3= 400.0, 4.0, -0.008
+  distance:p3= 500.0, 0.0, 0
+  distance:p3= 600.0, 6.0, -0.008
+  distance:p3= 700.0, 0.0, 0
+  distance:p3= 800.0, 8.0, -0.008
+  distance:p3= 900.0, 0.0, 0
+  distance:p3=1000.0, 10.0, -0.008
+  distance:p3=1100.0, 0.0, 0
+  distance:p3=1200.0, 12.0, -0.008
+  distance:p3=1300.0, 0.0, 0
+  distance:p3=1400.0, 14.0, -0.008
+  distance:p3=1500.0, 0.0, 0
+  distance:p3=1600.0, 16.0, -0.008
+  distance:p3=1700.0, 0.0, 0
+  distance:p3=1800.0, 18.0, -0.008
+  distance:p3=1900.0, 0.0, 0
+  distance:p3=2000.0, 20.0, -0.008
+}
+
+crosshair_hor_ranges{
+}
+
+drawCircles{
+  circle{
+    segment:p2 = -90.0, 90.0
+    pos:p2 = 0.0, 0.0
+    diameter:r = 25
+    size:r = 3
+    thousandth:b = yes;
+  }
+	
+  circle{
+    segment:p2 = 0.0, 360.0
+    pos:p2 = 0.0, 0.0
+    diameter:r = 10
+    size:r = 3
+    thousandth:b = yes;
+  }
+	
+  circle{
+    segment:p2 = 0.0, 360.0
+    pos:p2 = 0.0, 0.0
+    diameter:r = 2
+    size:r = 3
+    thousandth:b = yes;
+  }
+	
+  circle{
+    segment:p2 = 0.0, 360.0
+    pos:p2 = 0.0, 0.0
+    diameter:r = 0.1
+    size:r = 5
+    thousandth:b = yes;
+  }
+}
+
+drawTexts{
+  text { text:t = "DIST"; thousandth:b = yes; pos:p2 = -3, 17; align:i = 0; size:r = 1; }
+
+  //MUC ranges
+  text { text:t =    "0"; align:i = 2; pos:p2 =28.0,  0.000; move:b = yes; thousandth:b = true; size:r = 0.7; highlight:b = yes;}
+  text { text:t =  "200"; align:i = 2; pos:p2 =28.0,  3.150; move:b = yes; thousandth:b = true; size:r = 0.7; highlight:b = yes;}
+  text { text:t =  "400"; align:i = 2; pos:p2 =28.0,  5.870; move:b = yes; thousandth:b = true; size:r = 0.7; highlight:b = yes;}
+  text { text:t =  "600"; align:i = 2; pos:p2 =28.0,  8.110; move:b = yes; thousandth:b = true; size:r = 0.7; highlight:b = yes;}
+  text { text:t =  "800"; align:i = 2; pos:p2 =28.0, 10.520; move:b = yes; thousandth:b = true; size:r = 0.7; highlight:b = yes;}
+  text { text:t = "1000"; align:i = 2; pos:p2 =28.0, 12.440; move:b = yes; thousandth:b = true; size:r = 0.7; highlight:b = yes;}
+  text { text:t = "1200"; align:i = 2; pos:p2 =28.0, 14.130; move:b = yes; thousandth:b = true; size:r = 0.7; highlight:b = yes;}
+  text { text:t = "1400"; align:i = 2; pos:p2 =28.0, 15.840; move:b = yes; thousandth:b = true; size:r = 0.7; highlight:b = yes;}
+  text { text:t = "1600"; align:i = 2; pos:p2 =28.0, 17.653; move:b = yes; thousandth:b = true; size:r = 0.7; highlight:b = yes;}
+  text { text:t = "1800"; align:i = 2; pos:p2 =28.0, 19.556; move:b = yes; thousandth:b = true; size:r = 0.7; highlight:b = yes;}
+  text { text:t = "2000"; align:i = 2; pos:p2 =28.0, 21.689; move:b = yes; thousandth:b = true; size:r = 0.7; highlight:b = yes;}
+}
+
+drawLines{
+  line { line:p4=0, 5, 0, 12.5;thousandth:b = true; move:b=no ;}
+  
+  line { line:p4=5, 0, 25, 0;thousandth:b = true; move:b=no ;}
+  
+  line { line:p4=-5, 0, -25, 0;thousandth:b = true; move:b=no ;}
+
+  //MUC ranges
+  line { line:p4=26.6,  0.000, 23.4,  0.000; thousandth:b = true; move:b=yes;}
+  line { line:p4=25.8,  3.150, 23.4,  3.150; thousandth:b = true; move:b=yes;}
+  line { line:p4=26.6,  5.870, 23.4,  5.870; thousandth:b = true; move:b=yes;}
+  line { line:p4=25.8,  8.110, 23.4,  8.110; thousandth:b = true; move:b=yes;}
+  line { line:p4=26.6, 10.520, 23.4, 10.520; thousandth:b = true; move:b=yes;}
+  line { line:p4=25.8, 12.440, 23.4, 12.440; thousandth:b = true; move:b=yes;}
+  line { line:p4=26.6, 14.130, 23.4, 14.130; thousandth:b = true; move:b=yes;}
+  line { line:p4=25.8, 15.840, 23.4, 15.840; thousandth:b = true; move:b=yes;}
+  line { line:p4=26.6, 17.653, 23.4, 17.653; thousandth:b = true; move:b=yes;}
+  line { line:p4=25.8, 19.556, 23.4, 19.556; thousandth:b = true; move:b=yes;}
+  line { line:p4=26.6, 21.689, 23.4, 21.689; thousandth:b = true; move:b=yes;}
+}

@@ -1,0 +1,139 @@
+thousandth:t=“real”
+
+fontSizeMult:r=1.8
+lineSizeMult:r=1.5
+crosshairHorVertSize:p2=3, 2
+crosshairDistHorSizeMain:p2=0.015, 0.0075
+crosshairDistHorSizeAdditional:p2=0.005, 0.003
+
+distancePos:p2=0.0, 0.0
+textPos:p2=0.015, 0.0
+textShift:r=0
+textAlign:i=-1
+
+drawCentralLineVert:b=no
+drawCentralLineHorz:b=no
+drawAdditionalLines:b=no
+
+drawDistanceCorrection:b=yes
+distanceCorrectionPos:p2 = -0.14, -0.02
+
+
+crosshairColor:c=0, 0, 0, 220
+crosshairLightColor:c=255, 0, 20, 220
+
+rangefinderVerticalOffset:r=0.035
+rangefinderHorizontalOffset:r=140
+rangefinderProgressBarColor1:c = 0,0,0,0
+rangefinderProgressBarColor2:c = 0,0,0,0
+rangefinderTextScale:r = 0.7
+rangefinderUseThousandth:b = no
+
+matchExpClass {
+  jp_type_5_ho_ri_production:b = yes
+  jp_type_5_ho_ri_prototype:b = yes
+}
+
+crosshair_distances{
+  distance:p3 =  200,  0, 0
+  distance:p3 =  400,  4, 0
+  distance:p3 =  600,  0, 0
+  distance:p3 =  800,  8, 0
+  distance:p3 = 1000,  0, 0
+  distance:p3 = 1200, 12, 0
+  distance:p3 = 1400,  0, 0
+  distance:p3 = 1600, 16, 0
+  distance:p3 = 1800,  0, 0
+  distance:p3 = 2000, 20, 0
+  distance:p3 = 2200,  0, 0
+  distance:p3 = 2400, 24, 0
+  distance:p3 = 2600,  0, 0
+  distance:p3 = 2800, 28, 0
+  distance:p3 = 3000,  0, 0
+  distance:p3 = 3200, 32, 0
+}
+
+crosshair_hor_ranges{
+}
+
+drawQuads{
+  quad{  
+    bl:p2 =  -2,  0.25;
+    tl:p2 =  -2, -0.25;
+    br:p2 =   2,  0.25;
+    tr:p2 =   2, -0.25;
+    move:b = no;
+    thousandth:b = true;
+  }
+  quad{  
+    bl:p2 =  0.25, -2;
+    tl:p2 = -0.25, -2;
+    br:p2 =  0.25,  2;
+    tr:p2 = -0.25,  2;
+    move:b = no;
+    thousandth:b = true;
+  }
+}
+
+drawTexts{
+  //Vertical mils
+  text { text:t =  "2"; pos:p2 = 1,  -20; thousandth:b = yes; move:b = no; size:r = 0.75; highlight:b = yes;}
+  text { text:t =  "4"; pos:p2 = 1,  -40; thousandth:b = yes; move:b = no; size:r = 0.75; highlight:b = yes;}
+  text { text:t =  "6"; pos:p2 = 1,  -60; thousandth:b = yes; move:b = no; size:r = 0.75; highlight:b = yes;}
+  text { text:t =  "8"; pos:p2 = 1,  -80; thousandth:b = yes; move:b = no; size:r = 0.75; highlight:b = yes;}
+  text { text:t = "10"; pos:p2 = 1, -100; thousandth:b = yes; move:b = no; size:r = 0.75; highlight:b = yes;}
+
+  //Horizontal mils
+  text { text:t =  "2"; pos:p2 =  -20, -5; thousandth:b = yes; move:b = no; size:r = 0.75; highlight:b = yes; align:i = 0;}
+  text { text:t =  "4"; pos:p2 =  -40, -5; thousandth:b = yes; move:b = no; size:r = 0.75; highlight:b = yes; align:i = 0;}
+  text { text:t =  "6"; pos:p2 =  -60, -5; thousandth:b = yes; move:b = no; size:r = 0.75; highlight:b = yes; align:i = 0;}
+  text { text:t =  "8"; pos:p2 =  -80, -5; thousandth:b = yes; move:b = no; size:r = 0.75; highlight:b = yes; align:i = 0;}
+  text { text:t = "10"; pos:p2 = -100, -5; thousandth:b = yes; move:b = no; size:r = 0.75; highlight:b = yes; align:i = 0;}
+
+  text { text:t =  "2"; pos:p2 =   20, -5; thousandth:b = yes; move:b = no; size:r = 0.75; highlight:b = yes; align:i = 0;}
+  text { text:t =  "4"; pos:p2 =   40, -5; thousandth:b = yes; move:b = no; size:r = 0.75; highlight:b = yes; align:i = 0;}
+  text { text:t =  "6"; pos:p2 =   60, -5; thousandth:b = yes; move:b = no; size:r = 0.75; highlight:b = yes; align:i = 0;}
+  text { text:t =  "8"; pos:p2 =   80, -5; thousandth:b = yes; move:b = no; size:r = 0.75; highlight:b = yes; align:i = 0;}
+  text { text:t = "10"; pos:p2 =  100, -5; thousandth:b = yes; move:b = no; size:r = 0.75; highlight:b = yes; align:i = 0;}
+}
+
+drawLines{
+  line { line:p4=-500, 0, -10, 0; thousandth:b = yes; move:b=no;}
+  line { line:p4= 500, 0,  10, 0; thousandth:b = yes; move:b=no;}
+  line { line:p4= 0, -500, 0, -20; thousandth:b = yes; move:b=no;}
+  line { line:p4= 0, 500, 0, 0; thousandth:b = yes; move:b=no;}
+
+  //Vertical mils
+  line { line:p4= -2,  -20, 0,  -20; thousandth:b = yes; move:b=no;}
+  line { line:p4= -1,  -30, 0,  -30; thousandth:b = yes; move:b=no;}
+  line { line:p4= -2,  -40, 0,  -40; thousandth:b = yes; move:b=no;}
+  line { line:p4= -1,  -50, 0,  -50; thousandth:b = yes; move:b=no;}
+  line { line:p4= -2,  -60, 0,  -60; thousandth:b = yes; move:b=no;}
+  line { line:p4= -1,  -70, 0,  -70; thousandth:b = yes; move:b=no;}
+  line { line:p4= -2,  -80, 0,  -80; thousandth:b = yes; move:b=no;}
+  line { line:p4= -1,  -90, 0,  -90; thousandth:b = yes; move:b=no;}
+  line { line:p4= -2, -100, 0, -100; thousandth:b = yes; move:b=no;}
+
+  //Horizontal mils
+  line { line:p4=  -10, 0,  -10, -1; thousandth:b = yes; move:b=no;}
+  line { line:p4=  -20, 0,  -20, -2; thousandth:b = yes; move:b=no;}
+  line { line:p4=  -30, 0,  -30, -1; thousandth:b = yes; move:b=no;}
+  line { line:p4=  -40, 0,  -40, -2; thousandth:b = yes; move:b=no;}
+  line { line:p4=  -50, 0,  -50, -1; thousandth:b = yes; move:b=no;}
+  line { line:p4=  -60, 0,  -60, -2; thousandth:b = yes; move:b=no;}
+  line { line:p4=  -70, 0,  -70, -1; thousandth:b = yes; move:b=no;}
+  line { line:p4=  -80, 0,  -80, -2; thousandth:b = yes; move:b=no;}
+  line { line:p4=  -90, 0,  -90, -1; thousandth:b = yes; move:b=no;}
+  line { line:p4= -100, 0, -100, -2; thousandth:b = yes; move:b=no;}
+
+  line { line:p4=   10, 0,   10, -1; thousandth:b = yes; move:b=no;}
+  line { line:p4=   20, 0,   20, -2; thousandth:b = yes; move:b=no;}
+  line { line:p4=   30, 0,   30, -1; thousandth:b = yes; move:b=no;}
+  line { line:p4=   40, 0,   40, -2; thousandth:b = yes; move:b=no;}
+  line { line:p4=   50, 0,   50, -1; thousandth:b = yes; move:b=no;}
+  line { line:p4=   60, 0,   60, -2; thousandth:b = yes; move:b=no;}
+  line { line:p4=   70, 0,   70, -1; thousandth:b = yes; move:b=no;}
+  line { line:p4=   80, 0,   80, -2; thousandth:b = yes; move:b=no;}
+  line { line:p4=   90, 0,   90, -1; thousandth:b = yes; move:b=no;}
+  line { line:p4=  100, 0,  100, -2; thousandth:b = yes; move:b=no;}
+}

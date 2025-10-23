@@ -1,0 +1,126 @@
+rangefinderHorizontalOffset:r = 7
+rangefinderVerticalOffset:r = -20
+rangefinderProgressBarColor1:c = 0,0,0,0
+rangefinderProgressBarColor2:c = 0,0,0,0
+rangefinderTextScale:r = 0.7
+rangefinderUseThousandth:b = yes
+
+fontSizeMult:r=0.6
+lineSizeMult:r=2
+
+applyCorrectionToGun:b=no
+drawDistanceCorrection:b=no
+distanceCorrectionPos:p2 = -0.1, -0.01
+
+drawCentralLineVert:b=no
+drawCentralLineHorz:b=no
+drawAdditionalLines:b=no
+
+distancePos:p2=0.0025, 0
+textPos:p2=0.0, 0.0
+textShift:r=0
+textAlign:i=1
+
+crosshairHorVertSize:p2=3, 2
+crosshairDistHorSizeMain:p2= 0.01, 0.005
+crosshairDistHorSizeAdditional:p2= 0, 0
+
+crosshairColor:c=0, 200, 20, 220
+
+thousandth:t=“nato”
+
+
+matchExpClass {
+  us_m901_itv:b = yes
+
+  germ_raketenjagdpanzer_2:b = yes
+  germ_raketenjagdpanzer_2_hot:b = yes
+  germ_wiesel_1_tow:b = yes
+
+  uk_fv438_swingfire:b = yes
+  uk_fv102_striker:b = yes
+  uk_ratel_zt3:b = yes
+
+  jp_type_60_atm:b = yes
+
+  cn_m113a1_tow:b = yes
+  cn_cm_25:b = yes
+
+  it_m113a1_tow:b = yes
+
+  fr_vcac_mephisto:b = yes
+
+  sw_pbv_302_bill:b = yes
+  sw_pvrbv_551:b = yes
+  sw_udes_33:b = yes
+
+  il_ss_11_halftrack:b = yes
+  il_m113a1_tow:b = yes
+}
+
+crosshair_distances{
+}
+
+crosshair_hor_ranges{
+}
+
+drawCircles{
+  circle{
+    segment:p2 = -90.0, 90.0
+    pos:p2 = 0.0, 0.0
+    diameter:r = 25
+    size:r = 2
+    thousandth:b = yes;
+  }
+	
+  circle{
+    segment:p2 = 0.0, 360.0
+    pos:p2 = 0.0, 0.0
+    diameter:r = 10
+    size:r = 2
+    thousandth:b = yes;
+  }
+	
+  circle{
+    segment:p2 = 0.0, 360.0
+    pos:p2 = 0.0, 0.0
+    diameter:r = 2
+    size:r = 2
+    thousandth:b = yes;
+  }
+	
+  circle{
+    segment:p2 = 0.0, 360.0
+    pos:p2 = 0.0, 0.0
+    diameter:r = 0.1
+    size:r = 5
+    thousandth:b = yes;
+  }
+}
+
+drawTexts{
+  text {
+    text:t = "RDY"
+    thousandth:b = yes
+    pos:p2 = 0, 15
+    align:i = 0
+    size:r = 1
+    highlight:b = yes
+  }
+
+  text {
+    text:t = "DIST"
+    thousandth:b = yes
+    pos:p2 = -3, 17
+    align:i = 0
+    size:r = 1
+  }
+}
+
+drawLines{
+  line { line:p4=0, 5, 0, 12.5;thousandth:b = true; move:b=no ;}
+  
+  line { line:p4=5, 0, 25, 0;thousandth:b = true; move:b=no ;}
+  
+  line { line:p4=-5, 0, -25, 0;thousandth:b = true; move:b=no ;}
+}

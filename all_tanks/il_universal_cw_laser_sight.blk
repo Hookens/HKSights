@@ -1,0 +1,333 @@
+thousandth:t=“nato”
+
+fontSizeMult:r=0.5
+lineSizeMult:r=1
+crosshairHorVertSize:p2=3, 2
+crosshairDistHorSizeMain:p2=0.01, 0.01
+crosshairDistHorSizeAdditional:p2=0.005, 0.003
+
+drawCentralLineVert:b=no
+drawCentralLineHorz:b=no
+drawAdditionalLines:b=no
+
+distanceCorrectionPos:p2 = -0.2, 0.19
+drawDistanceCorrection:b=yes
+
+distancePos:p2=-0.115 , 0.0
+textPos:p2=-0.004, 0.0
+
+crosshairColor:c=255, 0, 20, 220
+crosshairLightColor:c=20, 255, 20, 220
+
+rangefinderHorizontalOffset:r = 0
+rangefinderVerticalOffset:r = -20
+rangefinderProgressBarColor1:c = 0,0,0,0
+rangefinderProgressBarColor2:c = 0,0,0,0
+rangefinderTextScale:r = 0.7
+rangefinderUseThousandth:b = yes
+
+matchExpClass{
+  us_merkava_mk_1:b = yes
+  us_merkava_mk_2b_late:b = yes
+  us_merkava_mk_3d:b = yes
+
+  il_merkava_mk_1b:b = yes
+  il_merkava_mk_2b_early:b = yes
+  il_merkava_mk_2d:b = yes
+  il_merkava_mk_3_raam_segol:b = yes
+  il_merkava_mk_3b:b = yes
+  il_merkava_mk_3c:b = yes
+  il_merkava_mk_4b:b = yes
+  il_merkava_mk_4_lic:b = yes
+  il_merkava_mk_4m:b = yes
+}
+
+crosshair_distances{
+}
+
+crosshair_hor_ranges{
+}
+
+drawLines{
+  line{
+    line:p4=2.5, 2, 7.5, 2
+    move:b=no
+	thousandth:b = yes
+  } 
+  
+ 
+  line{
+    line:p4=2.5, -2, 7.5, -2
+    move:b=no
+	thousandth:b = yes
+  }
+  
+  line{
+    line:p4=-2.5, 2, -7.5, 2
+    move:b=no
+	thousandth:b = yes
+  } 
+  
+  line{
+    line:p4=-2.5, -2, -7.5, -2
+    move:b=no
+	thousandth:b = yes
+  }
+  
+  ////////////////////////////
+  
+  
+  line{
+    line:p4=-10, 0, -5, 0
+    move:b=no
+	thousandth:b = yes
+  }
+  
+  line{
+    line:p4=10, 0, 5, 0
+    move:b=no
+	thousandth:b = yes
+  }
+  
+  ////////////////////////////
+  
+  line{
+    line:p4=-20, 0, -15, 0
+    move:b=no
+	thousandth:b = yes
+  }
+  
+  line{
+    line:p4=20, 0, 15, 0
+    move:b=no
+	thousandth:b = yes
+  }
+  
+  
+  ////////////////////////////
+
+  
+  
+  line{
+    line:p4=0.5, 0, 1, 0
+    move:b=no
+	thousandth:b = yes
+  }
+  
+  line{
+    line:p4=-0.5, 0, -1, 0
+    move:b=no
+	thousandth:b = yes
+  }
+  
+  line{
+    line:p4=0, -0.5, 0, -1
+    move:b=no
+	thousandth:b = yes
+  }
+  
+  line{
+    line:p4=0, 0.5, 0, 1
+    move:b=no
+	thousandth:b = yes
+  }
+  
+  line{
+    line:p4=0, -2, 0, -4
+    move:b=no
+	thousandth:b = yes
+  }
+  
+  line{
+    line:p4=0, 2, 0, 4
+    move:b=no
+	thousandth:b = yes
+  }
+  
+  
+  ////////////////////////////
+  
+  
+  line{
+    line:p4=0, -6, 0, -8
+    move:b=no
+	thousandth:b = yes
+  }
+  
+  line{
+    line:p4=0, 6, 0, 8
+    move:b=no
+	thousandth:b = yes
+  }
+  
+  ////////////////////////////
+  
+  line{
+    line:p4=0, -12, 0, -10
+    move:b=no
+	thousandth:b = yes
+  }
+  
+  line{
+    line:p4=0, 12, 0, 10
+    move:b=no
+	thousandth:b = yes
+  }
+  
+  ////////////////////////////
+  
+  line{
+    line:p4=2, -0.25, 2, 0.25
+    move:b=no
+	thousandth:b = yes
+  }
+  
+  line{
+    line:p4=3, -0.5, 3, 0.5
+    move:b=no
+	thousandth:b = yes
+  }
+  
+  line{
+    line:p4=4, -0.25, 4, 0.25
+    move:b=no
+	thousandth:b = yes
+  }
+  
+  
+  /////////////////////////////
+  
+  
+  line{
+    line:p4=-2, -0.25, -2, 0.25
+    move:b=no
+	thousandth:b = yes
+  }
+  
+  line{
+    line:p4=-3, -0.5, -3, 0.5
+    move:b=no
+	thousandth:b = yes
+  }
+  
+  line{
+    line:p4=-4, -0.25, -4, 0.25
+    move:b=no
+	thousandth:b = yes
+  }
+  
+  line { line:p4 = -30, 16, -30, 13; thousandth:b = true; move:b = no; }
+  line { line:p4 = -30, -16, -30, -13; thousandth:b = true; move:b = no; }
+  line { line:p4 = -30.1, 16, -30.1, 13; thousandth:b = true; move:b = no; }
+  line { line:p4 = -30.1, -16, -30.1, -13; thousandth:b = true; move:b = no; }
+  line { line:p4 = -30.05, 16, -30.05, 13; thousandth:b = true; move:b = no; }
+  line { line:p4 = -30.05, -16, -30.05, -13; thousandth:b = true; move:b = no; }
+
+  line { line:p4 = 30, 16, 30, 13; thousandth:b = true; move:b = no; }
+  line { line:p4 = 30, -16, 30, -13; thousandth:b = true; move:b = no; }
+  line { line:p4 = 30.1, 16, 30.1, 13; thousandth:b = true; move:b = no; }
+  line { line:p4 = 30.1, -16, 30.1, -13; thousandth:b = true; move:b = no; }
+  line { line:p4 = 30.05, 16, 30.05, 13; thousandth:b = true; move:b = no; }
+  line { line:p4 = 30.05, -16, 30.05, -13; thousandth:b = true; move:b = no; }
+  
+
+  line { line:p4 = -30, 16, -24, 16; thousandth:b = true; move:b = no; }
+  line { line:p4 = -30, -16, -24, -16; thousandth:b = true; move:b = no; }
+  line { line:p4 = -30, 16.1, -24, 16.1; thousandth:b = true; move:b = no; }
+  line { line:p4 = -30, -16.1, -24, -16.1; thousandth:b = true; move:b = no; }
+  line { line:p4 = -30, 16.05, -24, 16.05; thousandth:b = true; move:b = no; }
+  line { line:p4 = -30, -16.05, -24, -16.05; thousandth:b = true; move:b = no; }
+
+  line { line:p4 = 30, 16, 24, 16; thousandth:b = true; move:b = no; }
+  line { line:p4 = 30, -16, 24, -16; thousandth:b = true; move:b = no; }
+  line { line:p4 = 30, 16.1, 24, 16.1; thousandth:b = true; move:b = no; }
+  line { line:p4 = 30, -16.1, 24, -16.1; thousandth:b = true; move:b = no; }
+  line { line:p4 = 30, 16.05, 24, 16.05; thousandth:b = true; move:b = no; }
+  line { line:p4 = 30, -16.05, 24, -16.05; thousandth:b = true; move:b = no; }
+
+
+  line { line:p4 = 5, 16, -5, 16; thousandth:b = true; move:b = no; }
+  line { line:p4 = 5, 16.1, -5, 16.1; thousandth:b = true; move:b = no; }
+  line { line:p4 = 5, 16.05, -5, 16.05; thousandth:b = true; move:b = no; }
+}
+
+drawCircles{
+  circle{
+    segment:p2 = 0.0, 360.0
+    pos:p2 = 0.0, 0.0
+    diameter:r = 1.0
+    size:r = 1.0
+    move:b = no
+    thousandth:b = yes
+  }
+
+  circle{
+    segment:p2 = 0.0, 360.0
+    pos:p2 = 0.0, 0.0
+    diameter:r = 0.05
+    size:r = 1.0
+    move:b = no
+    thousandth:b = yes
+  }
+}
+
+  
+drawTexts{
+  text {
+    text:t = "SMK"
+    thousandth:b = yes
+    pos:p2 = -30, -8
+    align:i = -1
+    size:r = 1
+  }
+  text {
+    text:t = "RDY"
+    thousandth:b = yes
+    pos:p2 = -30, -6
+    align:i = -1
+    size:r = 1
+    highlight:b = yes
+  }
+
+  text {
+    text:t = "COAX"
+    thousandth:b = yes
+    pos:p2 = -30, -1
+    align:i = -1
+    size:r = 1
+  }
+  text {
+    text:t = "RDY"
+    thousandth:b = yes
+    pos:p2 = -30, 1
+    align:i = -1
+    size:r = 1
+    highlight:b = yes
+  }
+
+  text {
+    text:t = "60HZ"
+    thousandth:b = yes
+    pos:p2 = 30, -6
+    align:i = 1
+    size:r = 1
+    highlight:b = yes
+  }
+
+  text {
+    text:t = "RDY"
+    thousandth:b = yes
+    pos:p2 = 0, 15
+    align:i = 0
+    size:r = 1
+    highlight:b = yes
+  }
+
+  text {
+    text:t = "DIST"
+    thousandth:b = yes
+    pos:p2 = -2, 17
+    align:i = 0
+    size:r = 1
+  }
+}

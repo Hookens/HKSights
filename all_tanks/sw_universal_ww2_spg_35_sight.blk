@@ -1,0 +1,109 @@
+thousandth:t=“real”
+
+crosshairHorVertSize:p2=3, 2
+crosshairDistHorSizeMain:p2= 0.05, 0
+crosshairDistHorSizeAdditional:p2= 0, 0
+
+fontSizeMult:r=1
+lineSizeMult:r=1
+
+drawCentralLineVert:b=no
+drawCentralLineHorz:b=no
+drawAdditionalLines:b=no
+
+distancePos:p2=-0.25, 0.0496
+textPos:p2= 0.025, 0
+textShift:r= 0
+textAlign:i= 0
+
+drawDistanceCorrection:b=yes
+distanceCorrectionPos:p2 = -0.093, 0.006
+
+rangefinderProgressBarColor1:c=0, 255, 0, 64
+rangefinderProgressBarColor2:c=255, 255, 255, 64
+rangefinderTextScale:r=1
+rangefinderVerticalOffset:r=0.03
+rangefinderHorizontalOffset:r=35
+rangefinderUseThousandth:b=yes
+
+matchExpClass{
+  sw_bt_42:b = yes
+  sw_ikv_103:b = yes
+  sw_ikv_72:b = yes
+  sw_pvkv_iv:b = yes
+  sw_sav_m43_1944:b = yes
+  sw_sav_m43_1946:b = yes
+  sw_stormpjas_fm43_44:b = yes
+}
+
+crosshair_distances{
+  distance { textPos:p2 =  0.045, 0; distance:p3 =  200,  2, -0.01; }
+  distance { textPos:p2 = -0.042, 0; distance:p3 =  400,  4,  0.01; }
+  distance { textPos:p2 =  0.045, 0; distance:p3 =  600,  6, -0.01; }
+  distance { textPos:p2 = -0.042, 0; distance:p3 =  800,  8,  0.01; }
+  distance { textPos:p2 =  0.048, 0; distance:p3 = 1000, 10, -0.01; }
+  distance { textPos:p2 = -0.045, 0; distance:p3 = 1200, 12,  0.01; }
+  distance { textPos:p2 =  0.048, 0; distance:p3 = 1400, 14, -0.01; }
+  distance { textPos:p2 = -0.045, 0; distance:p3 = 1600, 16,  0.01; }
+  distance { textPos:p2 =  0.048, 0; distance:p3 = 1800, 18, -0.01; }
+  distance { textPos:p2 = -0.045, 0; distance:p3 = 2000, 20,  0.01; }
+  distance { textPos:p2 =  0.048, 0; distance:p3 = 2200, 22, -0.01; }
+  distance { textPos:p2 = -0.045, 0; distance:p3 = 2400, 24,  0.01; }
+  distance { textPos:p2 =  0.048, 0; distance:p3 = 2600, 26, -0.01; }
+  distance { textPos:p2 = -0.045, 0; distance:p3 = 2800, 28,  0.01; }
+  distance { textPos:p2 =  0.048, 0; distance:p3 = 3000, 30, -0.01; }
+  distance { textPos:p2 = -0.045, 0; distance:p3 = 3200, 32,  0.01; }
+  distance { textPos:p2 =  0.048, 0; distance:p3 = 3400, 34, -0.01; }
+}
+
+crosshair_hor_ranges{
+}
+
+drawTexts{
+  //Zero
+  text {text:t = "0"; align:i =  1; pos:p2 = 95,  20; move:b = yes; thousandth:b = yes; size:r = 0.75}
+}
+
+drawLines{
+  ////Main crosshair
+  // | |
+  line {line:p4 = 2.5, -2.5, 2.5, -7.5; move:b = no; thousandth:b = yes}
+  line {line:p4 = 2.5, 2.5, 2.5, 7.5; move:b = no; thousandth:b = yes}
+  line {line:p4 = -2.5, -2.5, -2.5, -7.5; move:b = no; thousandth:b = yes}
+  line {line:p4 = -2.5, 2.5, -2.5, 7.5; move:b = no; thousandth:b = yes}
+  
+  // - ... -
+  line {line:p4 = -10, 0, -5, 0; move:b = no; thousandth:b = yes}
+  line {line:p4 = 5, 0, 10, 0; move:b = no; thousandth:b = yes}
+
+  // ; ... ;
+  line {line:p4 = 20, -1, 20, -3.5; move:b = no; thousandth:b = yes}
+  line {line:p4 = 20, 1, 20, 3.5; move:b = no; thousandth:b = yes}
+  line {line:p4 = -20, -1, -20, -3.5; move:b = no; thousandth:b = yes}
+  line {line:p4 = -20, 1, -20, 3.5; move:b = no; thousandth:b = yes}
+  
+  // - ... -
+  line {line:p4 = -35, 0, -30, 0; move:b = no; thousandth:b = yes}
+  line {line:p4 = 30, 0, 35, 0; move:b = no; thousandth:b = yes}
+
+  // ; ... ;
+  line {line:p4 = 45, -1, 45, -3.5; move:b = no; thousandth:b = yes}
+  line {line:p4 = 45, 1, 45, 3.5; move:b = no; thousandth:b = yes}
+  line {line:p4 = -45, -1, -45, -3.5; move:b = no; thousandth:b = yes}
+  line {line:p4 = -45, 1, -45, 3.5; move:b = no; thousandth:b = yes}
+  
+  // - ... -
+  line {line:p4 = -60, 0, -55, 0; move:b = no; thousandth:b = yes}
+  line {line:p4 = 55, 0, 60, 0; move:b = no; thousandth:b = yes}
+  
+  // -- ... --
+  line {line:p4 = -85, 0, -70, 0; move:b = no; thousandth:b = yes}
+  line {line:p4 = 70, 0, 85, 0; move:b = no; thousandth:b = yes}
+  
+  // ... __
+  line {line:p4 = 77.15, 20, 141.5, 20; move:b = no; thousandth:b = yes}
+
+
+  //// Zero line
+  line {line:p4 = 97.15, 20, 121.5, 20; move:b = yes; thousandth:b = yes}
+}

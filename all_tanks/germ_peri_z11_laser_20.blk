@@ -1,0 +1,157 @@
+//For 37.5 zoomOutFov
+
+thousandth:t=“nato”
+
+fontSizeMult:r=0.3975
+lineSizeMult:r=1.75
+crosshairHorVertSize:p2=3, 2
+crosshairDistHorSizeMain:p2=0.006, 0.006
+crosshairDistHorSizeAdditional:p2=0.005, 0.003
+
+drawCentralLineVert:b=no
+drawCentralLineHorz:b=no
+drawAdditionalLines:b=no
+
+drawDistanceCorrection:b=yes
+distanceCorrectionPos:p2 = -0.035, 0.155
+
+distancePos:p2=0.15, -0.025
+textPos:p2=-0.01, 0.0
+textShift:r=0.3
+textAlign:i=1
+
+crosshairColor:c=255, 0, 20, 220
+crosshairLightColor:c=164, 255, 112, 220
+
+rangefinderHorizontalOffset:r = -20
+rangefinderVerticalOffset:r = -20
+rangefinderProgressBarColor1:c = 255, 0, 20, 100
+rangefinderProgressBarColor2:c = 0,0,0,0
+rangefinderTextScale:r = 0.7
+rangefinderUseThousandth:b = yes
+
+matchExpClass {
+  germ_marder_1a1:b = yes
+  germ_marder_1a3:b = yes
+  germ_wiesel_1_mk20:b = yes
+  
+  jp_type_89:b = yes
+
+  it_vbc_pt2:b = yes
+  it_dardo_vcc:b = yes
+  it_vcc_80_hitfist_30:b = yes
+}
+
+crosshair_distances{
+}
+
+crosshair_hor_ranges{
+}
+
+drawLines{
+  //= = around -O-
+  line{
+    line:p4=2.5, 2, 7.5, 2
+    move:b=no
+	  thousandth:b = yes
+  }
+  line{
+    line:p4=2.5, -2, 7.5, -2
+    move:b=no
+	  thousandth:b = yes
+  }
+  line{
+    line:p4=-2.5, 2, -7.5, 2
+    move:b=no
+	  thousandth:b = yes
+  } 
+  line{
+    line:p4=-2.5, -2, -7.5, -2
+    move:b=no
+	  thousandth:b = yes
+  }
+
+  //- - around =-O-=
+  line{
+    line:p4=-2.5, 0, -5, 0
+    move:b=no
+	  thousandth:b = yes
+  }
+  line{
+    line:p4=2.5, 0, 5, 0
+    move:b=no
+	  thousandth:b = yes
+  }
+
+  //. . around -=-O-=-
+  line{
+    line:p4=-7.4, 0, -7.5, 0
+    move:b=no
+	  thousandth:b = yes
+  }
+  line{
+    line:p4=7.4, 0, 7.5, 0
+    move:b=no
+	  thousandth:b = yes
+  }
+
+  //- - around .-=-O-=-.
+  line{
+    line:p4=-12.5, 0, -10, 0
+    move:b=no
+	  thousandth:b = yes
+  }
+  line{
+    line:p4=12.5, 0, 10, 0
+    move:b=no
+	  thousandth:b = yes
+  }
+
+  //- - around O
+  line{
+    line:p4=0.25, 0, 1, 0
+    move:b=no
+	  thousandth:b = yes
+  }
+  line{
+    line:p4=-0.25, 0, -1, 0
+    move:b=no
+	  thousandth:b = yes
+  }
+
+  //| over O
+  line{
+    line:p4=0, -0.25, 0, -1
+    move:b=no
+	  thousandth:b = yes
+  }
+  line{
+    line:p4=0, 0.25, 0, 1
+    move:b=no
+	  thousandth:b = yes
+  }
+
+  //| over |
+  line{
+    line:p4=0, -2, 0, -4
+    move:b=no
+	  thousandth:b = yes
+  }
+  line{
+    line:p4=0, 2, 0, 4
+    move:b=no
+	  thousandth:b = yes
+  }
+
+  //| over ||
+  line{
+    line:p4=0, -6, 0, -8
+    move:b=no
+	  thousandth:b = yes
+  }
+  line{
+    line:p4=0, 6, 0, 8
+    move:b=no
+	  thousandth:b = yes
+  }
+}

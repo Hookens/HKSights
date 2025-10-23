@@ -1,0 +1,427 @@
+thousandth:t = “ussr”
+
+fontSizeMult:r=1.5
+lineSizeMult:r=2
+
+drawCentralLineVert:b=no
+drawCentralLineHorz:b=no
+drawAdditionalLines:b=no
+
+distancePos:p2=-0.115 , 0.0
+textPos:p2=0.02, 0.0
+textAlign:i=-1
+
+crosshairColor:c=255, 144, 71, 220
+crosshairLightColor:c=255, 144, 71, 220
+
+rangefinderHorizontalOffset:r = -18
+rangefinderVerticalOffset:r = -40
+rangefinderProgressBarColor1:c = 0,0,0,0
+rangefinderProgressBarColor2:c = 0,0,0,0
+rangefinderTextScale:r = 0.7
+rangefinderUseThousandth:b = yes
+
+crosshair_distances{
+}
+
+crosshair_hor_ranges{
+}
+
+ballistics{
+    bullet{
+        bulletType:t="apds_autocannon"
+        speed:r=1120.0
+        drawAdditionalLines:b=no
+        distancePos:p2=0.3, 0
+		drawUpward:b=yes
+        textPos:p2=0.0, 0.0
+        textShift:r=0.0
+        textAlign:i=1
+        crosshairDistHorSizeMain:p2=0.00, -0.01
+		move:b=no
+		
+		crosshair_distances{
+            distance{
+                textPos:p2=-0.02, 0.0
+                distance:p3=400.0, 4.0, 0.01
+            }
+            distance{
+                textPos:p2=-0.03, 0.0
+                distance:p3=800.0, 8.0, 0.02
+            }
+            distance{
+                textPos:p2=-0.02, 0.0
+                distance:p3=1200.0, 12.0, 0.01
+            }
+            distance{
+                textPos:p2=-0.03, 0.0
+                distance:p3=1600.0, 16.0, 0.02
+            }
+            distance{
+                textPos:p2=-0.02, 0.0
+                distance:p3=2000.0, 20.0, 0.01
+            }
+            distance{
+                textPos:p2=-0.03, 0.0
+                distance:p3=2400.0, 24.0, 0.02
+            }
+            distance{
+                textPos:p2=-0.02, 0.0
+                distance:p3=2800.0, 28.0, 0.01
+            }
+            distance{
+                textPos:p2=-0.03, 0.0
+                distance:p3=3200.0, 32.0, 0.02
+            }
+        }
+    }
+
+    bullet{
+        bulletType:t="ap_t"
+        speed:r=970.0
+        drawAdditionalLines:b=no
+        distancePos:p2=0.275, 0
+		drawUpward:b=yes
+        textPos:p2=0, 0
+        textShift:r=0
+        textAlign:i=-1
+        crosshairDistHorSizeMain:p2=0.00, 0.01
+		move:b=no
+		
+		crosshair_distances{
+            distance{
+                textPos:p2=0.02, 0.0
+                distance:p3=400.0, 4.0, -0.01
+            }
+            distance{
+                textPos:p2=0.03, 0.0
+                distance:p3=800.0, 8.0, -0.02
+            }
+            distance{
+                textPos:p2=0.02, 0.0
+                distance:p3=1200.0, 12.0, -0.01
+            }
+            distance{
+                textPos:p2=0.03, 0.0
+                distance:p3=1600.0, 16.0, -0.02
+            }
+            distance{
+                textPos:p2=0.02, 0.0
+                distance:p3=2000.0, 20.0, -0.01
+            }
+        }
+    }
+
+    bullet{
+        bulletType:t="he_frag_i"
+        speed:r=960.0
+        drawAdditionalLines:b=no
+        distancePos:p2=-0.265, 0
+		drawUpward:b=yes
+        textPos:p2=0.0, 0.0
+        textShift:r=0.0
+        textAlign:i=1
+        crosshairDistHorSizeMain:p2=0.01, 0.01
+		move:b=no
+		
+		crosshair_distances{
+            distance{
+                textPos:p2=-0.02, 0.0
+                distance:p3=200.0, 2.0, 0.01
+            }
+            distance{
+                textPos:p2=-0.01, 0.0
+                distance:p3=400.0, 0.0, 0.0
+            }
+            distance{
+                textPos:p2=-0.02, 0.0
+                distance:p3=600.0, 6.0, 0.01
+            }
+            distance{
+                textPos:p2=-0.01, 0.0
+                distance:p3=800.0, 0.0, 0.0
+            }
+            distance{
+                textPos:p2=-0.02, 0.0
+                distance:p3=1000.0, 10.0, 0.01
+            }
+            distance{
+                textPos:p2=-0.01, 0.0
+                distance:p3=1200.0, 0.0, 0.0
+            }
+            distance{
+                textPos:p2=-0.02, 0.0
+                distance:p3=1400.0, 14.0, 0.01
+            }
+            distance{
+                textPos:p2=-0.01, 0.0
+                distance:p3=1600.0, 0.0, 0.0
+            }
+            distance{
+                textPos:p2=-0.02, 0.0
+                distance:p3=1800.0, 18.0, 0.01
+            }
+            distance{
+                textPos:p2=-0.01, 0.0
+                distance:p3=2000.0, 0.0, 0.0
+            }
+            distance{
+                textPos:p2=-0.02, 0.0
+                distance:p3=2200.0, 22.0, 0.01
+            }
+            distance{
+                textPos:p2=-0.01, 0.0
+                distance:p3=2400.0, 0.0, 0.0
+            }
+            distance{
+                textPos:p2=-0.02, 0.0
+                distance:p3=2600.0, 26.0, 0.01
+            }
+            distance{
+                textPos:p2=-0.01, 0.0
+                distance:p3=2800.0, 0.0, 0.0
+            }
+            distance{
+                textPos:p2=-0.02, 0.0
+                distance:p3=3000.0, 30.0, 0.01
+            }
+            distance{
+                textPos:p2=-0.01, 0.0
+                distance:p3=3200.0, 0.0, 0.0
+            }
+            distance{
+                textPos:p2=-0.02, 0.0
+                distance:p3=3400.0, 34.0, 0.01
+            }
+        }
+    }
+
+    bullet{
+        bulletType:t="ap_i_ball"
+        speed:r=817.5
+        drawAdditionalLines:b=no
+        distancePos:p2=-0.3, 0
+		drawUpward:b=yes
+        textPos:p2=0, 0
+        textShift:r=0
+        textAlign:i=-1
+        crosshairDistHorSizeMain:p2=0.00, 0.01
+		move:b=no
+		
+		crosshair_distances{
+            distance{
+                textPos:p2=0.03, 0.0
+                distance:p3=200.0, 2.0, -0.02
+            }
+            distance{
+                textPos:p2=0.03, 0.0
+                distance:p3=400.0, 4.0, -0.02
+            }
+            distance{
+                textPos:p2=0.03, 0.0
+                distance:p3=600.0, 6.0, -0.02
+            }
+            distance{
+                textPos:p2=0.03, 0.0
+                distance:p3=800.0, 8.0, -0.02
+            }
+            distance{
+                textPos:p2=0.03, 0.0
+                distance:p3=1000.0, 10.0, -0.02
+            }
+            distance{
+                textPos:p2=0.03, 0.0
+                distance:p3=1200.0, 12.0, -0.02
+            }
+            distance{
+                textPos:p2=0.03, 0.0
+                distance:p3=1400.0, 14.0, -0.02
+            }
+            distance{
+                textPos:p2=0.03, 0.0
+                distance:p3=1600.0, 16.0, -0.02
+            }
+        }
+    }
+}
+
+drawLines{
+    // |  |  /\  |  |
+    line { line:p4=  0,  0,  2,  3; thousandth:b = true; move:b=no ;}
+    line { line:p4=  0,  0, -2,  3; thousandth:b = true; move:b=no ;}
+    line { line:p4= -4,  0, -4,  2; thousandth:b = true; move:b=no ;}
+    line { line:p4= -8,  0, -8,  2; thousandth:b = true; move:b=no ;}
+    line { line:p4=  4,  0,  4,  2; thousandth:b = true; move:b=no ;}
+    line { line:p4=  8,  0,  8,  2; thousandth:b = true; move:b=no ;}
+
+    //zero lines
+    line { line:p4=  -54.0, 0, -49.8, 0; thousandth:b = true; move:b=no ;}
+    line { line:p4=  -58.75, 0, -62.8, 0; thousandth:b = true; move:b=no ;}
+    line { line:p4=   54.0, 0,  49.8, 0; thousandth:b = true; move:b=no ;}
+    line { line:p4=   58.75, 0,  62.8, 0; thousandth:b = true; move:b=no ;}
+
+    //range correction
+    line { line:p4=  -55,  0.1, -57.5,  0.1; thousandth:b = true; move:b=yes ;}
+    line { line:p4=  -55,  0.0, -57.5,  0.0; thousandth:b = true; move:b=yes ;}
+    line { line:p4=  -55, -0.1, -57.5, -0.1; thousandth:b = true; move:b=yes ;}
+    line { line:p4=   55,  0.1,  57.5,  0.1; thousandth:b = true; move:b=yes ;}
+    line { line:p4=   55,  0.0,  57.5,  0.0; thousandth:b = true; move:b=yes ;}
+    line { line:p4=   55, -0.1,  57.5, -0.1; thousandth:b = true; move:b=yes ;}
+
+    ////range table
+    //bottom
+    line { line:p4=  46,  20,  50,  20; thousandth:b = true; move:b=no ;}
+    line { line:p4=  54,  20,  66,  20; thousandth:b = true; move:b=no ;}
+    //600
+    line { line:p4=  46.25,  14.5,  47.75,  14.5; thousandth:b = true; move:b=no ;}
+    line { line:p4=  47,  13.25,  47,  14.5; thousandth:b = true; move:b=no ;}
+    //800
+    line { line:p4=  48.25,  16,  49.75,  16; thousandth:b = true; move:b=no ;}
+    line { line:p4=  49,  14.75,  49,  16; thousandth:b = true; move:b=no ;}
+    //1000
+    line { line:p4=  54.25,  17,  55.75,  17; thousandth:b = true; move:b=no ;}
+    line { line:p4=  55,  15.75,  55,  17; thousandth:b = true; move:b=no ;}
+    //1200
+    line { line:p4=  56.25,  17.6,  57.75,  17.6; thousandth:b = true; move:b=no ;}
+    line { line:p4=  57,  16.35,  57,  17.6; thousandth:b = true; move:b=no ;}
+    //1400
+    line { line:p4=  58.25,  18,  59.75,  18; thousandth:b = true; move:b=no ;}
+    line { line:p4=  59,  16.75,  59,  18; thousandth:b = true; move:b=no ;}
+    //1600
+    line { line:p4=  60.25,  18.3,  61.75,  18.3; thousandth:b = true; move:b=no ;}
+    line { line:p4=  61,  17.05,  61,  18.3; thousandth:b = true; move:b=no ;}
+    //1800
+    line { line:p4=  62.25,  18.5,  63.75,  18.5; thousandth:b = true; move:b=no ;}
+    line { line:p4=  63,  17.25,  63,  18.5; thousandth:b = true; move:b=no ;}
+    //2000
+    line { line:p4=  64.25,  18.6,  65.75,  18.6; thousandth:b = true; move:b=no ;}
+    line { line:p4=  65,  17.35,  65,  18.6; thousandth:b = true; move:b=no ;}
+}
+
+drawTexts{
+    //zeros
+    text {
+        text:t = "0"
+        thousandth:b = yes
+        pos:p2 = -48, 0
+        align:i = -1
+        size:r = 0.7
+        highlight:b = yes
+    }
+    text {
+        text:t = "0"
+        thousandth:b = yes
+        pos:p2 = -65.2, 0
+        align:i = 1
+        size:r = 0.7
+        highlight:b = yes
+    }
+    text {
+        text:t = "0"
+        thousandth:b = yes
+        pos:p2 = 64.6, 0
+        align:i = -1
+        size:r = 0.7
+        highlight:b = yes
+    }
+
+    //ammo types
+    text {
+        text:t = "БПС"
+        thousandth:b = yes
+        pos:p2 = -64, 5
+        align:i = 0
+        size:r = 0.7
+        highlight:b = yes
+    }
+    text {
+        text:t = "БР"
+        thousandth:b = yes
+        pos:p2 = -49, 5
+        align:i = 0
+        size:r = 0.7
+        highlight:b = yes
+    }
+    text {
+        text:t = "ОФЗ"
+        thousandth:b = yes
+        pos:p2 = 49, 5
+        align:i = 0
+        size:r = 0.7
+        highlight:b = yes
+    }
+    text {
+        text:t = "ПКТ"
+        thousandth:b = yes
+        pos:p2 = 64, 5
+        align:i = 0
+        size:r = 0.7
+        highlight:b = yes
+    }
+
+    //range table
+    text {
+        text:t = "6"
+        thousandth:b = yes
+        pos:p2 = 47, 12
+        align:i = 0
+        size:r = 0.5
+        highlight:b = yes
+    }
+    text {
+        text:t = "8"
+        thousandth:b = yes
+        pos:p2 = 49, 13.5
+        align:i = 0
+        size:r = 0.5
+        highlight:b = yes
+    }
+    text {
+        text:t = "10"
+        thousandth:b = yes
+        pos:p2 = 55, 14.5
+        align:i = 0
+        size:r = 0.5
+        highlight:b = yes
+    }
+    text {
+        text:t = "12"
+        thousandth:b = yes
+        pos:p2 = 57, 15.1
+        align:i = 0
+        size:r = 0.5
+        highlight:b = yes
+    }
+    text {
+        text:t = "14"
+        thousandth:b = yes
+        pos:p2 = 59, 15.5
+        align:i = 0
+        size:r = 0.5
+        highlight:b = yes
+    }
+    text {
+        text:t = "16"
+        thousandth:b = yes
+        pos:p2 = 61, 15.8
+        align:i = 0
+        size:r = 0.5
+        highlight:b = yes
+    }
+    text {
+        text:t = "18"
+        thousandth:b = yes
+        pos:p2 = 63, 16
+        align:i = 0
+        size:r = 0.5
+        highlight:b = yes
+    }
+    text {
+        text:t = "20"
+        thousandth:b = yes
+        pos:p2 = 65, 16.1
+        align:i = 0
+        size:r = 0.5
+        highlight:b = yes
+    }
+}

@@ -1,0 +1,22 @@
+crosshair:t="ussr_1g46"
+crosshairColor:c=0, 0, 0, 255
+crosshairLightColor:c=255, 36, 0, 255
+crosshairNvColor:c=0, 255, 60, 255
+crosshairThermalColor:c=255, 36, 0, 255
+shotDistScaleOffset:i=0
+
+bulletType{
+  visible:b=no
+  isShortName:b=no
+  textColor:c=0, 0, 0, 255
+  bgColor:c=0, 0, 0, 0
+  nightVisionTextColor:c=0, 0, 0, 255
+  nightVisionBgColor:c=0, 0, 0, 0
+  lightTextColor:c=0, 0, 0, 255
+  lightBgColor:c=0, 0, 0, 0
+  thermalTextColor:c=0, 0, 0, 255
+  thermalBgColor:c=0, 0, 0, 0
+  position:p2=700, 202
+  textSize:i=30
+  font:t=""
+}

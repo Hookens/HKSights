@@ -1,0 +1,179 @@
+rangefinderProgressBarColor1:c=0, 255, 0, 64
+rangefinderProgressBarColor2:c=255, 255, 255, 64
+rangefinderUseThousandth:b=yes
+rangefinderTextScale:r=0.5
+rangefinderVerticalOffset:r=3
+rangefinderHorizontalOffset:r=40
+
+fontSizeMult:r=0.4
+lineSizeMult:r=2
+
+applyCorrectionToGun:b=yes
+drawDistanceCorrection:b=yes
+distanceCorrectionPos:p2 = -0.1, -0.01
+
+drawCentralLineVert:b=no
+drawCentralLineHorz:b=no
+drawAdditionalLines:b=no
+
+distancePos:p2=0.0025, 0
+textPos:p2=0.0, 0.0
+textShift:r=0
+textAlign:i=1
+
+crosshairHorVertSize:p2=3, 2
+crosshairDistHorSizeMain:p2= 0.01, 0.005
+crosshairDistHorSizeAdditional:p2= 0, 0
+
+crosshairColor:c=0, 200, 20, 220
+
+thousandth:t=“nato”
+
+
+matchExpClass {
+  us_adats_bradley:b = yes
+  us_lav_ad:b = yes
+  us_m163_vulcan:b = yes
+  us_m247:b = yes
+  us_m901_itv:b = yes
+  us_mim_72_chaparral:b = yes
+  us_xm_975_roland:b = yes
+  
+  germ_flakpz_1a2_Gepard:b = yes
+  germ_flakpz_I_Gepard:b = yes
+  germ_flarakpz_1:b = yes
+  germ_flarakrad:b = yes
+  germ_wiesel_2_adwc:b = yes
+
+  uk_adats_m113a3:b = yes
+  uk_chieftain_marksman:b = yes
+  uk_rooikat_za_35:b = yes
+  uk_stormer_air_defence:b = yes
+  uk_stormer_hvm:b = yes
+
+  jp_type_81_tansam:b = yes
+  jp_type_87:b = yes
+  jp_type_93:b = yes
+  
+  cn_pgz_09:b = yes
+
+  it_oto_r3_t20_fa:b = yes
+  it_otobreda_sidam_25:b = yes
+  it_otobreda_sidam_25_mistral:b = yes
+  it_otomatic:b = yes
+  
+  fr_amx_10p:b = yes
+  fr_amx_30_roland:b = yes
+  fr_amx_30_dca:b = yes
+  fr_crotale_ng:b = yes
+  fr_vab_santal:b = yes
+
+  sw_asrad_r:b = yes
+  sw_crotale_ng:b = yes
+  sw_lvrbv_701:b = yes
+  sw_veak_40:b = yes
+  sw_itpsv_90:b = yes
+
+  il_m163_vulcan:b = yes
+  il_machbet:b = yes
+  il_mim_72_chaparral:b = yes
+}
+
+crosshair_distances{
+  distance{
+    textPos:p2=0.0, 0.0
+    distance:p3=200.0, 0.0, 0
+  }
+  distance{
+    textPos:p2=-0.005, 0.0
+    distance:p3=400.0, 4.0, 0.005
+  }
+  distance{
+    textPos:p2=0.0, 0.0
+    distance:p3=600.0, 0.0, 0
+  }
+  distance{
+    textPos:p2=-0.005, 0.0
+    distance:p3=800.0, 8.0, 0.005
+  }
+  distance{
+    textPos:p2=0.0, 0.0
+    distance:p3=1000.0, 0.0, 0
+  }
+  distance{
+    textPos:p2=-0.005, 0.0
+    distance:p3=1200.0, 12.0, 0.005
+  }
+}
+
+crosshair_hor_ranges{
+
+}
+
+drawCircles{
+  circle{
+    segment:p2 = 0.0, 360.0
+    pos:p2 = 0.0, 0.0
+    diameter:r = 200
+    size:r = 2
+    thousandth:b = yes;
+  }
+
+  circle{
+    segment:p2 = 0.0, 360.0
+    pos:p2 = 0.0, 0.0
+    diameter:r = 100
+    size:r = 2
+    thousandth:b = yes;
+  }
+	
+  circle{
+    segment:p2 = 0.0, 360.0
+    pos:p2 = 0.0, 0.0
+    diameter:r = 10
+    size:r = 2
+    thousandth:b = yes;
+  }
+	
+  circle{
+    segment:p2 = 0.0, 360.0
+    pos:p2 = 0.0, 0.0
+    diameter:r = 2
+    size:r = 2
+    thousandth:b = yes;
+  }
+	
+  circle{
+    segment:p2 = 0.0, 360.0
+    pos:p2 = 0.0, 0.0
+    diameter:r = 0.1
+    size:r = 5
+    thousandth:b = yes;
+  }
+	
+  circle{
+    segment:p2 = 0.0, 360.0
+    pos:p2 = 0.0, 0.0
+    diameter:r = 0.1
+    size:r = 5
+    move:b = yes
+    thousandth:b = yes;
+  }
+}
+
+drawLines{
+  line { line:p4=0, -5, 0, -15;thousandth:b = true; move:b=no ;}
+  
+  line { line:p4=0, 0, 0, 15;thousandth:b = true; move:b=no ;}
+  
+  
+  line { line:p4=5, 0, 25, 0;thousandth:b = true; move:b=no ;}
+  
+  line { line:p4=-5, 0, -25, 0;thousandth:b = true; move:b=no ;}
+  
+  
+  
+  line { line:p4=30, 0, 50, 0;thousandth:b = true; move:b=no ;}
+  
+  line { line:p4=-30, 0, -50, 0;thousandth:b = true; move:b=no ;}
+}

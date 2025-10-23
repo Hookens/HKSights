@@ -1,0 +1,294 @@
+thousandth:t=“real”
+
+crosshairHorVertSize:p2=3, 2
+crosshairDistHorSizeMain:p2=0.02, 0.02
+crosshairDistHorSizeAdditional:p2=0.005, 0.003
+
+fontSizeMult:r=1
+lineSizeMult:r=1.2
+
+drawCentralLineVert:b=no
+drawCentralLineHorz:b=no
+drawAdditionalLines:b=no
+
+distancePos:p2=-0.321, 0.0
+textPos:p2=0.05, 0.0
+textShift:r=0.4
+textAlign:i=-1
+
+drawDistanceCorrection:b=yes
+distanceCorrectionPos:p2 = -0.1, 0
+
+rangefinderProgressBarColor1:c=0, 255, 0, 64
+rangefinderProgressBarColor2:c=255, 255, 255, 64
+rangefinderTextScale:r=0.5
+rangefinderVerticalOffset:r=-1.7
+rangefinderHorizontalOffset:r=35
+rangefinderUseThousandth:b=yes
+
+matchExpClass {
+  sw_ikv_91:b = yes
+  sw_ikv_91_105:b = yes
+}
+
+crosshair_distances{
+  distance:p3 =  200,  0, 0.002
+  distance:p3 =  400,  4, -0.004
+  distance:p3 =  600,  0, 0.002
+  distance:p3 =  800,  8, -0.004
+  distance:p3 = 1000,  0, 0.002
+  distance:p3 = 1200, 12, -0.004
+  distance:p3 = 1400,  0, 0.002
+  distance:p3 = 1600, 16, -0.004
+  distance:p3 = 1800,  0, 0.002
+  distance:p3 = 2000, 20, -0.004
+  distance:p3 = 2200,  0, 0.002
+  distance:p3 = 2400, 24, -0.004
+  distance:p3 = 2600,  0, 0.002
+  distance:p3 = 2800, 28, -0.004
+  distance:p3 = 3000,  0, 0.002
+  distance:p3 = 3200, 32, -0.004
+  distance:p3 = 3400,  0, 0.002
+  distance:p3 = 3600, 36, -0.004
+  distance:p3 = 3800,  0, 0.002
+  distance:p3 = 4000, 40, -0.004
+}
+
+crosshair_hor_ranges{
+}
+
+drawTexts{
+}
+
+drawCircles{
+  circle{
+    segment:p2 = 0.0, 360.0
+    pos:p2 = 0.0, 0.0
+    diameter:r = 0.1
+    size:r = 5.0
+    move:b = no
+    thousandth:b = yes
+  }
+  circle{
+    segment:p2 = 0.0, 360.0
+    pos:p2 = 0.0, 0.0
+    diameter:r = 0.1
+    size:r = 3.0
+    move:b = yes
+    thousandth:b = yes
+  }
+}
+
+drawQuads{
+  quad{  
+    bl:p2 =  33, -0.25; // Top left bottom
+    tl:p2 =  33, 0.25; // Top left top
+    br:p2 =  39, -0.25; // Top right bottom
+    tr:p2 =  39, 0.25; // Top right top
+    move:b = yes;
+    thousandth:b = true;
+  }
+  quad{  
+    bl:p2 = -33, -0.25; // Top left bottom
+    tl:p2 = -33, 0.25; // Top left top
+    br:p2 = -39, -0.25; // Top right bottom
+    tr:p2 = -39, 0.25; // Top right top
+    move:b = yes;
+    thousandth:b = true;
+  }
+}
+
+drawLines{
+  ////Main crosshair
+  //Left
+  line {line:p4 = -29, 0, -25, 0; move:b = no; thousandth:b = yes}
+  line {line:p4 = -24.5, -0.5, -24.5, 0.5; move:b = no; thousandth:b = yes}
+  line {line:p4 = -24, 0, -22, 0; move:b = no; thousandth:b = yes}
+  line {line:p4 = -21.5, -0.5, -21.5, 0.5; move:b = no; thousandth:b = yes}
+  line {line:p4 = -21, 0,  -19, 0; move:b = no; thousandth:b = yes}
+  line {line:p4 = -18.5, -0.5,  -18.5, 0.5; move:b = no; thousandth:b = yes}
+  line {line:p4 = -18, 0,  -16, 0; move:b = no; thousandth:b = yes}
+  line {line:p4 = -15.5, -0.5,  -15.5, 0.5; move:b = no; thousandth:b = yes}
+  line {line:p4 = -15, 0,  -13, 0; move:b = no; thousandth:b = yes}
+  line {line:p4 = -12.5, -0.5,  -12.5, 0.5; move:b = no; thousandth:b = yes}
+  line {line:p4 = -12, 0,  -10, 0; move:b = no; thousandth:b = yes}
+  line {line:p4 = -9.5, -0.5,  -9.5, 0.5; move:b = no; thousandth:b = yes}
+  line {line:p4 = -9, 0,  -7, 0; move:b = no; thousandth:b = yes}
+  line {line:p4 = -6.5, -0.5,  -6.5, 0.5; move:b = no; thousandth:b = yes}
+  line {line:p4 = -6, 0,  -4, 0; move:b = no; thousandth:b = yes}
+  line {line:p4 = -3.5, -0.5,  -3.5, 0.5; move:b = no; thousandth:b = yes}
+  line {line:p4 = -3, 0,  -1, 0; move:b = no; thousandth:b = yes}
+
+  //Right
+  line {line:p4 = 29, 0,  25, 0; move:b = no; thousandth:b = yes}
+  line {line:p4 = 24.5, -0.5,  24.5, 0.5; move:b = no; thousandth:b = yes}
+  line {line:p4 = 24, 0,  22, 0; move:b = no; thousandth:b = yes}
+  line {line:p4 = 21.5, -0.5,  21.5, 0.5; move:b = no; thousandth:b = yes}
+  line {line:p4 = 21, 0,  19, 0; move:b = no; thousandth:b = yes}
+  line {line:p4 = 18.5, -0.5,  18.5, 0.5; move:b = no; thousandth:b = yes}
+  line {line:p4 = 18, 0,  16, 0; move:b = no; thousandth:b = yes}
+  line {line:p4 = 15.5, -0.5,  15.5, 0.5; move:b = no; thousandth:b = yes}
+  line {line:p4 = 15, 0,  13, 0; move:b = no; thousandth:b = yes}
+  line {line:p4 = 12.5, -0.5,  12.5, 0.5; move:b = no; thousandth:b = yes}
+  line {line:p4 = 12, 0,  10, 0; move:b = no; thousandth:b = yes}
+  line {line:p4 = 9.5, -0.5,  9.5, 0.5; move:b = no; thousandth:b = yes}
+  line {line:p4 = 9, 0,  7, 0; move:b = no; thousandth:b = yes}
+  line {line:p4 = 6.5, -0.5,  6.5, 0.5; move:b = no; thousandth:b = yes}
+  line {line:p4 = 6, 0,  4, 0; move:b = no; thousandth:b = yes}
+  line {line:p4 = 3.5, -0.5,  3.5, 0.5; move:b = no; thousandth:b = yes}
+  line {line:p4 = 3, 0,  1, 0; move:b = no; thousandth:b = yes}
+
+  //Up
+  line {line:p4 = -0.5, -2,  0.5, -2; move:b = no; thousandth:b = yes}
+  line {line:p4 = 0, -2.5,  0, -4.5; move:b = no; thousandth:b = yes}
+  line {line:p4 = -0.5, -5,  0.5, -5; move:b = no; thousandth:b = yes}
+  line {line:p4 = 0, -5.5,  0, -7.5; move:b = no; thousandth:b = yes}
+  line {line:p4 = -0.5, -8,  0.5, -8; move:b = no; thousandth:b = yes}
+  line {line:p4 = 0, -8.5,  0, -10.5; move:b = no; thousandth:b = yes}
+  line {line:p4 = -0.5, -11,  0.5, -11; move:b = no; thousandth:b = yes}
+  line {line:p4 = 0, -11.5,  0, -13.5; move:b = no; thousandth:b = yes}
+  line {line:p4 = -0.5, -14,  0.5, -14; move:b = no; thousandth:b = yes}
+
+  //Down
+  line {line:p4 =  -0.5, 2,  0.5, 2; move:b = no; thousandth:b = yes}
+  line {line:p4 =  0, 2.5,  0, 4.5; move:b = no; thousandth:b = yes}
+  line {line:p4 =  -0.5, 5,  0.5, 5; move:b = no; thousandth:b = yes}
+  line {line:p4 =  0, 5.5,  0, 7.5; move:b = no; thousandth:b = yes}
+  line {line:p4 =  -0.5, 8,  0.5, 8; move:b = no; thousandth:b = yes}
+  line {line:p4 =  0, 8.5,  0, 10.5; move:b = no; thousandth:b = yes}
+  line {line:p4 =  -0.7, 11,  -0.2, 11; move:b = no; thousandth:b = yes}
+  line {line:p4 =  0.7, 11,  0.2, 11; move:b = no; thousandth:b = yes}
+  line {line:p4 =  0, 11.5,  0, 13.5; move:b = no; thousandth:b = yes}
+  line {line:p4 =  -0.7, 14,  -0.2, 14; move:b = no; thousandth:b = yes}
+  line {line:p4 =  0.7, 14,  0.2, 14; move:b = no; thousandth:b = yes}
+  line {line:p4 =  0, 14.5,  0, 16.5; move:b = no; thousandth:b = yes}
+  line {line:p4 =  -0.7, 17,  -0.21, 17; move:b = no; thousandth:b = yes}
+  line {line:p4 =  0.7, 17,  0.21, 17; move:b = no; thousandth:b = yes}
+  line {line:p4 =  0, 17.5,  0, 19.5; move:b = no; thousandth:b = yes}
+  line {line:p4 =  -0.7, 20,  -0.2, 20; move:b = no; thousandth:b = yes}
+  line {line:p4 =  0.7, 20,  0.2, 20; move:b = no; thousandth:b = yes}
+  line {line:p4 =  0, 20.5,  0, 22.5; move:b = no; thousandth:b = yes}
+  line {line:p4 =  -0.7, 23,  -0.2, 23; move:b = no; thousandth:b = yes}
+  line {line:p4 =  0.7, 23,  0.2, 23; move:b = no; thousandth:b = yes}
+  line {line:p4 =  0, 23.5,  0, 25.5; move:b = no; thousandth:b = yes}
+  line {line:p4 =  -0.5, 26,  0.5, 26; move:b = no; thousandth:b = yes}
+
+  //Horizontal lines
+  line {line:p4 = 1.00,  5.00,  2.50,  5.00; move:b = no; thousandth:b = yes}
+  line {line:p4 = 3.50,  5.00,  5.00,  5.00; move:b = no; thousandth:b = yes}
+  line {line:p4 = 1.10,  6.00,  2.60,  6.00; move:b = no; thousandth:b = yes}
+  line {line:p4 = 3.80,  6.00,  5.30,  6.00; move:b = no; thousandth:b = yes}
+  line {line:p4 = 1.20,  7.00,  2.70,  7.00; move:b = no; thousandth:b = yes}
+  line {line:p4 = 4.10,  7.00,  5.60,  7.00; move:b = no; thousandth:b = yes}
+  
+  line {line:p4 = -1.00,  5.00, -2.50,  5.00; move:b = no; thousandth:b = yes}
+  line {line:p4 = -3.50,  5.00, -5.00,  5.00; move:b = no; thousandth:b = yes}
+  line {line:p4 = -1.10,  6.00, -2.60,  6.00; move:b = no; thousandth:b = yes}
+  line {line:p4 = -3.80,  6.00, -5.30,  6.00; move:b = no; thousandth:b = yes}
+  line {line:p4 = -1.20,  7.00, -2.70,  7.00; move:b = no; thousandth:b = yes}
+  line {line:p4 = -4.10,  7.00, -5.60,  7.00; move:b = no; thousandth:b = yes}
+
+  //Horizontal dots
+  line {line:p4 =  1.50,  8.00,  1.70,  8.00; move:b = no; thousandth:b = yes}
+  line {line:p4 =  2.70,  8.00,  2.90,  8.00; move:b = no; thousandth:b = yes}
+  line {line:p4 =  3.90,  8.00,  4.10,  8.00; move:b = no; thousandth:b = yes}
+  line {line:p4 =  5.10,  8.00,  5.30,  8.00; move:b = no; thousandth:b = yes}
+ 
+  line {line:p4 =  6.30,  8.00,  6.50,  8.00; move:b = no; thousandth:b = yes}
+  line {line:p4 =  1.60,  9.00,  1.80,  9.00; move:b = no; thousandth:b = yes}
+  line {line:p4 =  2.90,  9.00,  3.10,  9.00; move:b = no; thousandth:b = yes}
+  line {line:p4 =  4.20,  9.00,  4.40,  9.00; move:b = no; thousandth:b = yes}
+ 
+  line {line:p4 =  5.50,  9.00,  5.70,  9.00; move:b = no; thousandth:b = yes}
+  line {line:p4 =  6.80,  9.00,  7.00,  9.00; move:b = no; thousandth:b = yes}
+  line {line:p4 =  1.70, 10.00,  1.90, 10.00; move:b = no; thousandth:b = yes}
+  line {line:p4 =  3.10, 10.00,  3.30, 10.00; move:b = no; thousandth:b = yes}
+ 
+  line {line:p4 =  4.50, 10.00,  4.70, 10.00; move:b = no; thousandth:b = yes}
+  line {line:p4 =  5.90, 10.00,  6.10, 10.00; move:b = no; thousandth:b = yes}
+  line {line:p4 =  7.30, 10.00,  7.50, 10.00; move:b = no; thousandth:b = yes}
+  line {line:p4 =  1.80, 11.00,  2.00, 11.00; move:b = no; thousandth:b = yes}
+ 
+  line {line:p4 =  3.30, 11.00,  3.50, 11.00; move:b = no; thousandth:b = yes}
+  line {line:p4 =  4.80, 11.00,  5.00, 11.00; move:b = no; thousandth:b = yes}
+  line {line:p4 =  6.30, 11.00,  6.50, 11.00; move:b = no; thousandth:b = yes}
+  line {line:p4 =  7.80, 11.00,  8.00, 11.00; move:b = no; thousandth:b = yes}
+ 
+  line {line:p4 =  1.90, 12.00,  2.10, 12.00; move:b = no; thousandth:b = yes}
+  line {line:p4 =  3.50, 12.00,  3.70, 12.00; move:b = no; thousandth:b = yes}
+  line {line:p4 =  5.10, 12.00,  5.30, 12.00; move:b = no; thousandth:b = yes}
+  line {line:p4 =  6.70, 12.00,  6.90, 12.00; move:b = no; thousandth:b = yes}
+ 
+  line {line:p4 =  8.30, 12.00,  8.50, 12.00; move:b = no; thousandth:b = yes}
+  line {line:p4 =  2.00, 13.00,  2.20, 13.00; move:b = no; thousandth:b = yes}
+  line {line:p4 =  3.70, 13.00,  3.90, 13.00; move:b = no; thousandth:b = yes}
+  line {line:p4 =  5.40, 13.00,  5.60, 13.00; move:b = no; thousandth:b = yes}
+ 
+  line {line:p4 =  7.10, 13.00,  7.30, 13.00; move:b = no; thousandth:b = yes}
+  line {line:p4 =  8.80, 13.00,  9.00, 13.00; move:b = no; thousandth:b = yes}
+  line {line:p4 =  2.10, 14.00,  2.30, 14.00; move:b = no; thousandth:b = yes}
+  line {line:p4 =  3.90, 14.00,  4.10, 14.00; move:b = no; thousandth:b = yes}
+ 
+  line {line:p4 =  5.70, 14.00,  5.90, 14.00; move:b = no; thousandth:b = yes}
+  line {line:p4 =  7.50, 14.00,  7.70, 14.00; move:b = no; thousandth:b = yes}
+  line {line:p4 =  9.30, 14.00,  9.50, 14.00; move:b = no; thousandth:b = yes}
+  line {line:p4 =  2.20, 15.00,  2.40, 15.00; move:b = no; thousandth:b = yes}
+ 
+  line {line:p4 =  4.10, 15.00,  4.30, 15.00; move:b = no; thousandth:b = yes}
+  line {line:p4 =  6.00, 15.00,  6.20, 15.00; move:b = no; thousandth:b = yes}
+  line {line:p4 =  7.90, 15.00,  8.10, 15.00; move:b = no; thousandth:b = yes}
+  line {line:p4 =  9.80, 15.00, 10.00, 15.00; move:b = no; thousandth:b = yes}
+  
+
+
+  line {line:p4 = -1.50,  8.00, -1.70,  8.00; move:b = no; thousandth:b = yes}
+  line {line:p4 = -2.70,  8.00, -2.90,  8.00; move:b = no; thousandth:b = yes}
+  line {line:p4 = -3.90,  8.00, -4.10,  8.00; move:b = no; thousandth:b = yes}
+  line {line:p4 = -5.10,  8.00, -5.30,  8.00; move:b = no; thousandth:b = yes}
+
+  line {line:p4 = -6.30,  8.00, -6.50,  8.00; move:b = no; thousandth:b = yes}
+  line {line:p4 = -1.60,  9.00, -1.80,  9.00; move:b = no; thousandth:b = yes}
+  line {line:p4 = -2.90,  9.00, -3.10,  9.00; move:b = no; thousandth:b = yes}
+  line {line:p4 = -4.20,  9.00, -4.40,  9.00; move:b = no; thousandth:b = yes}
+
+  line {line:p4 = -5.50,  9.00, -5.70,  9.00; move:b = no; thousandth:b = yes}
+  line {line:p4 = -6.80,  9.00, -7.00,  9.00; move:b = no; thousandth:b = yes}
+  line {line:p4 = -1.70, 10.00, -1.90, 10.00; move:b = no; thousandth:b = yes}
+  line {line:p4 = -3.10, 10.00, -3.30, 10.00; move:b = no; thousandth:b = yes}
+
+  line {line:p4 = -4.50, 10.00, -4.70, 10.00; move:b = no; thousandth:b = yes}
+  line {line:p4 = -5.90, 10.00, -6.10, 10.00; move:b = no; thousandth:b = yes}
+  line {line:p4 = -7.30, 10.00, -7.50, 10.00; move:b = no; thousandth:b = yes}
+  line {line:p4 = -1.80, 11.00, -2.00, 11.00; move:b = no; thousandth:b = yes}
+
+  line {line:p4 = -3.30, 11.00, -3.50, 11.00; move:b = no; thousandth:b = yes}
+  line {line:p4 = -4.80, 11.00, -5.00, 11.00; move:b = no; thousandth:b = yes}
+  line {line:p4 = -6.30, 11.00, -6.50, 11.00; move:b = no; thousandth:b = yes}
+  line {line:p4 = -7.80, 11.00, -8.00, 11.00; move:b = no; thousandth:b = yes}
+
+  line {line:p4 = -1.90, 12.00, -2.10, 12.00; move:b = no; thousandth:b = yes}
+  line {line:p4 = -3.50, 12.00, -3.70, 12.00; move:b = no; thousandth:b = yes}
+  line {line:p4 = -5.10, 12.00, -5.30, 12.00; move:b = no; thousandth:b = yes}
+  line {line:p4 = -6.70, 12.00, -6.90, 12.00; move:b = no; thousandth:b = yes}
+
+  line {line:p4 = -8.30, 12.00, -8.50, 12.00; move:b = no; thousandth:b = yes}
+  line {line:p4 = -2.00, 13.00, -2.20, 13.00; move:b = no; thousandth:b = yes}
+  line {line:p4 = -3.70, 13.00, -3.90, 13.00; move:b = no; thousandth:b = yes}
+  line {line:p4 = -5.40, 13.00, -5.60, 13.00; move:b = no; thousandth:b = yes}
+
+  line {line:p4 = -7.10, 13.00, -7.30, 13.00; move:b = no; thousandth:b = yes}
+  line {line:p4 = -8.80, 13.00, -9.00, 13.00; move:b = no; thousandth:b = yes}
+  line {line:p4 = -2.10, 14.00, -2.30, 14.00; move:b = no; thousandth:b = yes}
+  line {line:p4 = -3.90, 14.00, -4.10, 14.00; move:b = no; thousandth:b = yes}
+
+  line {line:p4 = -5.70, 14.00, -5.90, 14.00; move:b = no; thousandth:b = yes}
+  line {line:p4 = -7.50, 14.00, -7.70, 14.00; move:b = no; thousandth:b = yes}
+  line {line:p4 = -9.30, 14.00, -9.50, 14.00; move:b = no; thousandth:b = yes}
+  line {line:p4 = -2.20, 15.00, -2.40, 15.00; move:b = no; thousandth:b = yes}
+
+  line {line:p4 = -4.10, 15.00, -4.30, 15.00; move:b = no; thousandth:b = yes}
+  line {line:p4 = -6.00, 15.00, -6.20, 15.00; move:b = no; thousandth:b = yes}
+  line {line:p4 = -7.90, 15.00, -8.10, 15.00; move:b = no; thousandth:b = yes}
+  line {line:p4 = -9.80, 15.00,-10.00, 15.00; move:b = no; thousandth:b = yes}
+
+}

@@ -1,0 +1,178 @@
+thousandth:t=“real”
+
+fontSizeMult:r=0.7
+lineSizeMult:r=1.2
+crosshairHorVertSize:p2=3, 2
+crosshairDistHorSizeMain:p2=0.01, 0.01
+crosshairDistHorSizeAdditional:p2=0.005, 0.003
+
+drawCentralLineVert:b=no
+drawCentralLineHorz:b=no
+drawAdditionalLines:b=no
+
+distanceCorrectionPos:p2 = -0.03, 0.21
+drawDistanceCorrection:b=yes
+
+distancePos:p2=-0.115 , 0.0
+textPos:p2=-0.004, 0.0
+
+crosshairColor:c=255, 0, 20, 220
+crosshairLightColor:c=20, 255, 20, 220
+
+rangefinderHorizontalOffset:r = -15
+rangefinderVerticalOffset:r = -19.18
+rangefinderProgressBarColor1:c = 0,0,0,0
+rangefinderProgressBarColor2:c = 0,0,0,0
+rangefinderTextScale:r = 0.7
+rangefinderUseThousandth:b = yes
+
+matchExpClass {
+  uk_challenger_1_mk_3_gulf:b = yes
+  uk_challenger_1:b = yes
+  uk_challenger_2_bn:b = yes
+  uk_challenger_2_dorchester:b = yes
+  uk_challenger_2_lep:b = yes
+  uk_challenger_2_megatron:b = yes
+  uk_challenger_2_tes:b = yes
+  uk_challenger_2e:b = yes
+  uk_challenger_II_yt_cup_2019:b = yes
+  uk_challenger_II:b = yes
+  uk_challenger_mk_3:b = yes
+  uk_chieftain_mk_10:b = yes
+  uk_chieftain_mk_3:b = yes
+  uk_chieftain_mk_5:b = yes
+  uk_khalid:b = yes
+  uk_olifant_mk_2:b = yes
+  uk_ttd:b = yes
+  uk_vickers_mk7:b = yes
+  uk_vickers_mk_11:b = yes
+}
+
+crosshair_distances{
+}
+
+crosshair_hor_ranges{
+}
+
+drawLines{
+  //- ---   --- -
+  line { line:p4 = -13, 0, -12, 0; thousandth:b = true; move:b = no; }
+  line { line:p4 = 13, 0, 12, 0; thousandth:b = true; move:b = no; }
+  line { line:p4 = -9, 0, -5, 0; thousandth:b = true; move:b = yes; }
+  line { line:p4 = 9, 0, 5, 0; thousandth:b = true; move:b = yes; }
+
+
+  //|- + -|
+  line { line:p4 = -3, 2.5, -2, 2.5; thousandth:b = true; move:b = yes; }
+  line { line:p4 = -3, 2, -3, 3; thousandth:b = true; move:b = yes; }
+  line { line:p4 = 3, 2.5, 2, 2.5; thousandth:b = true; move:b = yes; }
+  line { line:p4 = 3, 2, 3, 3; thousandth:b = true; move:b = yes; }
+  line { line:p4 = -0.5, 2.5, 0.5, 2.5; thousandth:b = true; move:b = yes; }
+  line { line:p4 = 0, 2, 0, 3; thousandth:b = true; move:b = yes; }
+
+
+  //|- + -|
+  line { line:p4 = -3, 7.5, -2, 7.5; thousandth:b = true; move:b = yes; }
+  line { line:p4 = -3, 7, -3, 8; thousandth:b = true; move:b = yes; }
+  line { line:p4 = 3, 7.5, 2, 7.5; thousandth:b = true; move:b = yes; }
+  line { line:p4 = 3, 7, 3, 8; thousandth:b = true; move:b = yes; }
+  line { line:p4 = -0.5, 7.5, 0.5, 7.5; thousandth:b = true; move:b = yes; }
+  line { line:p4 = 0, 7, 0, 8; thousandth:b = true; move:b = yes; }
+
+
+  line { line:p4 = -30, 16, -30, 13; thousandth:b = true; move:b = no; }
+  line { line:p4 = -30, -16, -30, -13; thousandth:b = true; move:b = no; }
+  line { line:p4 = -30.1, 16, -30.1, 13; thousandth:b = true; move:b = no; }
+  line { line:p4 = -30.1, -16, -30.1, -13; thousandth:b = true; move:b = no; }
+  line { line:p4 = -30.05, 16, -30.05, 13; thousandth:b = true; move:b = no; }
+  line { line:p4 = -30.05, -16, -30.05, -13; thousandth:b = true; move:b = no; }
+
+  line { line:p4 = 30, 16, 30, 13; thousandth:b = true; move:b = no; }
+  line { line:p4 = 30, -16, 30, -13; thousandth:b = true; move:b = no; }
+  line { line:p4 = 30.1, 16, 30.1, 13; thousandth:b = true; move:b = no; }
+  line { line:p4 = 30.1, -16, 30.1, -13; thousandth:b = true; move:b = no; }
+  line { line:p4 = 30.05, 16, 30.05, 13; thousandth:b = true; move:b = no; }
+  line { line:p4 = 30.05, -16, 30.05, -13; thousandth:b = true; move:b = no; }
+  
+
+  line { line:p4 = -30, 16, -24, 16; thousandth:b = true; move:b = no; }
+  line { line:p4 = -30, -16, -24, -16; thousandth:b = true; move:b = no; }
+  line { line:p4 = -30, 16.1, -24, 16.1; thousandth:b = true; move:b = no; }
+  line { line:p4 = -30, -16.1, -24, -16.1; thousandth:b = true; move:b = no; }
+  line { line:p4 = -30, 16.05, -24, 16.05; thousandth:b = true; move:b = no; }
+  line { line:p4 = -30, -16.05, -24, -16.05; thousandth:b = true; move:b = no; }
+
+  line { line:p4 = 30, 16, 24, 16; thousandth:b = true; move:b = no; }
+  line { line:p4 = 30, -16, 24, -16; thousandth:b = true; move:b = no; }
+  line { line:p4 = 30, 16.1, 24, 16.1; thousandth:b = true; move:b = no; }
+  line { line:p4 = 30, -16.1, 24, -16.1; thousandth:b = true; move:b = no; }
+  line { line:p4 = 30, 16.05, 24, 16.05; thousandth:b = true; move:b = no; }
+  line { line:p4 = 30, -16.05, 24, -16.05; thousandth:b = true; move:b = no; }
+}
+
+drawCircles {
+  //O
+  circle{
+    segment:p2 = 0.0, 360.0
+    pos:p2 = 0.0, 0.0
+    diameter:r = 2
+    size:r = 3.0
+    move:b = no
+    thousandth:b = yes
+  }
+
+  //• (•) •
+  circle{
+    segment:p2 = 0.0, 360.0
+    pos:p2 = 0.0, 0.0
+    diameter:r = 0.1
+    size:r = 3.0
+    move:b = no
+    thousandth:b = yes
+  }
+  circle{
+    segment:p2 = 0.0, 360.0
+    pos:p2 = 3, 0.0
+    diameter:r = 0.1
+    size:r = 3.0
+    move:b = no
+    thousandth:b = yes
+  }
+  circle{
+    segment:p2 = 0.0, 360.0
+    pos:p2 = -3, 0.0
+    diameter:r = 0.1
+    size:r = 3.0
+    move:b = no
+    thousandth:b = yes
+  }
+
+  //O
+  circle{
+    segment:p2 = 0.0, 360.0
+    pos:p2 = 0.0, 5.0
+    diameter:r = 1.3
+    size:r = 2
+    move:b = yes
+    thousandth:b = yes
+  }
+
+  //O
+  circle{
+    segment:p2 = 0.0, 360.0
+    pos:p2 = 0.0, 10.0
+    diameter:r = 1.3
+    size:r = 2
+    move:b = yes
+    thousandth:b = yes
+  }
+  //(•)
+  circle{
+    segment:p2 = 0.0, 360.0
+    pos:p2 = 0.0, 10.0
+    diameter:r = 0.1
+    size:r = 3.0
+    move:b = yes
+    thousandth:b = yes
+  }
+}

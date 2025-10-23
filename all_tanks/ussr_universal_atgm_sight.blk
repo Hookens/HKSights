@@ -1,0 +1,79 @@
+thousandth:t=“ussr”
+
+fontSizeMult:r=0.5
+lineSizeMult:r=1.5
+crosshairHorVertSize:p2=3, 2
+crosshairDistHorSizeMain:p2=0.01, 0.01
+crosshairDistHorSizeAdditional:p2=0.005, 0.003
+
+drawCentralLineVert:b=no
+drawCentralLineHorz:b=no
+drawAdditionalLines:b=no
+
+distanceCorrectionPos:p2 = -0.037, 0.11
+drawDistanceCorrection:b=no
+applyCorrectionToGun:b=no
+
+distancePos:p2=-0.115 , 0.0
+textPos:p2=-0.004, 0.0
+
+crosshairLightColor:c=255, 0, 20, 220
+crosshairColor:c=20, 255, 20, 220
+
+rangefinderHorizontalOffset:r = -15
+rangefinderVerticalOffset:r = -25
+rangefinderProgressBarColor1:c = 0, 0, 0, 0
+rangefinderProgressBarColor2:c = 0, 0, 0, 0
+rangefinderTextScale:r = 0.7
+rangefinderUseThousandth:b = yes
+
+matchExpClass {
+  ussr_9p149:b = yes
+  ussr_9p157:b = yes
+  ussr_it_1:b = yes
+  ussr_object_775:b = yes
+
+  cn_hj_9:b = yes
+}
+
+crosshair_distances{
+}
+
+crosshair_hor_ranges{
+}
+
+drawCircles{
+	circle{
+    segment:p2 = 0.0, 360.0
+    pos:p2 = 0.0, 0.0
+    diameter:r = 30
+    size:r = 1
+    thousandth:b = yes;
+  }
+	
+	circle{
+    segment:p2 = 0.0, 360.0
+    pos:p2 = 0.0, 0.0
+    diameter:r = 5
+    size:r = 1
+    thousandth:b = yes;
+  }
+	
+	circle{
+    segment:p2 = 0.0, 360.0
+    pos:p2 = 0.0, 0.0
+    diameter:r = 1
+    size:r = 1
+    thousandth:b = yes;
+  }
+}
+
+drawLines{
+  line { line:p4=0, -16, 0, -30;thousandth:b = true; move:b=no ;}
+  line { line:p4=0, -6, 0, -14;thousandth:b = true; move:b=no ;}
+
+  line { line:p4=16, 0, 30, 0;thousandth:b = true; move:b=no ;}
+  
+  line { line:p4=-16, 0, -30, 0;thousandth:b = true; move:b=no ;}
+  
+}
